@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -7,9 +6,10 @@ var express = require('express')
   , routes = require('./routes')
   , user = require('./routes/user')
   , http = require('http')
-, path = require('path')
-, reader = require('file')
-, mongo = require('database');
+  , engine = require('ejs-locals')
+  , path = require('path')
+  , reader = require('file')
+  , mongo = require('database');
 
 var app = express();
 
@@ -25,6 +25,7 @@ app.configure(function(){
   app.use(express.session());
   app.use(app.router);
   app.use(require('stylus').middleware(__dirname + '/public'));
+  app.engine('ejs', engine);
   app.use(express.static(path.join(__dirname, 'public')));
 });
 
@@ -33,9 +34,7 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
-app.get('/articleReader', function(req, res){
-    res.render('articleReader');
-});
+app.get('/articleReader', routes.articleReader);
 
 app.post('/readArticle', function(req, res){
     console.log(req.body);
@@ -48,12 +47,15 @@ app.post('/readArticle', function(req, res){
 	req.body.section,
 	req.body.url,
 	req.body.body,
-	function(obj){res.render('viewArticle');});
+	function(obj){res.render('viewArticle', {title: "Article Reader"});}
+    );
 });
 
+app.post("/articleParser", function(req, res){ console.log("yay")});
 
 app.get('/users', user.list);
 
+app.get('/article', routes.article);
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
