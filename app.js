@@ -34,12 +34,14 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-//mongo.addUser("fuzzymonkey", "your mom", "test, CA", "face", "shemale", ["english", "farsi"], ["Disneyland"]);
+mongo.addUser("fuzzymonkey", "your mom", "test, CA", "face", "shemale", ["english", "farsi"], ["Disneyland"]);
 
-mongo.addKeywords("fuzzymonkey",{"test" : 0.69, "test me": 0.59} );
+//mongo.addKeywords("fuzzymonkey",{"test" : 0.69, "test me": 0.59} );
 
 app.get('/', routes.index);
 app.get('/articleReader', routes.articleReader);
+app.get('/user', routes.userPage);
+
 
 app.get('/login', routes.login);
 app.post('/readArticle', function(req, res){
@@ -61,7 +63,7 @@ app.post("/articleParser", function(req, res){
     //mongo.addArticle( 123, "", "", "", "", "", "", body, function(obj){});
     //setTimeout(null, 2000);
     alchemy.getKeywords(123, req.body.body, function(id, obj){
-	mongo.addKeywords("fuzzymonkey", obj.keywords);
+	mongo.addKeywords(req.cookies.user, obj.keywords);
     });
     
 });

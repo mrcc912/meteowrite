@@ -76,7 +76,6 @@ function testAPI() {
     });
 }
 
-
 function fblogin()
 {
   console.log("login()");
@@ -89,6 +88,17 @@ function fblogin()
           console.log('Good to see you, ' + response.name + '.');
           console.log(response);
           document.cookie = "user=" + response.username;
+	  document.cookie = "name=" + response.name;
+	  document.cookie = "gender=" + response.gender;
+	  document.cookie = "hometown=" + response.hometown.name;
+	  var languages = "language=" + response.languages[0].name;
+	  for(var i=1; i<response.languages.length; i++)
+	  {
+		languages += "," + response.languages[i].name;
+	 }
+	  document.cooke = "location=" + response.location.name;
+	 document.cookie = languages;
+	  document.cookie = "work=" + response.work[0].employer.name
           console.log("printing out cookie");
           console.log(document.cookie);
       });
@@ -103,10 +113,8 @@ function fblogin()
 
 function sendPost()
 {
-$.post('/login');
+    $.post('/login');
 }
-
-
 </script>
 
 <button id="fb-login" onclick="fblogin()">Login to Facebook</button>
