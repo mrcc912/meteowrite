@@ -5,6 +5,12 @@
 
 alch = require("alchamy");
 
+
+exports.login = function(req, res)
+{
+    res.render('login', { title: "login"});
+};
+
 exports.index = function(req, res){
   alch.getKeywords('hi')
   res.render('index', { title: 'Express' });
@@ -12,6 +18,7 @@ exports.index = function(req, res){
 
 exports.article = function(req, res)
 {
+    console.log(req.cookies.user);
     res.render('article', {title: "article"});
 };
 

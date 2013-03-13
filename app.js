@@ -9,7 +9,8 @@ var express = require('express')
   , engine = require('ejs-locals')
   , path = require('path')
   , reader = require('file')
-  , mongo = require('database');
+, mongo = require('database')
+, alchemy = require('alchamy');;
 
 var app = express();
 
@@ -33,9 +34,14 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
+//mongo.addUser("fuzzymonkey", "your mom", "test, CA", "face", "shemale", ["english", "farsi"], ["Disneyland"]);
+
+mongo.addKeywords("fuzzymonkey",{"test" : 0.69, "test me": 0.59} );
+
 app.get('/', routes.index);
 app.get('/articleReader', routes.articleReader);
 
+app.get('/login', routes.login);
 app.post('/readArticle', function(req, res){
     console.log(req.body);
     mongo.addArticle(
@@ -52,14 +58,12 @@ app.post('/readArticle', function(req, res){
 });
 
 app.post("/articleParser", function(req, res){
-    console.log("yay"); 
-    console.log(req.body.body);
-
-    mongo.addArticle("123", "", "", "", "", "", "", body, function(obj){
-			 alchemy.getKeywords(obj._id, obj.body, function(obj){
-			     console.log(obj);
-			 });
-		     });
+    //mongo.addArticle( 123, "", "", "", "", "", "", body, function(obj){});
+    //setTimeout(null, 2000);
+    alchemy.getKeywords(123, req.body.body, function(id, obj){
+	mongo.addKeywords("fuzzymonkey", obj.keywords);
+    });
+    
 });
 
 app.get('/users', user.list);

@@ -1,3 +1,4 @@
+<% layout('layout') -%>
 <html><body>
 
 <div id="fb-root"></div>
@@ -75,9 +76,38 @@ function testAPI() {
     });
 }
 
+
+function fblogin()
+{
+  console.log("login()");
+  FB.login(function(response){
+  if(response.authResponse)
+  {
+
+      console.log('Welcome!  Fetching your information.... ');
+      FB.api('/me', function(response) {
+          console.log('Good to see you, ' + response.name + '.');
+          console.log(response);
+          document.cookie = "user=" + response.username;
+          console.log("printing out cookie");
+          console.log(document.cookie);
+      });
+  }
+      else
+      {
+          console.log("login cancelled");
+      }
+  });
+}
+
+
+function sendPost()
+{
+$.post('/login');
+}
+
+
 </script>
 
-<button id="fb-login" onclick="login()">Login to Facebook</button>
+<button id="fb-login" onclick="fblogin()">Login to Facebook</button>
 <button id="fb-logout" onclick="logout()">Logout of Facebook </button>
-
-</body></html>
