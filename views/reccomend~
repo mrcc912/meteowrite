@@ -1,0 +1,9 @@
+<% layout('layout'); -%>
+
+
+<form id="reccForm">
+      <input type"text" name="username" id="username" placeholder=Enter the username you with to query"/>
+
+<label for="article"> If you would to use a specific article for reccomendations: </label>
+      <input type="text" name="article" id="article" placeholder="enter the url of the article you wish to use"/>
+</form>

@@ -1,0 +1,13 @@
+<% layout('layout'); -%>
+
+
+<form id="reccForm">
+      <input type"text" name="username" id="username" placeholder=Enter the username you with to query"/>
+
+<label for="article"> If you would to use a specific article for reccomendations: </label>
+      <input type="text" name="article" id="article" placeholder="enter the url of the article you wish to use"/>
+
+<label for="slider"> Select what percentage of the reccomendation should come from facebook data: </label>
+<input type="range" name="slider" id="slider" data-highlight="true" min="0" max="100" value="50">
+<input type="submit" name="submit" id="submit"> Search </input>
+</form>

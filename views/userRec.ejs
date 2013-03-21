@@ -1,15 +1,20 @@
-<html>
-<body>
-
 <% layout('layout') -%>
-<br/>
-<%= user -%>
-<br/>
-<%= rec1 -%>
-<br/>
-<%= rec2 -%>
-<br/>
-<%= rec3 -%>
 
-</body>
-</html>
+<br/>
+
+
+<h3> <b>Username: </b><%= user -%> </h3>
+
+<ul data-role="listview" data-icon="arrow-r">
+
+
+    <li> <a href="#" ><h2> Reccomendation 1: </h2>
+    	 <p> <%= rec1 -%> </p> </a>
+    </li>
+    <li> <a href="#" ><h2> Reccomendation 2: </h2>
+    	 <p> <%= rec2 -%> </p> </a>
+    </li>
+    <li> <a href="#"> <h2> Reccomendation 3: </h2>
+    	 <p> <%= rec3 -%> </p> </a>
+    </li>
+</ul>
