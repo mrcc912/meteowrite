@@ -73,11 +73,13 @@ exports.portal = function(req, res)
 
 exports.reccPost = function(req, res)
 {
-    var facebookUsage = req.body.slider;
-    var username = req.body.username;
-    var article = req.body.article;
-    if(article)
+    var facebookUsage = req.query.slider;
+    var username = req.query.username;
+    var article = req.query.article;
+    //console.log("access_token:" + req.session.auth.fb.accessToken);
+    if(article!="")
     {
+	
 	// get article data
 	// search through all articles finding related articles to the article
 	// search for related articles to the user
@@ -87,12 +89,20 @@ exports.reccPost = function(req, res)
     else
     {
 	// get user data
-	// find articles related to user data
 	// find articles related to facebook data
 	// weight significance by slider value
 	// return top three
 	mongo.getArticlesRelatedToFacebook(username,  function(obj){
 	    console.log(obj);
+	    for(num in obj)
+	    {
+		console.log(obj[num]);
+	    }
+	    res.render('facebookRec', {
+		title: "User Reccomendation",
+		user: username,
+		recs: obj
+	    });
 	});
     }
 };
