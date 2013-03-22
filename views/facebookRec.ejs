@@ -1,0 +1,17 @@
+<% layout('layout') -%>
+
+<br/>
+
+
+<h3> <b>Username: </b><%= user -%> </h3>
+
+<ul data-role="listview" data-icon="arrow-r">
+
+<% for( i in recs){ -%>
+
+   <li> <a href="#"> <h2> Reccomentdation <%= i -%>: </h2>
+   <p> Reccomending article: <%=recs[i].url -%></p>
+   <p> Becuase you liked <%= recs[i].keyword -%> and this article contains that keyword with relevance: <%= recs[i].relevance -%> </p> </a>
+   </li>
+<% } -%>
+</ul>

@@ -4,7 +4,13 @@
 
 function submitRecc()
 {
-	$.post("reccPost", $("#reccForm").serialize());
+	var slider = $("#slider").val();
+	var user = $("#username").val();
+	var article = $("#article").val();
+	
+	var url = "reccPost?slider=" + slider + "&username=" + user +"&article=" + article;
+	window.location.href=url;
+	//$.post("reccPost", $("#reccForm").serialize());
 
 }
 </script>
