@@ -69,4 +69,30 @@ exports.portal = function(req, res)
     res.render("portal", {
 	title: "Portal"
     });
-}
+};
+
+exports.reccPost = function(req, res)
+{
+    var facebookUsage = req.body.slider;
+    var username = req.body.username;
+    var article = req.body.article;
+    if(article)
+    {
+	// get article data
+	// search through all articles finding related articles to the article
+	// search for related articles to the user
+	// find the articles that are in both
+	// find articles related to facebook data
+    }
+    else
+    {
+	// get user data
+	// find articles related to user data
+	// find articles related to facebook data
+	// weight significance by slider value
+	// return top three
+	mongo.getArticlesRelatedToFacebook(username,  function(obj){
+	    console.log(obj);
+	});
+    }
+};

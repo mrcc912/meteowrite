@@ -1,5 +1,14 @@
 <% layout('layout'); -%>
 
+<script>
+
+function submitRecc()
+{
+	$.post("reccPost", $("#reccForm").serialize());
+
+}
+</script>
+
 
 <form id="reccForm">
       <label form="username"> Enter the user you wish to query:</label>
@@ -10,5 +19,5 @@
 
 <label for="slider"> Select what percentage of the reccomendation should come from facebook data: </label>
 <input type="range" name="slider" id="slider" data-highlight="true" min="0" max="100" value="50">
-<input type="submit" name="submit" id="submit" value="Submit" />
+<input type="button" name="submit" id="submit" value="Submit" onclick="submitRecc()"/>
 </form>
