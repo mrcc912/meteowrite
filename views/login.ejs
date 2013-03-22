@@ -98,9 +98,10 @@ function fblogin()
 	 }
 	  document.cooke = "location=" + response.location.name;
 	 document.cookie = languages;
-	  document.cookie = "work=" + response.work[0].employer.name
-          console.log("printing out cookie");
-          console.log(document.cookie);
+	  document.cookie = "work=" + response.work[0].employer.name;
+	  var access_token = FB.getAuthResponse()['accessToken'];	
+	  document.cookie= "fbtoken=" + access_token;
+	  
       });
   }
       else

@@ -5,10 +5,9 @@
 function submitRecc()
 {
 	var slider = $("#slider").val();
-	var user = $("#username").val();
 	var article = $("#article").val();
 	
-	var url = "reccPost?slider=" + slider + "&username=" + user +"&article=" + article;
+	var url = "reccPost?slider=" + slider + "&article=" + article;
 	window.location.href=url;
 	//$.post("reccPost", $("#reccForm").serialize());
 
@@ -17,13 +16,11 @@ function submitRecc()
 
 
 <form id="reccForm">
-      <label form="username"> Enter the user you wish to query:</label>
-      <input type"text" name="username" id="username" placeholder="Username"/>
-
+<h1> This system is not validated, so please make sure that you have logged in before attempting to see your reccomendations....</h1>
 <label for="article"> If you would to use a specific article for reccomendations: (optional)</label>
       <input type="text" name="article" id="article" placeholder="Article URL"/>
 
 <label for="slider"> Select what percentage of the reccomendation should come from facebook data: </label>
 <input type="range" name="slider" id="slider" data-highlight="true" min="0" max="100" value="50">
-<input type="button" name="submit" id="submit" value="Submit" onclick="submitRecc()"/>
+<a href="#" data-role="button"  name="submit" id="submit" onclick="submitRecc()"> See your Reccomendations from facebook data</a>
 </form>

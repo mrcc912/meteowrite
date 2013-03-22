@@ -38,8 +38,7 @@ exports.articleReader = function(req, res){
 };
 
 exports.userPage = function(req, res){
-    console.log("huzzah");
-    var username = req.body.username;
+    var username = req.query.username;
         mongo.addUser(req.cookies.user, req.cookies.name, req.cookies.hometown, req.cookies.location, req.cookies.gender, req.cookies.language.split(","), [req.cookies.work]);
     mongo.getUser(username, function(userObj){
 	res.render("user", {title: "User Page",user: userObj });
@@ -74,9 +73,9 @@ exports.portal = function(req, res)
 exports.reccPost = function(req, res)
 {
     var facebookUsage = req.query.slider;
-    var username = req.query.username;
     var article = req.query.article;
-    //console.log("access_token:" + req.session.auth.fb.accessToken);
+    var token = req.cookies.fbtoken;
+
     if(article!="")
     {
 	
@@ -92,7 +91,7 @@ exports.reccPost = function(req, res)
 	// find articles related to facebook data
 	// weight significance by slider value
 	// return top three
-	mongo.getArticlesRelatedToFacebook(username,  function(obj){
+	mongo.getArticlesRelatedToFacebook(req.cookies.user, token,  function(obj){
 	    console.log(obj);
 	    for(num in obj)
 	    {
@@ -100,7 +99,7 @@ exports.reccPost = function(req, res)
 	    }
 	    res.render('facebookRec', {
 		title: "User Reccomendation",
-		user: username,
+		user: req.cookies.user,
 		recs: obj
 	    });
 	});

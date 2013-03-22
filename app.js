@@ -45,7 +45,7 @@ app.get('/users', user.list);
 app.get('/article', routes.article);
 app.get('/user', routes.userPage);
 
-app.post('/reccPost', routes.reccPost);
+app.get('/reccPost', routes.reccPost);
 
 app.post('/readArticle', function(req, res){
     console.log(req.body);
