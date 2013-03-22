@@ -34,16 +34,18 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-mongo.addUser("fuzzymonkey", "your mom", "test, CA", "face", "shemale", ["english", "farsi"], ["Disneyland"]);
-
-//mongo.addKeywords("fuzzymonkey",{"test" : 0.69, "test me": 0.59} );
-
 app.get('/', routes.index);
 app.get('/articleReader', routes.articleReader);
 app.get('/user', routes.userPage);
-
-
+app.get('/userRec', routes.userRec);
+app.get('/reccomend', routes.reccomend);
+app.get('/portal', routes.portal);
 app.get('/login', routes.login);
+app.get('/users', user.list);
+app.get('/article', routes.article);
+
+app.get('/user', routes.userPage);
+
 app.post('/readArticle', function(req, res){
     console.log(req.body);
     mongo.addArticle(
@@ -68,9 +70,6 @@ app.post("/articleParser", function(req, res){
     
 });
 
-app.get('/users', user.list);
-
-app.get('/article', routes.article);
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });

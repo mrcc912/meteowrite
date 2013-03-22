@@ -1,0 +1,21 @@
+<% layout('layout'); -%>
+
+
+<script>
+
+function dumpUser()
+{
+	$.get("user", {username: $("#user").val()});
+}
+
+</script>
+
+<a href="reccomend" data-role="button"> Reccomendations </a>
+
+<a href="login" data-role="button"> Login </a>
+
+<form>
+	<input type="text" name="user" id-="user" placeholder="Enter username for datadump"/>
+	<a href="#" onclick="dumpUser()" data-role="button" > Dump User Data </a>
+</form>
+

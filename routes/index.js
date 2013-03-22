@@ -13,8 +13,15 @@ exports.login = function(req, res)
 };
 
 exports.index = function(req, res){
-    mongo.addUser(req.cookies.user, req.cookies.name, req.cookies.hometown, req.cookies.location, req.cookies.gender, req.cookies.language.split(","), [req.cookies.work]);
-    res.render('index', { title: 'Express' });
+    if(!req.cookies.user)
+    {
+	res.render('login', { title: "login"});
+    }
+    //mongo.addUser(req.cookies.user, req.cookies.name, req.cookies.hometown, req.cookies.location, req.cookies.gender, req.cookies.language.split(","), [req.cookies.work]);
+    else
+    {
+	res.render('index', { title: 'Express' });
+    }
 };
 
 exports.article = function(req, res)
@@ -31,9 +38,35 @@ exports.articleReader = function(req, res){
 };
 
 exports.userPage = function(req, res){
-    var username = req.query.username;
+    console.log("huzzah");
+    var username = req.body.username;
         mongo.addUser(req.cookies.user, req.cookies.name, req.cookies.hometown, req.cookies.location, req.cookies.gender, req.cookies.language.split(","), [req.cookies.work]);
     mongo.getUser(username, function(userObj){
 	res.render("user", {title: "User Page",user: userObj });
     });
 };
+
+exports.userRec = function(req, res)
+{
+    res.render("userRec", {
+	title: "User Reccomendation",
+	user: req.cookies.user,
+	rec1: "",
+	rec2: "",
+	rec3: ""
+    });
+};
+
+exports.reccomend = function(req, res)
+{
+    res.render("reccomend", {
+	title: "Find Reccomendations"
+    });
+};
+
+exports.portal = function(req, res)
+{
+    res.render("portal", {
+	title: "Portal"
+    });
+}
