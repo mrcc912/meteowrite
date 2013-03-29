@@ -24,6 +24,9 @@ exports.index = function(req, res){
     }
 };
 
+exports.getArticle = function(req, res) {
+  mongo.
+
 exports.article = function(req, res)
 {
     mongo.addUser(req.cookies.user, req.cookies.name, req.cookies.hometown, req.cookies.location, req.cookies.gender, req.cookies.language.split(","), [req.cookies.work]);
