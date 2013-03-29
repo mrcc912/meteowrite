@@ -44,7 +44,9 @@ app.get('/login', routes.login);
 app.get('/users', user.list);
 app.get('/article', routes.article);
 app.get('/user', routes.userPage);
-
+app.get('/getarticle', routes.getArticle);
+app.get('/readarticle', routes.readArticle);
+app.get('/readarticle', routes.readArticle);
 app.get('/reccPost', routes.reccPost);
 
 app.post('/readArticle', function(req, res){

@@ -25,7 +25,11 @@ exports.index = function(req, res){
 };
 
 exports.getArticle = function(req, res) {
-  mongo.
+  var articleId = req.query.articleID;
+  mongo.getArticle(articleId, function(art) {
+    res.render("getArticle", {title: "Single Article", article: art});
+  });
+}
 
 exports.article = function(req, res)
 {
@@ -48,6 +52,14 @@ exports.userPage = function(req, res){
     });
 };
 
+
+exports.userReadArticle = function(req, res) {
+  var userid = req.query.userid;
+  var articleid = req.query.articleid;
+  mongo.userReadArticle(userid, articleid);
+  userPage(req,res);
+});
+  
 exports.userRec = function(req, res)
 {
     res.render("userRec", {

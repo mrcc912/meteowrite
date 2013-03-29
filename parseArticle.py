@@ -10,7 +10,7 @@ from HTMLParser import HTMLParser
 def parseCSVFile(fileName):
   connection = MongoClient()
   db = connection.raw
-  article = db.article 
+  article = db.articles 
   f = open(fileName, "r")
   buff = f.readline()
   buff = f.readline()
@@ -30,7 +30,7 @@ def parseCSVFile(fileName):
       URL = sep[6]
       body = strip_tags(sep[7])
 
-      keywords = json.dumps(makeAlchemyConnection(body))
+      keywords = makeAlchemyConnection(body)
       newArticle = {"id":articleId, "headline":headline, "biline":biline, "creditline":creditline, "source":source, "section":section, "URL":URL, "body":body, "keywords":keywords}
       articleId = article.insert(newArticle)
   f.close()
