@@ -56,9 +56,11 @@ exports.userPage = function(req, res){
 exports.userReadArticle = function(req, res) {
   var userid = req.query.userid;
   var articleid = req.query.articleid;
-  mongo.userReadArticle(userid, articleid);
-  userPage(req,res);
-});
+  mongo.addUser("fuzzymonkey", "fname", "home", "curr", "gen", ["eng"], ["work"]);
+  mongo.userReadArticle(userid, articleid, function(userObj){
+	res.render("user", {title: "User Page",user: userObj });
+  });
+};
   
 exports.userRec = function(req, res)
 {

@@ -33,6 +33,7 @@ def parseCSVFile(fileName):
       keywords = makeAlchemyConnection(body)
       newArticle = {"id":articleId, "headline":headline, "biline":biline, "creditline":creditline, "source":source, "section":section, "URL":URL, "body":body, "keywords":keywords}
       articleId = article.insert(newArticle)
+    buff = f.readline() 
   f.close()
 
 
