@@ -47,6 +47,7 @@ app.get('/user', routes.userPage);
 app.get('/getarticle', routes.getArticle);
 app.get('/articleRead', routes.userReadArticle);
 app.get('/reccPost', routes.reccPost);
+app.post('/keywordResponse', routes.keywordResponse);
 app.post('/readArticle', function(req, res){
     console.log(req.body);
     mongo.addArticle(

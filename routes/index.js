@@ -61,15 +61,38 @@ exports.userReadArticle = function(req, res) {
 	res.render("user", {title: "User Page",user: userObj });
   });
 };
+
+exports.keywordResponse = function(req, res) {
+  console.log("in response post");
+  console.log(req.body);
+}
   
 exports.userRec = function(req, res)
 {
+    var article1 = "oz";
+    var article2 = "mother goose";
+    var article3 = "dr. dre";
+    var keyMap1 = new Object();
+    keyMap1["lion"] = 500;
+    keyMap1["tiger"] = 400;
+    keyMap1["bear"] = 300;
+    var keyMap2 = new Object();
+    keyMap2["three"] = 500;
+    keyMap2["blind"] = 400;
+    keyMap2["mice"] = 300;
+    var keyMap3 = new Object();
+    keyMap3["whats"] = 500;
+    keyMap3["the"] = 300;
+    keyMap3["difference"] = 400;
+    
+    var topMap = new Object();
+    topMap[article1] = keyMap1;
+    topMap[article2] = keyMap2;
+    topMap[article3] = keyMap3;
+
     res.render("userRec", {
 	title: "User Reccomendation",
-	user: req.cookies.user,
-	rec1: "",
-	rec2: "",
-	rec3: ""
+	keyMap:topMap 
     });
 };
 
