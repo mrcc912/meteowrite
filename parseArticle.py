@@ -18,21 +18,24 @@ def parseCSVFile(fileName):
   
   while buff != "": 
     index = index + 1
-    sep = buff.split(',', 7)
-    print len(sep)
-    if len(sep) == 8:
-      articleId = int(sep[0])
-      headline = sep[1] 
-      biline = sep[2]
-      creditline = sep[3]
-      source = sep[4]
-      section = sep[5]
-      URL = sep[6]
-      body = strip_tags(sep[7])
+    try:
+      sep = buff.split(',', 7)
+      print len(sep)
+      if len(sep) == 8:
+        articleId = int(sep[0])
+        headline = sep[1] 
+        biline = sep[2]
+        creditline = sep[3]
+        source = sep[4]
+        section = sep[5]
+        URL = sep[6]
+        body = strip_tags(sep[7])
 
-      keywords = makeAlchemyConnection(body)
-      newArticle = {"id":articleId, "headline":headline, "biline":biline, "creditline":creditline, "source":source, "section":section, "URL":URL, "body":body, "keywords":keywords}
-      articleId = article.insert(newArticle)
+        keywords = makeAlchemyConnection(body)
+        newArticle = {"id":articleId, "headline":headline, "biline":biline, "creditline":creditline, "source":source, "section":section, "URL":URL, "body":body, "keywords":keywords}
+        articleId = article.insert(newArticle)
+    except ValueError:
+      print "value error"  
     buff = f.readline() 
   f.close()
 

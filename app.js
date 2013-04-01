@@ -36,8 +36,8 @@ app.configure('development', function(){
 
 app.get('/', routes.index);
 app.get('/articleReader', routes.articleReader);
-app.get('/user', routes.userPage);
 app.get('/userRec', routes.userRec);
+app.get('/getUser', routes.getUser);
 app.get('/reccomend', routes.reccomend);
 app.get('/portal', routes.portal);
 app.get('/login', routes.login);
@@ -48,6 +48,7 @@ app.get('/getarticle', routes.getArticle);
 app.get('/articleRead', routes.userReadArticle);
 app.get('/reccPost', routes.reccPost);
 app.post('/keywordResponse', routes.keywordResponse);
+app.post('/articleRead', routes.userReadArticlePost);
 app.post('/readArticle', function(req, res){
     console.log(req.body);
     mongo.addArticle(

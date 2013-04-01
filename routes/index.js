@@ -52,13 +52,26 @@ exports.userPage = function(req, res){
     });
 };
 
+exports.getUser = function(req, res) {
+  var username = req.query.username;
+  mongo.getUser(username, function(userObj) {
+    res.render("getUser", {title: "User Page", user: userObj });
+  });
+}
 
 exports.userReadArticle = function(req, res) {
   var userid = req.query.userid;
   var articleid = req.query.articleid;
-  mongo.addUser("fuzzymonkey", "fname", "home", "curr", "gen", ["eng"], ["work"]);
   mongo.userReadArticle(userid, articleid, function(userObj){
-	res.render("user", {title: "User Page",user: userObj });
+	res.render("getUser", {title: "User Page",user: userObj });
+  });
+};
+
+exports.userReadArticlePost = function(req, res) {
+  var userid = req.body.userid;
+  var articleid = req.body.articleid;
+  mongo.userReadArticle(userid, articleid, function(userObj){
+        res.render("getUser", {title: "User Page",user: userObj });
   });
 };
 
