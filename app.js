@@ -49,7 +49,9 @@ app.get('/user', routes.userPage);
 app.get('/getarticle', routes.getArticle);
 app.get('/articleRead', routes.userReadArticle);
 app.get('/reccPost', routes.reccPost);
+app.get('/articleOverlap', routes.articleOverlap);
 app.post('/keywordResponse', routes.keywordResponse);
+app.post('/keywordResponseRec', routes.keywordResponseRec);
 app.post('/articleRead', routes.userReadArticlePost);
 app.post('/readArticle', function(req, res){
     console.log(req.body);

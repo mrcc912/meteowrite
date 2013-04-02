@@ -4,7 +4,9 @@
 
 <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
 <% for(var key1 in keyMap) { %>
-<form name="<%= key1 %>" action="http://ec2-54-235-227-153.compute-1.amazonaws.com:5000/keywordResponse" method="post">
+<form name="<%= key1 %>" action="http://ec2-54-235-227-153.compute-1.amazonaws.com:5000/keywordResponseRec" method="post">
+<input type="hidden" name="username" value="<%= user %>" />
+<input type="hidden" name="numRec" value=<%= numRec %> />
 <div class="row">
 <div class="span3"> <b> <%= "Article: " + key1  %> </b> </div>
 <div class="span2 offset5"> <b><u>KEYWORDS</u></b> </div>
@@ -13,7 +15,7 @@
 <% var curMap = keyMap[key1]; %>
 <% for(var key2 in curMap) { %>
   <div class="row">
-  <div class="span1 offset7"> <input type="checkbox" name="<%= key1 %>" value="<%= key2 %>" checked> </div>
+  <div class="span1 offset7"> <input type="checkbox" name="KEYWORD" value="<%= key2 %>" checked> </div>
   <div class="span2"> <%= key2 %> </div>
   <div class="span2"> <%= curMap[key2] %> </div>
   </div> 

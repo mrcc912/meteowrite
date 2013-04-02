@@ -81,6 +81,28 @@ exports.userReadArticlePost = function(req, res) {
   });
 };
 
+exports.keywordResponseRec = function(req, res) {
+  var username = req.body.username;
+  var keywords = req.body.KEYWORD;
+  var numRec = req.body.numRec;
+  console.log(username);
+  console.log(numRec);
+  console.log(keywords);
+  console.log("flag");
+  /*mongo.addWordsToUserBlacklist(username,keywords,function(user) {
+  
+    mongo.relatedArticlesForUserObj(user, numRec, function(topMap) {
+      res.render("userRec", {
+          title: "User Reccomendation",
+          user: username,
+          numRec: numRec,
+          keyMap:topMap
+      });
+    });
+  });*/
+}
+
+
 exports.keywordResponse = function(req, res) {
   var username = req.body.username;
   var keywords = req.body.KEYWORD;
@@ -91,7 +113,7 @@ exports.keywordResponse = function(req, res) {
   
 exports.userRec = function(req, res)
 {
-    var article1 = "oz";
+/*    var article1 = "oz";
     var article2 = "mother goose";
     var article3 = "dr. dre";
     var keyMap1 = new Object();
@@ -116,17 +138,22 @@ exports.userRec = function(req, res)
 	title: "User Reccomendation",
 	keyMap:topMap 
     });
-    /*
+    */
+
+    //mongo.addUser("fuzzymonkey", "fname", "home", "curr", "gen", ["lang"], ["work"]);
+    
     var numRec = req.query.numrec; 
     var username = req.query.username;
     
     mongo.relatedArticlesForUser(username, numRec, function(topMap) {   
     res.render("userRec", {
 	title: "User Reccomendation",
+        user: username,
+        numRec: numRec,
 	keyMap:topMap 
     });
     });
-    */
+     
 };
 
 exports.reccomend = function(req, res)
