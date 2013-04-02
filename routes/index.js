@@ -76,8 +76,11 @@ exports.userReadArticlePost = function(req, res) {
 };
 
 exports.keywordResponse = function(req, res) {
-  console.log("in response post");
-  console.log(req.body);
+  var username = req.body.username;
+  var keywords = req.body.KEYWORD;
+  mongo.addWordsToUserBlacklist(username,keywords,function(userObj) {
+    res.render("getUser", {title: "User Page", user:userObj });
+  });
 }
   
 exports.userRec = function(req, res)

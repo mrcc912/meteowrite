@@ -5,6 +5,7 @@
 var express = require('express')
   , routes = require('./routes')
   , user = require('./routes/user')
+  , article = require('./routes/article')
   , http = require('http')
   , engine = require('ejs-locals')
   , path = require('path')
@@ -41,6 +42,7 @@ app.get('/getUser', routes.getUser);
 app.get('/reccomend', routes.reccomend);
 app.get('/portal', routes.portal);
 app.get('/login', routes.login);
+app.get('/articles', article.list);
 app.get('/users', user.list);
 app.get('/article', routes.article);
 app.get('/user', routes.userPage);

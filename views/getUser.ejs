@@ -13,22 +13,34 @@
 <% } %>
 </ol>
 
+<form name="<%=user.username + "UPDATE" %>" action="http://ec2-54-235-227-153.compute-1.amazonaws.com:5000/keywordResponse" method="post">
+<input type="hidden" name="username" value="<%= user.username %>" />
 <div class="row">
-<div class="span3"> <b> <%= "Article: " + key1  %> </b> </div>
-<div class="span2 offset5"> <b><u>KEYWORDS</u></b> </div>
+<div class="span2"> <b> Article: </b> </div>
+<div class="span2"> <button type="submit" class="btn btn-primary"> UPDATE </button></div>  
+<div class="span2 offset4"> <b><u>KEYWORDS</u></b> </div>
 <div class="span2"><b><u>RELEVENCE</u></b> </div>
 </div>
 
 <% for(var key1 in user.keywords) { %>
 <div class="row">
-<div class="span2 offset8"> <%= key1 %> </div>
+<div class="span1 offset7"> <input type="checkbox" name="KEYWORD" value="<%= key1 %>" checked> </div>
+<div class="span2"> <%= key1 %> </div>
 <div class="span2"> <%= user.keywords[key1] %> </div>
 </div>
 <% } %>
+</form>
 
-<form name="<%= user.username %>" action="http://ec2-54-235-227-153.compute-1.amazonaws.com:5000/articleRead" method="post">
+<form name="<%= user.username + "ADD" %>" action="http://ec2-54-235-227-153.compute-1.amazonaws.com:5000/articleRead" method="post">
 <input type="hidden" name="userid" value="<%= user.username %>" />
-Article Read: <input type="text" name="articleid">
-<input type="submit" value="Submit">
+<div class="row">
+<div class="span1"> Article Read: </div>
+<div class="span2"> <input type="text" name="articleid"> </div>
+</div>
+<div class="row">
+<div class="span">
+<button type="submit" class="btn btn-primary">Add Article</button>
+</div>
+</div>
 </form>
 
