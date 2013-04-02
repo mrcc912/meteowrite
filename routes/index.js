@@ -39,6 +39,12 @@ exports.article = function(req, res)
     res.render('article', {title: "article"});
 };
 
+exports.articleOverlap = function(req, res) {
+  mongo.articleOverlap(function(obj) {
+    res.render('artO', {title: "Article Overlap", objInterest: obj});
+  });
+};
+
 exports.articleReader = function(req, res){
         mongo.addUser(req.cookies.user, req.cookies.name, req.cookies.hometown, req.cookies.location, req.cookies.gender, req.cookies.language.split(","), [req.cookies.work]);
     res.render('articleReader', {title: "Article Entry"});
@@ -110,6 +116,17 @@ exports.userRec = function(req, res)
 	title: "User Reccomendation",
 	keyMap:topMap 
     });
+    /*
+    var numRec = req.query.numrec; 
+    var username = req.query.username;
+    
+    mongo.relatedArticlesForUser(username, numRec, function(topMap) {   
+    res.render("userRec", {
+	title: "User Reccomendation",
+	keyMap:topMap 
+    });
+    });
+    */
 };
 
 exports.reccomend = function(req, res)
