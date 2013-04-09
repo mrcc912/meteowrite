@@ -53,6 +53,8 @@ app.get('/articleOverlap', routes.articleOverlap);
 app.post('/keywordResponse', routes.keywordResponse);
 app.post('/keywordResponseRec', routes.keywordResponseRec);
 app.post('/articleRead', routes.userReadArticlePost);
+app.get('/recentTweets', routes.recentTweets);
+
 app.post('/readArticle', function(req, res){
     console.log(req.body);
     mongo.addArticle(

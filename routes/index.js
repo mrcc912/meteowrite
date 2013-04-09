@@ -6,6 +6,8 @@
 var alch = require("alchamy");
 var mongo = require('database');
 
+var twitter = require("twitter");
+
 exports.login = function(req, res)
 {
 
@@ -113,7 +115,9 @@ exports.keywordResponse = function(req, res) {
   
 exports.userRec = function(req, res)
 {
-/*    var article1 = "oz";
+    
+    /*  
+    var article1 = "oz";
     var article2 = "mother goose";
     var article3 = "dr. dre";
     var keyMap1 = new Object();
@@ -205,3 +209,9 @@ exports.reccPost = function(req, res)
 	});
     }
 };
+
+
+exports.recentTweets = function(req, res)
+{
+    twitter.getRecentTweets("mrcc912");
+}
