@@ -6,6 +6,7 @@ import sys
 import urllib,httplib
 import urllib2
 from HTMLParser import HTMLParser
+from calais import Calais
 
 def parseCSVFile(fileName):
   connection = MongoClient()
@@ -32,7 +33,8 @@ def parseCSVFile(fileName):
         body = strip_tags(sep[7])
 
         keywords = makeAlchemyConnection(body)
-        newArticle = {"id":articleId, "headline":headline, "biline":biline, "creditline":creditline, "source":source, "section":section, "URL":URL, "body":body, "keywords":keywords}
+        keywordsCalais = makeOCConnection(body)
+        newArticle = {"id":articleId, "headline":headline, "biline":biline, "creditline":creditline, "source":source, "section":section, "URL":URL, "body":body, "keywords":keywords, "keywordsCalais": keywordsCalais}
         articleId = article.insert(newArticle)
     except ValueError:
       print "value error"  
@@ -65,4 +67,17 @@ def makeAlchemyConnection(text):
   for tup in keywords:
     tup[u'relevance'] = float(tup[u'relevance']) 
   return keywords
+
+def makeOCConnection(text):
+  apiKey = "mn9qgy5fzn96qy9s65n9weda"
+  calais = Calais(apiKey, submitter="python-calais demo")
+  result = calais.analyze(text)
+  retList = []
+  for ent in result.entities:
+    newMap = {}
+    newMap["text"] = ent["name"]
+    newMap["relevance"] = ent["relevance"]
+    retList.append(newMap)
+  return retList 
+
 parseCSVFile("sacbee_pubsys_stories.csv")      
