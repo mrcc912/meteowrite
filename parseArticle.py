@@ -38,6 +38,8 @@ def parseCSVFile(fileName):
         articleId = article.insert(newArticle)
     except ValueError:
       print "value error"  
+    except AttributeError:
+      print "attribute error"
     buff = f.readline() 
   f.close()
 
@@ -80,4 +82,5 @@ def makeOCConnection(text):
     retList.append(newMap)
   return retList 
 
+#parseCSVFile("justOneParse.csv")
 parseCSVFile("sacbee_pubsys_stories.csv")      
