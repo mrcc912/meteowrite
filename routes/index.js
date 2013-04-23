@@ -10,7 +10,6 @@ var twitter = require("twitter");
 
 exports.login = function(req, res)
 {
-
     res.render('login', { title: "login"});
 };
 
@@ -214,4 +213,19 @@ exports.reccPost = function(req, res)
 exports.recentTweets = function(req, res)
 {
     twitter.getRecentTweets("mrcc912");
+}
+
+exports.getTopKeywords = function(req, res)
+{
+    console.log(req.query);
+    mongo.getTopKeywordsForArticle(req.query.article, req.query.numResponses, function(data){
+	res.send(data);
+    });
+}
+
+exports.getArticleReaderInterests = function(req, res)
+{
+    mongo.getArticleReaderLikes(req.query.article, function(data){
+	res.send(data);
+    });
 }

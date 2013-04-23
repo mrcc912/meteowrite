@@ -35,6 +35,12 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
+
+/* Public API*/
+app.get('/getTopKeywords', routes.getTopKeywords);
+app.get('/getArticleReaderInterests', routes.getArticleReaderInterests);
+
+
 app.get('/', routes.index);
 app.get('/articleReader', routes.articleReader);
 app.get('/userRec', routes.userRec);
@@ -50,6 +56,7 @@ app.get('/getarticle', routes.getArticle);
 app.get('/articleRead', routes.userReadArticle);
 app.get('/reccPost', routes.reccPost);
 app.get('/articleOverlap', routes.articleOverlap);
+
 app.post('/keywordResponse', routes.keywordResponse);
 app.post('/keywordResponseRec', routes.keywordResponseRec);
 app.post('/articleRead', routes.userReadArticlePost);
