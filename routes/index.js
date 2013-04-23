@@ -229,3 +229,17 @@ exports.getArticleReaderInterests = function(req, res)
 	res.send(data);
     });
 }
+
+exports.getAuthorKeywords = function(req, res)
+{
+    mongo.getAuthorKeywords(req.query.author, function(data){
+	res.send(data);
+    });
+}
+
+exports.getArticleFacebook = function(req, res)
+{
+    mongo.getArticleFacebook(req.query.article, function(data){
+	res.send(data);
+    });
+}

@@ -39,7 +39,8 @@ app.configure('development', function(){
 /* Public API*/
 app.get('/getTopKeywords', routes.getTopKeywords);
 app.get('/getArticleReaderInterests', routes.getArticleReaderInterests);
-
+app.get('/getAuthorKeywords', routes.getAuthorKeywords);
+app.get('/getArticleFacebook', routes.getArticleFacebook);
 
 app.get('/', routes.index);
 app.get('/articleReader', routes.articleReader);
