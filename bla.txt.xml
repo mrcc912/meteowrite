@@ -1,0 +1,3813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>5234344</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>``</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>Michael</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>wants</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>paternity</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>lawsuit</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>dismissed</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>''</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>``</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>By</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>KATE</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>BRUMBACK</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>and</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>STEVE</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>REED</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>''</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>,</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>``</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>The</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>Associated</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+          </token>
+          <token id="24">
+            <word>Press</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+          </token>
+          <token id="25">
+            <word>''</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+          </token>
+          <token id="26">
+            <word>,</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+          </token>
+          <token id="27">
+            <word>``</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+          </token>
+          <token id="28">
+            <word>The</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+          </token>
+          <token id="29">
+            <word>Associated</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+          </token>
+          <token id="30">
+            <word>Press</word>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+          </token>
+          <token id="31">
+            <word>''</word>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+          </token>
+          <token id="32">
+            <word>,</word>
+            <CharacterOffsetBegin>138</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+          </token>
+          <token id="33">
+            <word>Sports</word>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+          </token>
+          <token id="34">
+            <word>,</word>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+          </token>
+          <token id="35">
+            <word>http:\/\/www.sacbee.com\/2013\/03\/04\/5234344\/jordan-files-for-paternity-lawsuit.html</word>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>226</CharacterOffsetEnd>
+          </token>
+          <token id="36">
+            <word>,</word>
+            <CharacterOffsetBegin>226</CharacterOffsetBegin>
+            <CharacterOffsetEnd>227</CharacterOffsetEnd>
+          </token>
+          <token id="37">
+            <word>``</word>
+            <CharacterOffsetBegin>227</CharacterOffsetBegin>
+            <CharacterOffsetEnd>228</CharacterOffsetEnd>
+          </token>
+          <token id="38">
+            <word>Basketball</word>
+            <CharacterOffsetBegin>228</CharacterOffsetBegin>
+            <CharacterOffsetEnd>238</CharacterOffsetEnd>
+          </token>
+          <token id="39">
+            <word>hall</word>
+            <CharacterOffsetBegin>239</CharacterOffsetBegin>
+            <CharacterOffsetEnd>243</CharacterOffsetEnd>
+          </token>
+          <token id="40">
+            <word>of</word>
+            <CharacterOffsetBegin>244</CharacterOffsetBegin>
+            <CharacterOffsetEnd>246</CharacterOffsetEnd>
+          </token>
+          <token id="41">
+            <word>famer</word>
+            <CharacterOffsetBegin>247</CharacterOffsetBegin>
+            <CharacterOffsetEnd>252</CharacterOffsetEnd>
+          </token>
+          <token id="42">
+            <word>Michael</word>
+            <CharacterOffsetBegin>253</CharacterOffsetBegin>
+            <CharacterOffsetEnd>260</CharacterOffsetEnd>
+          </token>
+          <token id="43">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>261</CharacterOffsetBegin>
+            <CharacterOffsetEnd>267</CharacterOffsetEnd>
+          </token>
+          <token id="44">
+            <word>asked</word>
+            <CharacterOffsetBegin>268</CharacterOffsetBegin>
+            <CharacterOffsetEnd>273</CharacterOffsetEnd>
+          </token>
+          <token id="45">
+            <word>a</word>
+            <CharacterOffsetBegin>274</CharacterOffsetBegin>
+            <CharacterOffsetEnd>275</CharacterOffsetEnd>
+          </token>
+          <token id="46">
+            <word>Georgia</word>
+            <CharacterOffsetBegin>276</CharacterOffsetBegin>
+            <CharacterOffsetEnd>283</CharacterOffsetEnd>
+          </token>
+          <token id="47">
+            <word>court</word>
+            <CharacterOffsetBegin>284</CharacterOffsetBegin>
+            <CharacterOffsetEnd>289</CharacterOffsetEnd>
+          </token>
+          <token id="48">
+            <word>on</word>
+            <CharacterOffsetBegin>290</CharacterOffsetBegin>
+            <CharacterOffsetEnd>292</CharacterOffsetEnd>
+          </token>
+          <token id="49">
+            <word>Monday</word>
+            <CharacterOffsetBegin>293</CharacterOffsetBegin>
+            <CharacterOffsetEnd>299</CharacterOffsetEnd>
+          </token>
+          <token id="50">
+            <word>to</word>
+            <CharacterOffsetBegin>300</CharacterOffsetBegin>
+            <CharacterOffsetEnd>302</CharacterOffsetEnd>
+          </token>
+          <token id="51">
+            <word>dismiss</word>
+            <CharacterOffsetBegin>303</CharacterOffsetBegin>
+            <CharacterOffsetEnd>310</CharacterOffsetEnd>
+          </token>
+          <token id="52">
+            <word>a</word>
+            <CharacterOffsetBegin>311</CharacterOffsetBegin>
+            <CharacterOffsetEnd>312</CharacterOffsetEnd>
+          </token>
+          <token id="53">
+            <word>paternity</word>
+            <CharacterOffsetBegin>313</CharacterOffsetBegin>
+            <CharacterOffsetEnd>322</CharacterOffsetEnd>
+          </token>
+          <token id="54">
+            <word>suit</word>
+            <CharacterOffsetBegin>323</CharacterOffsetBegin>
+            <CharacterOffsetEnd>327</CharacterOffsetEnd>
+          </token>
+          <token id="55">
+            <word>against</word>
+            <CharacterOffsetBegin>328</CharacterOffsetBegin>
+            <CharacterOffsetEnd>335</CharacterOffsetEnd>
+          </token>
+          <token id="56">
+            <word>him</word>
+            <CharacterOffsetBegin>336</CharacterOffsetBegin>
+            <CharacterOffsetEnd>339</CharacterOffsetEnd>
+          </token>
+          <token id="57">
+            <word>,</word>
+            <CharacterOffsetBegin>339</CharacterOffsetBegin>
+            <CharacterOffsetEnd>340</CharacterOffsetEnd>
+          </token>
+          <token id="58">
+            <word>calling</word>
+            <CharacterOffsetBegin>341</CharacterOffsetBegin>
+            <CharacterOffsetEnd>348</CharacterOffsetEnd>
+          </token>
+          <token id="59">
+            <word>it</word>
+            <CharacterOffsetBegin>349</CharacterOffsetBegin>
+            <CharacterOffsetEnd>351</CharacterOffsetEnd>
+          </token>
+          <token id="60">
+            <word>a</word>
+            <CharacterOffsetBegin>352</CharacterOffsetBegin>
+            <CharacterOffsetEnd>353</CharacterOffsetEnd>
+          </token>
+          <token id="61">
+            <word>''</word>
+            <CharacterOffsetBegin>354</CharacterOffsetBegin>
+            <CharacterOffsetEnd>355</CharacterOffsetEnd>
+          </token>
+          <token id="62">
+            <word>``</word>
+            <CharacterOffsetBegin>355</CharacterOffsetBegin>
+            <CharacterOffsetEnd>356</CharacterOffsetEnd>
+          </token>
+          <token id="63">
+            <word>shameless</word>
+            <CharacterOffsetBegin>356</CharacterOffsetBegin>
+            <CharacterOffsetEnd>365</CharacterOffsetEnd>
+          </token>
+          <token id="64">
+            <word>,</word>
+            <CharacterOffsetBegin>365</CharacterOffsetBegin>
+            <CharacterOffsetEnd>366</CharacterOffsetEnd>
+          </token>
+          <token id="65">
+            <word>bad</word>
+            <CharacterOffsetBegin>367</CharacterOffsetBegin>
+            <CharacterOffsetEnd>370</CharacterOffsetEnd>
+          </token>
+          <token id="66">
+            <word>faith</word>
+            <CharacterOffsetBegin>371</CharacterOffsetBegin>
+            <CharacterOffsetEnd>376</CharacterOffsetEnd>
+          </token>
+          <token id="67">
+            <word>attempt</word>
+            <CharacterOffsetBegin>377</CharacterOffsetBegin>
+            <CharacterOffsetEnd>384</CharacterOffsetEnd>
+          </token>
+          <token id="68">
+            <word>to</word>
+            <CharacterOffsetBegin>385</CharacterOffsetBegin>
+            <CharacterOffsetEnd>387</CharacterOffsetEnd>
+          </token>
+          <token id="69">
+            <word>abuse</word>
+            <CharacterOffsetBegin>388</CharacterOffsetBegin>
+            <CharacterOffsetEnd>393</CharacterOffsetEnd>
+          </token>
+          <token id="70">
+            <word>the</word>
+            <CharacterOffsetBegin>394</CharacterOffsetBegin>
+            <CharacterOffsetEnd>397</CharacterOffsetEnd>
+          </token>
+          <token id="71">
+            <word>legal</word>
+            <CharacterOffsetBegin>398</CharacterOffsetBegin>
+            <CharacterOffsetEnd>403</CharacterOffsetEnd>
+          </token>
+          <token id="72">
+            <word>system</word>
+            <CharacterOffsetBegin>404</CharacterOffsetBegin>
+            <CharacterOffsetEnd>410</CharacterOffsetEnd>
+          </token>
+          <token id="73">
+            <word>.</word>
+            <CharacterOffsetBegin>410</CharacterOffsetBegin>
+            <CharacterOffsetEnd>411</CharacterOffsetEnd>
+          </token>
+          <token id="74">
+            <word>''</word>
+            <CharacterOffsetBegin>411</CharacterOffsetBegin>
+            <CharacterOffsetEnd>412</CharacterOffsetEnd>
+          </token>
+          <token id="75">
+            <word>''</word>
+            <CharacterOffsetBegin>412</CharacterOffsetBegin>
+            <CharacterOffsetEnd>413</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>413</CharacterOffsetBegin>
+            <CharacterOffsetEnd>417</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>417</CharacterOffsetBegin>
+            <CharacterOffsetEnd>423</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <CharacterOffsetBegin>423</CharacterOffsetBegin>
+            <CharacterOffsetEnd>425</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>lawyer</word>
+            <CharacterOffsetBegin>426</CharacterOffsetBegin>
+            <CharacterOffsetEnd>432</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>John</word>
+            <CharacterOffsetBegin>433</CharacterOffsetBegin>
+            <CharacterOffsetEnd>437</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>Mayoue</word>
+            <CharacterOffsetBegin>438</CharacterOffsetBegin>
+            <CharacterOffsetEnd>444</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>said</word>
+            <CharacterOffsetBegin>445</CharacterOffsetBegin>
+            <CharacterOffsetEnd>449</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <CharacterOffsetBegin>450</CharacterOffsetBegin>
+            <CharacterOffsetEnd>452</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>a</word>
+            <CharacterOffsetBegin>453</CharacterOffsetBegin>
+            <CharacterOffsetEnd>454</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>document</word>
+            <CharacterOffsetBegin>455</CharacterOffsetBegin>
+            <CharacterOffsetEnd>463</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>filed</word>
+            <CharacterOffsetBegin>464</CharacterOffsetBegin>
+            <CharacterOffsetEnd>469</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>in</word>
+            <CharacterOffsetBegin>470</CharacterOffsetBegin>
+            <CharacterOffsetEnd>472</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>Fulton</word>
+            <CharacterOffsetBegin>473</CharacterOffsetBegin>
+            <CharacterOffsetEnd>479</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>County</word>
+            <CharacterOffsetBegin>480</CharacterOffsetBegin>
+            <CharacterOffsetEnd>486</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>Superior</word>
+            <CharacterOffsetBegin>487</CharacterOffsetBegin>
+            <CharacterOffsetEnd>495</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>Court</word>
+            <CharacterOffsetBegin>496</CharacterOffsetBegin>
+            <CharacterOffsetEnd>501</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>that</word>
+            <CharacterOffsetBegin>502</CharacterOffsetBegin>
+            <CharacterOffsetEnd>506</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>the</word>
+            <CharacterOffsetBegin>507</CharacterOffsetBegin>
+            <CharacterOffsetEnd>510</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>six-time</word>
+            <CharacterOffsetBegin>511</CharacterOffsetBegin>
+            <CharacterOffsetEnd>519</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>NBA</word>
+            <CharacterOffsetBegin>520</CharacterOffsetBegin>
+            <CharacterOffsetEnd>523</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>champion</word>
+            <CharacterOffsetBegin>524</CharacterOffsetBegin>
+            <CharacterOffsetEnd>532</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>is</word>
+            <CharacterOffsetBegin>533</CharacterOffsetBegin>
+            <CharacterOffsetEnd>535</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>not</word>
+            <CharacterOffsetBegin>536</CharacterOffsetBegin>
+            <CharacterOffsetEnd>539</CharacterOffsetEnd>
+          </token>
+          <token id="24">
+            <word>the</word>
+            <CharacterOffsetBegin>540</CharacterOffsetBegin>
+            <CharacterOffsetEnd>543</CharacterOffsetEnd>
+          </token>
+          <token id="25">
+            <word>father</word>
+            <CharacterOffsetBegin>544</CharacterOffsetBegin>
+            <CharacterOffsetEnd>550</CharacterOffsetEnd>
+          </token>
+          <token id="26">
+            <word>of</word>
+            <CharacterOffsetBegin>551</CharacterOffsetBegin>
+            <CharacterOffsetEnd>553</CharacterOffsetEnd>
+          </token>
+          <token id="27">
+            <word>Pamela</word>
+            <CharacterOffsetBegin>554</CharacterOffsetBegin>
+            <CharacterOffsetEnd>560</CharacterOffsetEnd>
+          </token>
+          <token id="28">
+            <word>Y.</word>
+            <CharacterOffsetBegin>561</CharacterOffsetBegin>
+            <CharacterOffsetEnd>563</CharacterOffsetEnd>
+          </token>
+          <token id="29">
+            <word>Smith</word>
+            <CharacterOffsetBegin>564</CharacterOffsetBegin>
+            <CharacterOffsetEnd>569</CharacterOffsetEnd>
+          </token>
+          <token id="30">
+            <word>'s</word>
+            <CharacterOffsetBegin>569</CharacterOffsetBegin>
+            <CharacterOffsetEnd>571</CharacterOffsetEnd>
+          </token>
+          <token id="31">
+            <word>16-year-old</word>
+            <CharacterOffsetBegin>572</CharacterOffsetBegin>
+            <CharacterOffsetEnd>583</CharacterOffsetEnd>
+          </token>
+          <token id="32">
+            <word>son</word>
+            <CharacterOffsetBegin>584</CharacterOffsetBegin>
+            <CharacterOffsetEnd>587</CharacterOffsetEnd>
+          </token>
+          <token id="33">
+            <word>.</word>
+            <CharacterOffsetBegin>587</CharacterOffsetBegin>
+            <CharacterOffsetEnd>588</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>589</CharacterOffsetBegin>
+            <CharacterOffsetEnd>592</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>paternity</word>
+            <CharacterOffsetBegin>593</CharacterOffsetBegin>
+            <CharacterOffsetEnd>602</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <CharacterOffsetBegin>603</CharacterOffsetBegin>
+            <CharacterOffsetEnd>605</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>606</CharacterOffsetBegin>
+            <CharacterOffsetEnd>609</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>teen</word>
+            <CharacterOffsetBegin>610</CharacterOffsetBegin>
+            <CharacterOffsetEnd>614</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>was</word>
+            <CharacterOffsetBegin>615</CharacterOffsetBegin>
+            <CharacterOffsetEnd>618</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>''</word>
+            <CharacterOffsetBegin>619</CharacterOffsetBegin>
+            <CharacterOffsetEnd>620</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>``</word>
+            <CharacterOffsetBegin>620</CharacterOffsetBegin>
+            <CharacterOffsetEnd>621</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>conclusively</word>
+            <CharacterOffsetBegin>621</CharacterOffsetBegin>
+            <CharacterOffsetEnd>633</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>established</word>
+            <CharacterOffsetBegin>634</CharacterOffsetBegin>
+            <CharacterOffsetEnd>645</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>''</word>
+            <CharacterOffsetBegin>645</CharacterOffsetBegin>
+            <CharacterOffsetEnd>646</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>''</word>
+            <CharacterOffsetBegin>646</CharacterOffsetBegin>
+            <CharacterOffsetEnd>647</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>in</word>
+            <CharacterOffsetBegin>648</CharacterOffsetBegin>
+            <CharacterOffsetEnd>650</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>divorce</word>
+            <CharacterOffsetBegin>651</CharacterOffsetBegin>
+            <CharacterOffsetEnd>658</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>filings</word>
+            <CharacterOffsetBegin>659</CharacterOffsetBegin>
+            <CharacterOffsetEnd>666</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>between</word>
+            <CharacterOffsetBegin>667</CharacterOffsetBegin>
+            <CharacterOffsetEnd>674</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>Smith</word>
+            <CharacterOffsetBegin>675</CharacterOffsetBegin>
+            <CharacterOffsetEnd>680</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>and</word>
+            <CharacterOffsetBegin>681</CharacterOffsetBegin>
+            <CharacterOffsetEnd>684</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>her</word>
+            <CharacterOffsetBegin>685</CharacterOffsetBegin>
+            <CharacterOffsetEnd>688</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>ex-husband</word>
+            <CharacterOffsetBegin>689</CharacterOffsetBegin>
+            <CharacterOffsetEnd>699</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>,</word>
+            <CharacterOffsetBegin>699</CharacterOffsetBegin>
+            <CharacterOffsetEnd>700</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>701</CharacterOffsetBegin>
+            <CharacterOffsetEnd>707</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>'s</word>
+            <CharacterOffsetBegin>707</CharacterOffsetBegin>
+            <CharacterOffsetEnd>709</CharacterOffsetEnd>
+          </token>
+          <token id="24">
+            <word>attorney</word>
+            <CharacterOffsetBegin>710</CharacterOffsetBegin>
+            <CharacterOffsetEnd>718</CharacterOffsetEnd>
+          </token>
+          <token id="25">
+            <word>wrote</word>
+            <CharacterOffsetBegin>719</CharacterOffsetBegin>
+            <CharacterOffsetEnd>724</CharacterOffsetEnd>
+          </token>
+          <token id="26">
+            <word>.</word>
+            <CharacterOffsetBegin>724</CharacterOffsetBegin>
+            <CharacterOffsetEnd>725</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>725</CharacterOffsetBegin>
+            <CharacterOffsetEnd>729</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>729</CharacterOffsetBegin>
+            <CharacterOffsetEnd>735</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>735</CharacterOffsetBegin>
+            <CharacterOffsetEnd>736</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>50</word>
+            <CharacterOffsetBegin>737</CharacterOffsetBegin>
+            <CharacterOffsetEnd>739</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>739</CharacterOffsetBegin>
+            <CharacterOffsetEnd>740</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>is</word>
+            <CharacterOffsetBegin>741</CharacterOffsetBegin>
+            <CharacterOffsetEnd>743</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>744</CharacterOffsetBegin>
+            <CharacterOffsetEnd>747</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>majority</word>
+            <CharacterOffsetBegin>748</CharacterOffsetBegin>
+            <CharacterOffsetEnd>756</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>owner</word>
+            <CharacterOffsetBegin>757</CharacterOffsetBegin>
+            <CharacterOffsetEnd>762</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <CharacterOffsetBegin>763</CharacterOffsetBegin>
+            <CharacterOffsetEnd>765</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>766</CharacterOffsetBegin>
+            <CharacterOffsetEnd>769</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>NBA</word>
+            <CharacterOffsetBegin>770</CharacterOffsetBegin>
+            <CharacterOffsetEnd>773</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>'s</word>
+            <CharacterOffsetBegin>773</CharacterOffsetBegin>
+            <CharacterOffsetEnd>775</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>Charlotte</word>
+            <CharacterOffsetBegin>776</CharacterOffsetBegin>
+            <CharacterOffsetEnd>785</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>Bobcats</word>
+            <CharacterOffsetBegin>786</CharacterOffsetBegin>
+            <CharacterOffsetEnd>793</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>793</CharacterOffsetBegin>
+            <CharacterOffsetEnd>794</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="5">
+        <tokens>
+          <token id="1">
+            <word>His</word>
+            <CharacterOffsetBegin>795</CharacterOffsetBegin>
+            <CharacterOffsetEnd>798</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>spokeswoman</word>
+            <CharacterOffsetBegin>799</CharacterOffsetBegin>
+            <CharacterOffsetEnd>810</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>Estee</word>
+            <CharacterOffsetBegin>811</CharacterOffsetBegin>
+            <CharacterOffsetEnd>816</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>Portnoy</word>
+            <CharacterOffsetBegin>817</CharacterOffsetBegin>
+            <CharacterOffsetEnd>824</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>released</word>
+            <CharacterOffsetBegin>825</CharacterOffsetBegin>
+            <CharacterOffsetEnd>833</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <CharacterOffsetBegin>834</CharacterOffsetBegin>
+            <CharacterOffsetEnd>835</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>statement</word>
+            <CharacterOffsetBegin>836</CharacterOffsetBegin>
+            <CharacterOffsetEnd>845</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <CharacterOffsetBegin>846</CharacterOffsetBegin>
+            <CharacterOffsetEnd>848</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>The</word>
+            <CharacterOffsetBegin>849</CharacterOffsetBegin>
+            <CharacterOffsetEnd>852</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>Associated</word>
+            <CharacterOffsetBegin>853</CharacterOffsetBegin>
+            <CharacterOffsetEnd>863</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>Press</word>
+            <CharacterOffsetBegin>864</CharacterOffsetBegin>
+            <CharacterOffsetEnd>869</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <CharacterOffsetBegin>869</CharacterOffsetBegin>
+            <CharacterOffsetEnd>870</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="6">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>870</CharacterOffsetBegin>
+            <CharacterOffsetEnd>874</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>''</word>
+            <CharacterOffsetBegin>874</CharacterOffsetBegin>
+            <CharacterOffsetEnd>875</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>``</word>
+            <CharacterOffsetBegin>875</CharacterOffsetBegin>
+            <CharacterOffsetEnd>876</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>Public</word>
+            <CharacterOffsetBegin>876</CharacterOffsetBegin>
+            <CharacterOffsetEnd>882</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>records</word>
+            <CharacterOffsetBegin>883</CharacterOffsetBegin>
+            <CharacterOffsetEnd>890</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>show</word>
+            <CharacterOffsetBegin>891</CharacterOffsetBegin>
+            <CharacterOffsetEnd>895</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>that</word>
+            <CharacterOffsetBegin>896</CharacterOffsetBegin>
+            <CharacterOffsetEnd>900</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>901</CharacterOffsetBegin>
+            <CharacterOffsetEnd>904</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>paternity</word>
+            <CharacterOffsetBegin>905</CharacterOffsetBegin>
+            <CharacterOffsetEnd>914</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <CharacterOffsetBegin>915</CharacterOffsetBegin>
+            <CharacterOffsetEnd>917</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>918</CharacterOffsetBegin>
+            <CharacterOffsetEnd>921</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>child</word>
+            <CharacterOffsetBegin>922</CharacterOffsetBegin>
+            <CharacterOffsetEnd>927</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>was</word>
+            <CharacterOffsetBegin>928</CharacterOffsetBegin>
+            <CharacterOffsetEnd>931</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>established</word>
+            <CharacterOffsetBegin>932</CharacterOffsetBegin>
+            <CharacterOffsetEnd>943</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>in</word>
+            <CharacterOffsetBegin>944</CharacterOffsetBegin>
+            <CharacterOffsetEnd>946</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>a</word>
+            <CharacterOffsetBegin>947</CharacterOffsetBegin>
+            <CharacterOffsetEnd>948</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>prior</word>
+            <CharacterOffsetBegin>949</CharacterOffsetBegin>
+            <CharacterOffsetEnd>954</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>case</word>
+            <CharacterOffsetBegin>955</CharacterOffsetBegin>
+            <CharacterOffsetEnd>959</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>in</word>
+            <CharacterOffsetBegin>960</CharacterOffsetBegin>
+            <CharacterOffsetEnd>962</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>this</word>
+            <CharacterOffsetBegin>963</CharacterOffsetBegin>
+            <CharacterOffsetEnd>967</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>same</word>
+            <CharacterOffsetBegin>968</CharacterOffsetBegin>
+            <CharacterOffsetEnd>972</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>court</word>
+            <CharacterOffsetBegin>973</CharacterOffsetBegin>
+            <CharacterOffsetEnd>978</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>many</word>
+            <CharacterOffsetBegin>979</CharacterOffsetBegin>
+            <CharacterOffsetEnd>983</CharacterOffsetEnd>
+          </token>
+          <token id="24">
+            <word>years</word>
+            <CharacterOffsetBegin>984</CharacterOffsetBegin>
+            <CharacterOffsetEnd>989</CharacterOffsetEnd>
+          </token>
+          <token id="25">
+            <word>ago</word>
+            <CharacterOffsetBegin>990</CharacterOffsetBegin>
+            <CharacterOffsetEnd>993</CharacterOffsetEnd>
+          </token>
+          <token id="26">
+            <word>and</word>
+            <CharacterOffsetBegin>994</CharacterOffsetBegin>
+            <CharacterOffsetEnd>997</CharacterOffsetEnd>
+          </token>
+          <token id="27">
+            <word>that</word>
+            <CharacterOffsetBegin>998</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1002</CharacterOffsetEnd>
+          </token>
+          <token id="28">
+            <word>Michael</word>
+            <CharacterOffsetBegin>1003</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1010</CharacterOffsetEnd>
+          </token>
+          <token id="29">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>1011</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1017</CharacterOffsetEnd>
+          </token>
+          <token id="30">
+            <word>is</word>
+            <CharacterOffsetBegin>1018</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1020</CharacterOffsetEnd>
+          </token>
+          <token id="31">
+            <word>not</word>
+            <CharacterOffsetBegin>1021</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1024</CharacterOffsetEnd>
+          </token>
+          <token id="32">
+            <word>the</word>
+            <CharacterOffsetBegin>1025</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1028</CharacterOffsetEnd>
+          </token>
+          <token id="33">
+            <word>father</word>
+            <CharacterOffsetBegin>1029</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1035</CharacterOffsetEnd>
+          </token>
+          <token id="34">
+            <word>.</word>
+            <CharacterOffsetBegin>1035</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1036</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="7">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>1037</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1039</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>also</word>
+            <CharacterOffsetBegin>1040</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1044</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>filed</word>
+            <CharacterOffsetBegin>1045</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1050</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <CharacterOffsetBegin>1051</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1052</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>counterclaim</word>
+            <CharacterOffsetBegin>1053</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1065</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>seeking</word>
+            <CharacterOffsetBegin>1066</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1073</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>sanctions</word>
+            <CharacterOffsetBegin>1074</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1083</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>for</word>
+            <CharacterOffsetBegin>1084</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1087</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <CharacterOffsetBegin>1088</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1091</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>false</word>
+            <CharacterOffsetBegin>1092</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1097</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>claims</word>
+            <CharacterOffsetBegin>1098</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1104</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>made</word>
+            <CharacterOffsetBegin>1105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1109</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>against</word>
+            <CharacterOffsetBegin>1110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1117</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>him</word>
+            <CharacterOffsetBegin>1118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1121</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>1121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1122</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="8">
+        <tokens>
+          <token id="1">
+            <word>It</word>
+            <CharacterOffsetBegin>1123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1125</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>is</word>
+            <CharacterOffsetBegin>1126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1128</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>unfortunate</word>
+            <CharacterOffsetBegin>1129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1140</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>that</word>
+            <CharacterOffsetBegin>1141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1145</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>well-known</word>
+            <CharacterOffsetBegin>1146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1156</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>figures</word>
+            <CharacterOffsetBegin>1157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1164</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>are</word>
+            <CharacterOffsetBegin>1165</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1168</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>1169</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1172</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>target</word>
+            <CharacterOffsetBegin>1173</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1179</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <CharacterOffsetBegin>1180</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1182</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>these</word>
+            <CharacterOffsetBegin>1183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1188</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>kind</word>
+            <CharacterOffsetBegin>1189</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1193</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <CharacterOffsetBegin>1194</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1196</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>claims</word>
+            <CharacterOffsetBegin>1197</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1203</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>1203</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1204</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="9">
+        <tokens>
+          <token id="1">
+            <word>Michael</word>
+            <CharacterOffsetBegin>1205</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1212</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>1213</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1219</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>will</word>
+            <CharacterOffsetBegin>1220</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1224</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>vigorously</word>
+            <CharacterOffsetBegin>1225</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1235</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>defend</word>
+            <CharacterOffsetBegin>1236</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1242</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>himself</word>
+            <CharacterOffsetBegin>1243</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1250</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>and</word>
+            <CharacterOffsetBegin>1251</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1254</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>his</word>
+            <CharacterOffsetBegin>1255</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1258</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>reputation</word>
+            <CharacterOffsetBegin>1259</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1269</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <CharacterOffsetBegin>1269</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1270</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>''</word>
+            <CharacterOffsetBegin>1270</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1271</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>''</word>
+            <CharacterOffsetBegin>1271</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1272</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="10">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>1272</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1276</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>In</word>
+            <CharacterOffsetBegin>1276</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1278</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>response</word>
+            <CharacterOffsetBegin>1279</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1287</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>to</word>
+            <CharacterOffsetBegin>1288</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1290</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>Smith</word>
+            <CharacterOffsetBegin>1291</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1296</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>'s</word>
+            <CharacterOffsetBegin>1296</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1298</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>lawsuit</word>
+            <CharacterOffsetBegin>1299</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1306</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>1306</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1307</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>1308</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1314</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>'s</word>
+            <CharacterOffsetBegin>1314</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1316</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>lawyer</word>
+            <CharacterOffsetBegin>1317</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1323</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>attached</word>
+            <CharacterOffsetBegin>1324</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1332</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>a</word>
+            <CharacterOffsetBegin>1333</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1334</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>2003</word>
+            <CharacterOffsetBegin>1335</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1339</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>divorce</word>
+            <CharacterOffsetBegin>1340</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1347</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>court</word>
+            <CharacterOffsetBegin>1348</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1353</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>filing</word>
+            <CharacterOffsetBegin>1354</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1360</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>between</word>
+            <CharacterOffsetBegin>1361</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1368</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>Smith</word>
+            <CharacterOffsetBegin>1369</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1374</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>and</word>
+            <CharacterOffsetBegin>1375</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1378</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>her</word>
+            <CharacterOffsetBegin>1379</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1382</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>then-husband</word>
+            <CharacterOffsetBegin>1383</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1395</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>Glenville</word>
+            <CharacterOffsetBegin>1396</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1405</CharacterOffsetEnd>
+          </token>
+          <token id="24">
+            <word>G.</word>
+            <CharacterOffsetBegin>1406</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1408</CharacterOffsetEnd>
+          </token>
+          <token id="25">
+            <word>Reynolds</word>
+            <CharacterOffsetBegin>1409</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1417</CharacterOffsetEnd>
+          </token>
+          <token id="26">
+            <word>.</word>
+            <CharacterOffsetBegin>1417</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1418</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="11">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>1419</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1422</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>document</word>
+            <CharacterOffsetBegin>1423</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1431</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>said</word>
+            <CharacterOffsetBegin>1432</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1436</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>1437</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1440</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>marriage</word>
+            <CharacterOffsetBegin>1441</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1449</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>produced</word>
+            <CharacterOffsetBegin>1450</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1458</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>one</word>
+            <CharacterOffsetBegin>1459</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1462</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>child</word>
+            <CharacterOffsetBegin>1463</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1468</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <CharacterOffsetBegin>1469</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1472</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>listed</word>
+            <CharacterOffsetBegin>1473</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1479</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>1480</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1483</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>boy</word>
+            <CharacterOffsetBegin>1484</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1487</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>'s</word>
+            <CharacterOffsetBegin>1487</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1489</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>birth</word>
+            <CharacterOffsetBegin>1490</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1495</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>date</word>
+            <CharacterOffsetBegin>1496</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1500</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>and</word>
+            <CharacterOffsetBegin>1501</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1504</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>name</word>
+            <CharacterOffsetBegin>1505</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1509</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>1509</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1510</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="12">
+        <tokens>
+          <token id="1">
+            <word>At</word>
+            <CharacterOffsetBegin>1511</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1513</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <CharacterOffsetBegin>1514</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1517</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>end</word>
+            <CharacterOffsetBegin>1518</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1521</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <CharacterOffsetBegin>1522</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1524</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <CharacterOffsetBegin>1525</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1528</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>document</word>
+            <CharacterOffsetBegin>1529</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1537</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>1537</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1538</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>there</word>
+            <CharacterOffsetBegin>1539</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1544</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>is</word>
+            <CharacterOffsetBegin>1545</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1547</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>a</word>
+            <CharacterOffsetBegin>1548</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1549</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>statement</word>
+            <CharacterOffsetBegin>1550</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1559</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>signed</word>
+            <CharacterOffsetBegin>1560</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1566</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>by</word>
+            <CharacterOffsetBegin>1567</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1569</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>Smith</word>
+            <CharacterOffsetBegin>1570</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1575</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>saying</word>
+            <CharacterOffsetBegin>1576</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1582</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>everything</word>
+            <CharacterOffsetBegin>1583</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1593</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>is</word>
+            <CharacterOffsetBegin>1594</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1596</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>''</word>
+            <CharacterOffsetBegin>1597</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1598</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>``</word>
+            <CharacterOffsetBegin>1598</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1599</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>true</word>
+            <CharacterOffsetBegin>1599</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1603</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>and</word>
+            <CharacterOffsetBegin>1604</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1607</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>correct</word>
+            <CharacterOffsetBegin>1608</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1615</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>to</word>
+            <CharacterOffsetBegin>1616</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1618</CharacterOffsetEnd>
+          </token>
+          <token id="24">
+            <word>the</word>
+            <CharacterOffsetBegin>1619</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1622</CharacterOffsetEnd>
+          </token>
+          <token id="25">
+            <word>best</word>
+            <CharacterOffsetBegin>1623</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1627</CharacterOffsetEnd>
+          </token>
+          <token id="26">
+            <word>of</word>
+            <CharacterOffsetBegin>1628</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1630</CharacterOffsetEnd>
+          </token>
+          <token id="27">
+            <word>my</word>
+            <CharacterOffsetBegin>1631</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1633</CharacterOffsetEnd>
+          </token>
+          <token id="28">
+            <word>knowledge</word>
+            <CharacterOffsetBegin>1634</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1643</CharacterOffsetEnd>
+          </token>
+          <token id="29">
+            <word>and</word>
+            <CharacterOffsetBegin>1644</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1647</CharacterOffsetEnd>
+          </token>
+          <token id="30">
+            <word>belief</word>
+            <CharacterOffsetBegin>1648</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1654</CharacterOffsetEnd>
+          </token>
+          <token id="31">
+            <word>.</word>
+            <CharacterOffsetBegin>1654</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1655</CharacterOffsetEnd>
+          </token>
+          <token id="32">
+            <word>''</word>
+            <CharacterOffsetBegin>1655</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1656</CharacterOffsetEnd>
+          </token>
+          <token id="33">
+            <word>''</word>
+            <CharacterOffsetBegin>1656</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1657</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="13">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>1657</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1661</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>The</word>
+            <CharacterOffsetBegin>1661</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1664</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>filing</word>
+            <CharacterOffsetBegin>1665</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1671</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>said</word>
+            <CharacterOffsetBegin>1672</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1676</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>Smith</word>
+            <CharacterOffsetBegin>1677</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1682</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>will</word>
+            <CharacterOffsetBegin>1683</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1687</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>have</word>
+            <CharacterOffsetBegin>1688</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1692</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>legal</word>
+            <CharacterOffsetBegin>1693</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1698</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <CharacterOffsetBegin>1699</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1702</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>physical</word>
+            <CharacterOffsetBegin>1703</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1711</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>custody</word>
+            <CharacterOffsetBegin>1712</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1719</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>of</word>
+            <CharacterOffsetBegin>1720</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1722</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <CharacterOffsetBegin>1723</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1726</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>child</word>
+            <CharacterOffsetBegin>1727</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1732</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>and</word>
+            <CharacterOffsetBegin>1733</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1736</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>Reynolds</word>
+            <CharacterOffsetBegin>1737</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1745</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>can</word>
+            <CharacterOffsetBegin>1746</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1749</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>have</word>
+            <CharacterOffsetBegin>1750</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1754</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>visitation</word>
+            <CharacterOffsetBegin>1755</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1765</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>1765</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1766</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="14">
+        <tokens>
+          <token id="1">
+            <word>Reynolds</word>
+            <CharacterOffsetBegin>1767</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1775</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <CharacterOffsetBegin>1776</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1779</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>expected</word>
+            <CharacterOffsetBegin>1780</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1788</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>to</word>
+            <CharacterOffsetBegin>1789</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1791</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>pay</word>
+            <CharacterOffsetBegin>1792</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1795</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>child</word>
+            <CharacterOffsetBegin>1796</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1801</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>support</word>
+            <CharacterOffsetBegin>1802</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1809</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>for</word>
+            <CharacterOffsetBegin>1810</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1813</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <CharacterOffsetBegin>1814</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1817</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>child</word>
+            <CharacterOffsetBegin>1818</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1823</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <CharacterOffsetBegin>1823</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1824</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="15">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>1824</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1828</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>A</word>
+            <CharacterOffsetBegin>1828</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1829</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>telephone</word>
+            <CharacterOffsetBegin>1830</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1839</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>listed</word>
+            <CharacterOffsetBegin>1840</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1846</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>for</word>
+            <CharacterOffsetBegin>1847</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1850</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>Reynolds</word>
+            <CharacterOffsetBegin>1851</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1859</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>was</word>
+            <CharacterOffsetBegin>1860</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1863</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>disconnected</word>
+            <CharacterOffsetBegin>1864</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1876</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <CharacterOffsetBegin>1876</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1877</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="16">
+        <tokens>
+          <token id="1">
+            <word>Smith</word>
+            <CharacterOffsetBegin>1878</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1883</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>'s</word>
+            <CharacterOffsetBegin>1883</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1885</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>publicist</word>
+            <CharacterOffsetBegin>1886</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1895</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>did</word>
+            <CharacterOffsetBegin>1896</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1899</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>not</word>
+            <CharacterOffsetBegin>1900</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1903</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>immediately</word>
+            <CharacterOffsetBegin>1904</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1915</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>have</word>
+            <CharacterOffsetBegin>1916</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1920</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>a</word>
+            <CharacterOffsetBegin>1921</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1922</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>comment</word>
+            <CharacterOffsetBegin>1923</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1930</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>on</word>
+            <CharacterOffsetBegin>1931</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1933</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>1934</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1940</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>'s</word>
+            <CharacterOffsetBegin>1940</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1942</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>court</word>
+            <CharacterOffsetBegin>1943</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1948</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>filing</word>
+            <CharacterOffsetBegin>1949</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1955</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>1955</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1956</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="17">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>1956</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1960</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>Smith</word>
+            <CharacterOffsetBegin>1960</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1965</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <CharacterOffsetBegin>1965</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1967</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>lawsuit</word>
+            <CharacterOffsetBegin>1968</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1975</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>requests</word>
+            <CharacterOffsetBegin>1976</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1984</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>1985</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1991</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>take</word>
+            <CharacterOffsetBegin>1992</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1996</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>a</word>
+            <CharacterOffsetBegin>1997</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1998</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>paternity</word>
+            <CharacterOffsetBegin>1999</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2008</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>test</word>
+            <CharacterOffsetBegin>2009</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2013</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>2013</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2014</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>pay</word>
+            <CharacterOffsetBegin>2015</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2018</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>child</word>
+            <CharacterOffsetBegin>2019</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2024</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>support</word>
+            <CharacterOffsetBegin>2025</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2032</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>and</word>
+            <CharacterOffsetBegin>2033</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2036</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>share</word>
+            <CharacterOffsetBegin>2037</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2042</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>medical</word>
+            <CharacterOffsetBegin>2043</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2050</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <CharacterOffsetBegin>2050</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2051</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>dental</word>
+            <CharacterOffsetBegin>2052</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2058</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>and</word>
+            <CharacterOffsetBegin>2059</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2062</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>hospital</word>
+            <CharacterOffsetBegin>2063</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2071</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>costs</word>
+            <CharacterOffsetBegin>2072</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2077</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>not</word>
+            <CharacterOffsetBegin>2078</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2081</CharacterOffsetEnd>
+          </token>
+          <token id="24">
+            <word>covered</word>
+            <CharacterOffsetBegin>2082</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2089</CharacterOffsetEnd>
+          </token>
+          <token id="25">
+            <word>by</word>
+            <CharacterOffsetBegin>2090</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2092</CharacterOffsetEnd>
+          </token>
+          <token id="26">
+            <word>insurance</word>
+            <CharacterOffsetBegin>2093</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2102</CharacterOffsetEnd>
+          </token>
+          <token id="27">
+            <word>.</word>
+            <CharacterOffsetBegin>2102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2103</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="18">
+        <tokens>
+          <token id="1">
+            <word>She</word>
+            <CharacterOffsetBegin>2104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2107</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>also</word>
+            <CharacterOffsetBegin>2108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2112</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>requested</word>
+            <CharacterOffsetBegin>2113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2122</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>2123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2126</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>boy</word>
+            <CharacterOffsetBegin>2127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2130</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>'s</word>
+            <CharacterOffsetBegin>2130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2132</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>last</word>
+            <CharacterOffsetBegin>2133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2137</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>name</word>
+            <CharacterOffsetBegin>2138</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2142</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>be</word>
+            <CharacterOffsetBegin>2143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2145</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>changed</word>
+            <CharacterOffsetBegin>2146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2153</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>to</word>
+            <CharacterOffsetBegin>2154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2156</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>2157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2163</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>2163</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2164</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>and</word>
+            <CharacterOffsetBegin>2165</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2168</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>asked</word>
+            <CharacterOffsetBegin>2169</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2174</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>a</word>
+            <CharacterOffsetBegin>2175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2176</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>judge</word>
+            <CharacterOffsetBegin>2177</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2182</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>to</word>
+            <CharacterOffsetBegin>2183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2185</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>order</word>
+            <CharacterOffsetBegin>2186</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2191</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>the</word>
+            <CharacterOffsetBegin>2192</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2195</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>Georgia</word>
+            <CharacterOffsetBegin>2196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2203</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>Department</word>
+            <CharacterOffsetBegin>2204</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2214</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>of</word>
+            <CharacterOffsetBegin>2215</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2217</CharacterOffsetEnd>
+          </token>
+          <token id="24">
+            <word>Vital</word>
+            <CharacterOffsetBegin>2218</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2223</CharacterOffsetEnd>
+          </token>
+          <token id="25">
+            <word>Records</word>
+            <CharacterOffsetBegin>2224</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2231</CharacterOffsetEnd>
+          </token>
+          <token id="26">
+            <word>to</word>
+            <CharacterOffsetBegin>2232</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2234</CharacterOffsetEnd>
+          </token>
+          <token id="27">
+            <word>issue</word>
+            <CharacterOffsetBegin>2235</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2240</CharacterOffsetEnd>
+          </token>
+          <token id="28">
+            <word>him</word>
+            <CharacterOffsetBegin>2241</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2244</CharacterOffsetEnd>
+          </token>
+          <token id="29">
+            <word>a</word>
+            <CharacterOffsetBegin>2245</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2246</CharacterOffsetEnd>
+          </token>
+          <token id="30">
+            <word>new</word>
+            <CharacterOffsetBegin>2247</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2250</CharacterOffsetEnd>
+          </token>
+          <token id="31">
+            <word>birth</word>
+            <CharacterOffsetBegin>2251</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2256</CharacterOffsetEnd>
+          </token>
+          <token id="32">
+            <word>certificate</word>
+            <CharacterOffsetBegin>2257</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2268</CharacterOffsetEnd>
+          </token>
+          <token id="33">
+            <word>.</word>
+            <CharacterOffsetBegin>2268</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2269</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="19">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>2269</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2273</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>Not</word>
+            <CharacterOffsetBegin>2273</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2276</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>much</word>
+            <CharacterOffsetBegin>2277</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2281</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>evidence</word>
+            <CharacterOffsetBegin>2282</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2290</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>is</word>
+            <CharacterOffsetBegin>2291</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2293</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>needed</word>
+            <CharacterOffsetBegin>2294</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2300</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>for</word>
+            <CharacterOffsetBegin>2301</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2304</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>a</word>
+            <CharacterOffsetBegin>2305</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2306</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>judge</word>
+            <CharacterOffsetBegin>2307</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2312</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>to</word>
+            <CharacterOffsetBegin>2313</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2315</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>compel</word>
+            <CharacterOffsetBegin>2316</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2322</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>someone</word>
+            <CharacterOffsetBegin>2323</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2330</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>in</word>
+            <CharacterOffsetBegin>2331</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2333</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>Georgia</word>
+            <CharacterOffsetBegin>2334</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2341</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>to</word>
+            <CharacterOffsetBegin>2342</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2344</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>submit</word>
+            <CharacterOffsetBegin>2345</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2351</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>to</word>
+            <CharacterOffsetBegin>2352</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2354</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>a</word>
+            <CharacterOffsetBegin>2355</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2356</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>paternity</word>
+            <CharacterOffsetBegin>2357</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2366</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>test</word>
+            <CharacterOffsetBegin>2367</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2371</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>,</word>
+            <CharacterOffsetBegin>2371</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2372</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>said</word>
+            <CharacterOffsetBegin>2373</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2377</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>Randy</word>
+            <CharacterOffsetBegin>2378</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2383</CharacterOffsetEnd>
+          </token>
+          <token id="24">
+            <word>Kessler</word>
+            <CharacterOffsetBegin>2384</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2391</CharacterOffsetEnd>
+          </token>
+          <token id="25">
+            <word>,</word>
+            <CharacterOffsetBegin>2391</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2392</CharacterOffsetEnd>
+          </token>
+          <token id="26">
+            <word>an</word>
+            <CharacterOffsetBegin>2393</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2395</CharacterOffsetEnd>
+          </token>
+          <token id="27">
+            <word>Atlanta</word>
+            <CharacterOffsetBegin>2396</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2403</CharacterOffsetEnd>
+          </token>
+          <token id="28">
+            <word>attorney</word>
+            <CharacterOffsetBegin>2404</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2412</CharacterOffsetEnd>
+          </token>
+          <token id="29">
+            <word>who</word>
+            <CharacterOffsetBegin>2413</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2416</CharacterOffsetEnd>
+          </token>
+          <token id="30">
+            <word>specializes</word>
+            <CharacterOffsetBegin>2417</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2428</CharacterOffsetEnd>
+          </token>
+          <token id="31">
+            <word>in</word>
+            <CharacterOffsetBegin>2429</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2431</CharacterOffsetEnd>
+          </token>
+          <token id="32">
+            <word>family</word>
+            <CharacterOffsetBegin>2432</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2438</CharacterOffsetEnd>
+          </token>
+          <token id="33">
+            <word>law</word>
+            <CharacterOffsetBegin>2439</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2442</CharacterOffsetEnd>
+          </token>
+          <token id="34">
+            <word>and</word>
+            <CharacterOffsetBegin>2443</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2446</CharacterOffsetEnd>
+          </token>
+          <token id="35">
+            <word>is</word>
+            <CharacterOffsetBegin>2447</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2449</CharacterOffsetEnd>
+          </token>
+          <token id="36">
+            <word>not</word>
+            <CharacterOffsetBegin>2450</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2453</CharacterOffsetEnd>
+          </token>
+          <token id="37">
+            <word>involved</word>
+            <CharacterOffsetBegin>2454</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2462</CharacterOffsetEnd>
+          </token>
+          <token id="38">
+            <word>in</word>
+            <CharacterOffsetBegin>2463</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2465</CharacterOffsetEnd>
+          </token>
+          <token id="39">
+            <word>this</word>
+            <CharacterOffsetBegin>2466</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2470</CharacterOffsetEnd>
+          </token>
+          <token id="40">
+            <word>case</word>
+            <CharacterOffsetBegin>2471</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2475</CharacterOffsetEnd>
+          </token>
+          <token id="41">
+            <word>.</word>
+            <CharacterOffsetBegin>2475</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2476</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="20">
+        <tokens>
+          <token id="1">
+            <word>However</word>
+            <CharacterOffsetBegin>2477</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2484</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <CharacterOffsetBegin>2484</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2485</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>in</word>
+            <CharacterOffsetBegin>2486</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2488</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <CharacterOffsetBegin>2489</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2490</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>case</word>
+            <CharacterOffsetBegin>2491</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2495</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>with</word>
+            <CharacterOffsetBegin>2496</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2500</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>an</word>
+            <CharacterOffsetBegin>2501</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2503</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>established</word>
+            <CharacterOffsetBegin>2504</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2515</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>father</word>
+            <CharacterOffsetBegin>2516</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2522</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>2522</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2523</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>it</word>
+            <CharacterOffsetBegin>2524</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2526</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>is</word>
+            <CharacterOffsetBegin>2527</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2529</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>more</word>
+            <CharacterOffsetBegin>2530</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2534</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>difficult</word>
+            <CharacterOffsetBegin>2535</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2544</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>because</word>
+            <CharacterOffsetBegin>2545</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2552</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>his</word>
+            <CharacterOffsetBegin>2553</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2556</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>rights</word>
+            <CharacterOffsetBegin>2557</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2563</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>would</word>
+            <CharacterOffsetBegin>2564</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2569</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>be</word>
+            <CharacterOffsetBegin>2570</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2572</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>affected</word>
+            <CharacterOffsetBegin>2573</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2581</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>,</word>
+            <CharacterOffsetBegin>2581</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2582</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>Kessler</word>
+            <CharacterOffsetBegin>2583</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2590</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>said</word>
+            <CharacterOffsetBegin>2591</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2595</CharacterOffsetEnd>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>2595</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2596</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="21">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>2596</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2600</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>The</word>
+            <CharacterOffsetBegin>2600</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2603</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>lawsuit</word>
+            <CharacterOffsetBegin>2604</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2611</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>requests</word>
+            <CharacterOffsetBegin>2612</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2620</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>that</word>
+            <CharacterOffsetBegin>2621</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2625</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>any</word>
+            <CharacterOffsetBegin>2626</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2629</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>hearing</word>
+            <CharacterOffsetBegin>2630</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2637</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>or</word>
+            <CharacterOffsetBegin>2638</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2640</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>trial</word>
+            <CharacterOffsetBegin>2641</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2646</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>be</word>
+            <CharacterOffsetBegin>2647</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2649</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>conducted</word>
+            <CharacterOffsetBegin>2650</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2659</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>in</word>
+            <CharacterOffsetBegin>2660</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2662</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>closed</word>
+            <CharacterOffsetBegin>2663</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2669</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>court</word>
+            <CharacterOffsetBegin>2670</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2675</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>to</word>
+            <CharacterOffsetBegin>2676</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2678</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>protect</word>
+            <CharacterOffsetBegin>2679</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2686</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>2687</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2690</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>teen</word>
+            <CharacterOffsetBegin>2691</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2695</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>'s</word>
+            <CharacterOffsetBegin>2695</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2697</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>privacy</word>
+            <CharacterOffsetBegin>2698</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2705</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>2705</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2706</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="22">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>2706</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2710</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>However</word>
+            <CharacterOffsetBegin>2710</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2717</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>2717</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2718</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>Smith</word>
+            <CharacterOffsetBegin>2719</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2724</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>'s</word>
+            <CharacterOffsetBegin>2724</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2726</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>publicist</word>
+            <CharacterOffsetBegin>2727</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2736</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>acknowledged</word>
+            <CharacterOffsetBegin>2737</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2749</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>2750</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2753</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>teen</word>
+            <CharacterOffsetBegin>2754</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2758</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>posted</word>
+            <CharacterOffsetBegin>2759</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2765</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>a</word>
+            <CharacterOffsetBegin>2766</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2767</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>video</word>
+            <CharacterOffsetBegin>2768</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2773</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>to</word>
+            <CharacterOffsetBegin>2774</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2776</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>YouTube</word>
+            <CharacterOffsetBegin>2777</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2784</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>on</word>
+            <CharacterOffsetBegin>2785</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2787</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>Dec.</word>
+            <CharacterOffsetBegin>2788</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2792</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>25</word>
+            <CharacterOffsetBegin>2793</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2795</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <CharacterOffsetBegin>2795</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2796</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>saying</word>
+            <CharacterOffsetBegin>2797</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2803</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>2804</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2810</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>is</word>
+            <CharacterOffsetBegin>2811</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2813</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>his</word>
+            <CharacterOffsetBegin>2814</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2817</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>father</word>
+            <CharacterOffsetBegin>2818</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2824</CharacterOffsetEnd>
+          </token>
+          <token id="24">
+            <word>and</word>
+            <CharacterOffsetBegin>2825</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2828</CharacterOffsetEnd>
+          </token>
+          <token id="25">
+            <word>that</word>
+            <CharacterOffsetBegin>2829</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2833</CharacterOffsetEnd>
+          </token>
+          <token id="26">
+            <word>he</word>
+            <CharacterOffsetBegin>2834</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2836</CharacterOffsetEnd>
+          </token>
+          <token id="27">
+            <word>wants</word>
+            <CharacterOffsetBegin>2837</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2842</CharacterOffsetEnd>
+          </token>
+          <token id="28">
+            <word>him</word>
+            <CharacterOffsetBegin>2843</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2846</CharacterOffsetEnd>
+          </token>
+          <token id="29">
+            <word>to</word>
+            <CharacterOffsetBegin>2847</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2849</CharacterOffsetEnd>
+          </token>
+          <token id="30">
+            <word>play</word>
+            <CharacterOffsetBegin>2850</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2854</CharacterOffsetEnd>
+          </token>
+          <token id="31">
+            <word>a</word>
+            <CharacterOffsetBegin>2855</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2856</CharacterOffsetEnd>
+          </token>
+          <token id="32">
+            <word>larger</word>
+            <CharacterOffsetBegin>2857</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2863</CharacterOffsetEnd>
+          </token>
+          <token id="33">
+            <word>role</word>
+            <CharacterOffsetBegin>2864</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2868</CharacterOffsetEnd>
+          </token>
+          <token id="34">
+            <word>in</word>
+            <CharacterOffsetBegin>2869</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2871</CharacterOffsetEnd>
+          </token>
+          <token id="35">
+            <word>his</word>
+            <CharacterOffsetBegin>2872</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2875</CharacterOffsetEnd>
+          </token>
+          <token id="36">
+            <word>life</word>
+            <CharacterOffsetBegin>2876</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2880</CharacterOffsetEnd>
+          </token>
+          <token id="37">
+            <word>.</word>
+            <CharacterOffsetBegin>2880</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2881</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="23">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>2881</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2885</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>''</word>
+            <CharacterOffsetBegin>2885</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2886</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>``</word>
+            <CharacterOffsetBegin>2886</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2887</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>Pamela</word>
+            <CharacterOffsetBegin>2887</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2893</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>had</word>
+            <CharacterOffsetBegin>2894</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2897</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>no</word>
+            <CharacterOffsetBegin>2898</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2900</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>choice</word>
+            <CharacterOffsetBegin>2901</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2907</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>but</word>
+            <CharacterOffsetBegin>2908</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2911</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>to</word>
+            <CharacterOffsetBegin>2912</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2914</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>support</word>
+            <CharacterOffsetBegin>2915</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2922</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>her</word>
+            <CharacterOffsetBegin>2923</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2926</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>son</word>
+            <CharacterOffsetBegin>2927</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2930</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>and</word>
+            <CharacterOffsetBegin>2931</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2934</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>his</word>
+            <CharacterOffsetBegin>2935</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2938</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>desire</word>
+            <CharacterOffsetBegin>2939</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2945</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>to</word>
+            <CharacterOffsetBegin>2946</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2948</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>forge</word>
+            <CharacterOffsetBegin>2949</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2954</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>a</word>
+            <CharacterOffsetBegin>2955</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2956</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>relationship</word>
+            <CharacterOffsetBegin>2957</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2969</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>with</word>
+            <CharacterOffsetBegin>2970</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2974</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>his</word>
+            <CharacterOffsetBegin>2975</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2978</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>father</word>
+            <CharacterOffsetBegin>2979</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2985</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>,</word>
+            <CharacterOffsetBegin>2985</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2986</CharacterOffsetEnd>
+          </token>
+          <token id="24">
+            <word>''</word>
+            <CharacterOffsetBegin>2986</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2987</CharacterOffsetEnd>
+          </token>
+          <token id="25">
+            <word>''</word>
+            <CharacterOffsetBegin>2987</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2988</CharacterOffsetEnd>
+          </token>
+          <token id="26">
+            <word>Smith</word>
+            <CharacterOffsetBegin>2989</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2994</CharacterOffsetEnd>
+          </token>
+          <token id="27">
+            <word>'s</word>
+            <CharacterOffsetBegin>2994</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2996</CharacterOffsetEnd>
+          </token>
+          <token id="28">
+            <word>publicist</word>
+            <CharacterOffsetBegin>2997</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3006</CharacterOffsetEnd>
+          </token>
+          <token id="29">
+            <word>,</word>
+            <CharacterOffsetBegin>3006</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3007</CharacterOffsetEnd>
+          </token>
+          <token id="30">
+            <word>April</word>
+            <CharacterOffsetBegin>3008</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3013</CharacterOffsetEnd>
+          </token>
+          <token id="31">
+            <word>Love</word>
+            <CharacterOffsetBegin>3014</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3018</CharacterOffsetEnd>
+          </token>
+          <token id="32">
+            <word>,</word>
+            <CharacterOffsetBegin>3018</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3019</CharacterOffsetEnd>
+          </token>
+          <token id="33">
+            <word>said</word>
+            <CharacterOffsetBegin>3020</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3024</CharacterOffsetEnd>
+          </token>
+          <token id="34">
+            <word>in</word>
+            <CharacterOffsetBegin>3025</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3027</CharacterOffsetEnd>
+          </token>
+          <token id="35">
+            <word>a</word>
+            <CharacterOffsetBegin>3028</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3029</CharacterOffsetEnd>
+          </token>
+          <token id="36">
+            <word>statement</word>
+            <CharacterOffsetBegin>3030</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3039</CharacterOffsetEnd>
+          </token>
+          <token id="37">
+            <word>Friday</word>
+            <CharacterOffsetBegin>3040</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3046</CharacterOffsetEnd>
+          </token>
+          <token id="38">
+            <word>.</word>
+            <CharacterOffsetBegin>3046</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3047</CharacterOffsetEnd>
+          </token>
+          <token id="39">
+            <word>''</word>
+            <CharacterOffsetBegin>3048</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3049</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="24">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>3049</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3050</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>That</word>
+            <CharacterOffsetBegin>3050</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3054</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <CharacterOffsetBegin>3054</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3056</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>why</word>
+            <CharacterOffsetBegin>3057</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3060</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>she</word>
+            <CharacterOffsetBegin>3061</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3064</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>is</word>
+            <CharacterOffsetBegin>3065</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3067</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>now</word>
+            <CharacterOffsetBegin>3068</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3071</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>speaking</word>
+            <CharacterOffsetBegin>3072</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3080</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>out</word>
+            <CharacterOffsetBegin>3081</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3084</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <CharacterOffsetBegin>3085</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3088</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>prompting</word>
+            <CharacterOffsetBegin>3089</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3098</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>Michael</word>
+            <CharacterOffsetBegin>3099</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3106</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>to</word>
+            <CharacterOffsetBegin>3107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3109</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>do</word>
+            <CharacterOffsetBegin>3110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3112</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>3113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3116</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>right</word>
+            <CharacterOffsetBegin>3117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3122</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>thing</word>
+            <CharacterOffsetBegin>3123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3128</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>3128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3129</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>''</word>
+            <CharacterOffsetBegin>3129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3130</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>''</word>
+            <CharacterOffsetBegin>3130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3131</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="25">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>3131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3135</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>Love</word>
+            <CharacterOffsetBegin>3135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3139</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>said</word>
+            <CharacterOffsetBegin>3140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3144</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>Smith</word>
+            <CharacterOffsetBegin>3145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3150</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>3150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3151</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>48</word>
+            <CharacterOffsetBegin>3152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3154</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>3154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3155</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>and</word>
+            <CharacterOffsetBegin>3156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3159</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>3160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3166</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>met</word>
+            <CharacterOffsetBegin>3167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3170</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <CharacterOffsetBegin>3171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3173</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>Chicago</word>
+            <CharacterOffsetBegin>3174</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3181</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>in</word>
+            <CharacterOffsetBegin>3182</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3184</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <CharacterOffsetBegin>3185</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3188</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>late</word>
+            <CharacterOffsetBegin>3189</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3193</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>1980s</word>
+            <CharacterOffsetBegin>3194</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3199</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>3199</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3200</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="26">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>3200</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3204</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>According</word>
+            <CharacterOffsetBegin>3204</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3213</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>to</word>
+            <CharacterOffsetBegin>3214</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3216</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>court</word>
+            <CharacterOffsetBegin>3217</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3222</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>documents</word>
+            <CharacterOffsetBegin>3223</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3232</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>3232</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3233</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>Smith</word>
+            <CharacterOffsetBegin>3234</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3239</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>does</word>
+            <CharacterOffsetBegin>3240</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3244</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>not</word>
+            <CharacterOffsetBegin>3245</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3248</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>have</word>
+            <CharacterOffsetBegin>3249</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3253</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>an</word>
+            <CharacterOffsetBegin>3254</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3256</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>attorney</word>
+            <CharacterOffsetBegin>3257</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3265</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>3265</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3266</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="27">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <CharacterOffsetBegin>3267</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3268</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>court</word>
+            <CharacterOffsetBegin>3269</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3274</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>date</word>
+            <CharacterOffsetBegin>3275</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3279</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>is</word>
+            <CharacterOffsetBegin>3280</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3282</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>scheduled</word>
+            <CharacterOffsetBegin>3283</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3292</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>for</word>
+            <CharacterOffsetBegin>3293</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3296</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>March</word>
+            <CharacterOffsetBegin>3297</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3302</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>12</word>
+            <CharacterOffsetBegin>3303</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3305</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <CharacterOffsetBegin>3305</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3306</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="28">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>3306</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3310</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>3310</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3316</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>remains</word>
+            <CharacterOffsetBegin>3317</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3324</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>one</word>
+            <CharacterOffsetBegin>3325</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3328</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>of</word>
+            <CharacterOffsetBegin>3329</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3331</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>3332</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3335</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>most</word>
+            <CharacterOffsetBegin>3336</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3340</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>recognized</word>
+            <CharacterOffsetBegin>3341</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3351</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>sports</word>
+            <CharacterOffsetBegin>3352</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3358</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>figures</word>
+            <CharacterOffsetBegin>3359</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3366</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <CharacterOffsetBegin>3367</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3369</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>3370</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3373</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>world</word>
+            <CharacterOffsetBegin>3374</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3379</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>nearly</word>
+            <CharacterOffsetBegin>3380</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3386</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>10</word>
+            <CharacterOffsetBegin>3387</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3389</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>years</word>
+            <CharacterOffsetBegin>3390</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3395</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>after</word>
+            <CharacterOffsetBegin>3396</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3401</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>his</word>
+            <CharacterOffsetBegin>3402</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3405</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>retirement</word>
+            <CharacterOffsetBegin>3406</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3416</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>from</word>
+            <CharacterOffsetBegin>3417</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3421</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>the</word>
+            <CharacterOffsetBegin>3422</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3425</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>NBA</word>
+            <CharacterOffsetBegin>3426</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3429</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>3429</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3430</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="29">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>3431</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3433</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <CharacterOffsetBegin>3434</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3437</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>a</word>
+            <CharacterOffsetBegin>3438</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3439</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>14-time</word>
+            <CharacterOffsetBegin>3440</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3447</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>NBA</word>
+            <CharacterOffsetBegin>3448</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3451</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>all-star</word>
+            <CharacterOffsetBegin>3452</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3460</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>and</word>
+            <CharacterOffsetBegin>3461</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3464</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>won</word>
+            <CharacterOffsetBegin>3465</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3468</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>six</word>
+            <CharacterOffsetBegin>3469</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3472</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>championships</word>
+            <CharacterOffsetBegin>3473</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3486</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>with</word>
+            <CharacterOffsetBegin>3487</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3491</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>3492</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3495</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>Chicago</word>
+            <CharacterOffsetBegin>3496</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3503</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>Bulls</word>
+            <CharacterOffsetBegin>3504</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3509</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>and</word>
+            <CharacterOffsetBegin>3510</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3513</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>was</word>
+            <CharacterOffsetBegin>3514</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3517</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>named</word>
+            <CharacterOffsetBegin>3518</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3523</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>the</word>
+            <CharacterOffsetBegin>3524</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3527</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>finals</word>
+            <CharacterOffsetBegin>3528</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3534</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>MVP</word>
+            <CharacterOffsetBegin>3535</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3538</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>six</word>
+            <CharacterOffsetBegin>3539</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3542</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>times</word>
+            <CharacterOffsetBegin>3543</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3548</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>3548</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3549</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+      <sentence id="30">
+        <tokens>
+          <token id="1">
+            <word>&lt;p/&gt;</word>
+            <CharacterOffsetBegin>3549</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3553</CharacterOffsetEnd>
+          </token>
+          <token id="2">
+            <word>On</word>
+            <CharacterOffsetBegin>3553</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3555</CharacterOffsetEnd>
+          </token>
+          <token id="3">
+            <word>March</word>
+            <CharacterOffsetBegin>3556</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3561</CharacterOffsetEnd>
+          </token>
+          <token id="4">
+            <word>17</word>
+            <CharacterOffsetBegin>3562</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3564</CharacterOffsetEnd>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>3564</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3565</CharacterOffsetEnd>
+          </token>
+          <token id="6">
+            <word>2010</word>
+            <CharacterOffsetBegin>3566</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3570</CharacterOffsetEnd>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>3570</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3571</CharacterOffsetEnd>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>3572</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3575</CharacterOffsetEnd>
+          </token>
+          <token id="9">
+            <word>NBA</word>
+            <CharacterOffsetBegin>3576</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3579</CharacterOffsetEnd>
+          </token>
+          <token id="10">
+            <word>Board</word>
+            <CharacterOffsetBegin>3580</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3585</CharacterOffsetEnd>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <CharacterOffsetBegin>3586</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3588</CharacterOffsetEnd>
+          </token>
+          <token id="12">
+            <word>Governors</word>
+            <CharacterOffsetBegin>3589</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3598</CharacterOffsetEnd>
+          </token>
+          <token id="13">
+            <word>unanimously</word>
+            <CharacterOffsetBegin>3599</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3610</CharacterOffsetEnd>
+          </token>
+          <token id="14">
+            <word>approved</word>
+            <CharacterOffsetBegin>3611</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3619</CharacterOffsetEnd>
+          </token>
+          <token id="15">
+            <word>Jordan</word>
+            <CharacterOffsetBegin>3620</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3626</CharacterOffsetEnd>
+          </token>
+          <token id="16">
+            <word>'s</word>
+            <CharacterOffsetBegin>3626</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3628</CharacterOffsetEnd>
+          </token>
+          <token id="17">
+            <word>purchase</word>
+            <CharacterOffsetBegin>3629</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3637</CharacterOffsetEnd>
+          </token>
+          <token id="18">
+            <word>of</word>
+            <CharacterOffsetBegin>3638</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3640</CharacterOffsetEnd>
+          </token>
+          <token id="19">
+            <word>the</word>
+            <CharacterOffsetBegin>3641</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3644</CharacterOffsetEnd>
+          </token>
+          <token id="20">
+            <word>Bobcats</word>
+            <CharacterOffsetBegin>3645</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3652</CharacterOffsetEnd>
+          </token>
+          <token id="21">
+            <word>,</word>
+            <CharacterOffsetBegin>3652</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3653</CharacterOffsetEnd>
+          </token>
+          <token id="22">
+            <word>making</word>
+            <CharacterOffsetBegin>3654</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3660</CharacterOffsetEnd>
+          </token>
+          <token id="23">
+            <word>him</word>
+            <CharacterOffsetBegin>3661</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3664</CharacterOffsetEnd>
+          </token>
+          <token id="24">
+            <word>the</word>
+            <CharacterOffsetBegin>3665</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3668</CharacterOffsetEnd>
+          </token>
+          <token id="25">
+            <word>first</word>
+            <CharacterOffsetBegin>3669</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3674</CharacterOffsetEnd>
+          </token>
+          <token id="26">
+            <word>former</word>
+            <CharacterOffsetBegin>3675</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3681</CharacterOffsetEnd>
+          </token>
+          <token id="27">
+            <word>NBA</word>
+            <CharacterOffsetBegin>3682</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3685</CharacterOffsetEnd>
+          </token>
+          <token id="28">
+            <word>player</word>
+            <CharacterOffsetBegin>3686</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3692</CharacterOffsetEnd>
+          </token>
+          <token id="29">
+            <word>ever</word>
+            <CharacterOffsetBegin>3693</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3697</CharacterOffsetEnd>
+          </token>
+          <token id="30">
+            <word>to</word>
+            <CharacterOffsetBegin>3698</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3700</CharacterOffsetEnd>
+          </token>
+          <token id="31">
+            <word>become</word>
+            <CharacterOffsetBegin>3701</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3707</CharacterOffsetEnd>
+          </token>
+          <token id="32">
+            <word>the</word>
+            <CharacterOffsetBegin>3708</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3711</CharacterOffsetEnd>
+          </token>
+          <token id="33">
+            <word>majority</word>
+            <CharacterOffsetBegin>3712</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3720</CharacterOffsetEnd>
+          </token>
+          <token id="34">
+            <word>owner</word>
+            <CharacterOffsetBegin>3721</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3726</CharacterOffsetEnd>
+          </token>
+          <token id="35">
+            <word>of</word>
+            <CharacterOffsetBegin>3727</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3729</CharacterOffsetEnd>
+          </token>
+          <token id="36">
+            <word>a</word>
+            <CharacterOffsetBegin>3730</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3731</CharacterOffsetEnd>
+          </token>
+          <token id="37">
+            <word>league</word>
+            <CharacterOffsetBegin>3732</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3738</CharacterOffsetEnd>
+          </token>
+          <token id="38">
+            <word>franchise</word>
+            <CharacterOffsetBegin>3739</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3748</CharacterOffsetEnd>
+          </token>
+          <token id="39">
+            <word>.</word>
+            <CharacterOffsetBegin>3748</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3749</CharacterOffsetEnd>
+          </token>
+          <token id="40">
+            <word>''</word>
+            <CharacterOffsetBegin>3749</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3750</CharacterOffsetEnd>
+          </token>
+        </tokens>
+      </sentence>
+    </sentences>
+  </document>
+</root>
