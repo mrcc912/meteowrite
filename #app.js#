@@ -5,6 +5,7 @@
 var express = require('express')
   , routes = require('./routes')
   , user = require('./routes/user')
+  , article = require('./routes/article')
   , http = require('http')
   , engine = require('ejs-locals')
   , path = require('path')
@@ -34,11 +35,33 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-mongo.addUser("fuzzymonkey", "joe blow", "asdf", "ad", "asdlfjh", 
-mongo.addKeywords("fuzzymonkey",{"test" : 0.69, "test me": 0.59} );
+
+/* Public API*/
+app.get('/getTopKeywords', routes.getTopKeywords);
+app.get('/getArticleReaderInterests', routes.getArticleReaderInterests);
+
+
 
 app.get('/', routes.index);
 app.get('/articleReader', routes.articleReader);
+app.get('/userRec', routes.userRec);
+app.get('/getUser', routes.getUser);
+app.get('/reccomend', routes.reccomend);
+app.get('/portal', routes.portal);
+app.get('/login', routes.login);
+app.get('/articles', article.list);
+app.get('/users', user.list);
+app.get('/article', routes.article);
+app.get('/user', routes.userPage);
+app.get('/getarticle', routes.getArticle);
+app.get('/articleRead', routes.userReadArticle);
+app.get('/reccPost', routes.reccPost);
+app.get('/articleOverlap', routes.articleOverlap);
+
+app.post('/keywordResponse', routes.keywordResponse);
+app.post('/keywordResponseRec', routes.keywordResponseRec);
+app.post('/articleRead', routes.userReadArticlePost);
+app.get('/recentTweets', routes.recentTweets);
 
 app.post('/readArticle', function(req, res){
     console.log(req.body);
@@ -56,20 +79,14 @@ app.post('/readArticle', function(req, res){
 });
 
 app.post("/articleParser", function(req, res){
-    console.log("yay"); 
-    console.log(req.body.body);
-    console.log(req.url);
     //mongo.addArticle( 123, "", "", "", "", "", "", body, function(obj){});
     //setTimeout(null, 2000);
     alchemy.getKeywords(123, req.body.body, function(id, obj){
-	console.log(obj);
+	mongo.addKeywords(req.cookies.user, obj.keywords);
     });
     
 });
 
-app.get('/users', user.list);
-
-app.get('/article', routes.article);
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
