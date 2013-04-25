@@ -250,5 +250,5 @@ exports.getArticleFacebook = function(req, res)
 
 exports.API = function(req, res)
 {
-    res.render('api');
+    res.render('API');
 }
