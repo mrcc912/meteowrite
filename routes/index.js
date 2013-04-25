@@ -215,31 +215,40 @@ exports.recentTweets = function(req, res)
     twitter.getRecentTweets("mrcc912");
 }
 
+
+
+/* PUBLIC API ROUTES */
+
 exports.getTopKeywords = function(req, res)
 {
     console.log(req.query);
-    mongo.getTopKeywordsForArticle(req.query.article, req.query.numResponses, function(data){
+    mongo.getTopKeywordsForArticle(req.query.article, req.query.numResponses, req.query.apikey, function(data){
 	res.send(data);
     });
 }
 
 exports.getArticleReaderInterests = function(req, res)
 {
-    mongo.getArticleReaderLikes(req.query.article, function(data){
+    mongo.getArticleReaderLikes(req.query.article, req.query.apikey, function(data){
 	res.send(data);
     });
 }
 
 exports.getAuthorKeywords = function(req, res)
 {
-    mongo.getAuthorKeywords(req.query.author, function(data){
+    mongo.getAuthorKeywords(req.query.author, req.query.apikey, function(data){
 	res.send(data);
     });
 }
 
 exports.getArticleFacebook = function(req, res)
 {
-    mongo.getArticleFacebook(req.query.article, function(data){
+    mongo.getArticleFacebook(req.query.article, req.query.apikey, function(data){
 	res.send(data);
     });
+}
+
+exports.API = function(req, res)
+{
+    res.render('api');
 }

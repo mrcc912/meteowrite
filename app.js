@@ -41,6 +41,7 @@ app.get('/getTopKeywords', routes.getTopKeywords);
 app.get('/getArticleReaderInterests', routes.getArticleReaderInterests);
 app.get('/getAuthorKeywords', routes.getAuthorKeywords);
 app.get('/getArticleFacebook', routes.getArticleFacebook);
+app.get'/API', routes.API);
 
 app.get('/', routes.index);
 app.get('/articleReader', routes.articleReader);
@@ -91,4 +92,5 @@ http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
 
-mongo.getTopKeywordsForArticle("5175ceadf13dad6f4a0edec2" ,6, function(data){console.log(data);});
+//mongo.getTopKeywordsForArticle("5175ceadf13dad6f4a0edec2" ,6, function(data){console.log(data);});
+mongo.addAPIUser("Sacramento Bee");
