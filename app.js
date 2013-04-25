@@ -41,7 +41,7 @@ app.get('/getTopKeywords', routes.getTopKeywords);
 app.get('/getArticleReaderInterests', routes.getArticleReaderInterests);
 app.get('/getAuthorKeywords', routes.getAuthorKeywords);
 app.get('/getArticleFacebook', routes.getArticleFacebook);
-app.get'/API', routes.API);
+app.get('/API', routes.API);
 
 app.get('/', routes.index);
 app.get('/articleReader', routes.articleReader);
