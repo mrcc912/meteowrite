@@ -80,17 +80,24 @@ app.post('/readArticle', function(req, res){
 });
 
 app.post("/articleParser", function(req, res){
-    //mongo.addArticle( 123, "", "", "", "", "", "", body, function(obj){});
-    //setTimeout(null, 2000);
     alchemy.getKeywords(123, req.body.body, function(id, obj){
 	mongo.addKeywords(req.cookies.user, obj.keywords);
     });
     
 });
 
+function init()
+{
+  mongo.getAuthorKeywords("Mark Glover", "4efe22e97094d3c7231e6b061ae642a46e91fbb5", function(data){console.log(data)});
+
+}
+
 http.createServer(app).listen(app.get('port'), function(){
-  console.log("Express server listening on port " + app.get('port'));
+    console.log("Express server listening on port " + app.get('port'));
+    init();
 });
 
-//mongo.getTopKeywordsForArticle("5175ceadf13dad6f4a0edec2" ,6, function(data){console.log(data);});
+/*
 mongo.addAPIUser("Sacramento Bee");
+mongo.getTopKeywordsForArticle("5175ceadf13dad6f4a0edec2", 6, "4efe22e97094d3c7231e6b061ae642a46e91fbb5" , function(data){console.log(data);});
+*/
