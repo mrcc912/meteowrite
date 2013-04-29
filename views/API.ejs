@@ -1,0 +1,110 @@
+<h1> Meteowrite API Documentation v1.0 </h1>
+To obtain an API key, send an email to <a href="mailto:cs210-meteowrite@googlegroups.com">cs210-meteowrite@googlegroups.com</a>
+
+These APIs are valid as of 4.25.2013 at 13:42:00
+They are subject to change at any time. Within 24 hours of a change, a new API documentation reference will be published. They can be accessed from:
+ec2-50-19-172-168.compute-1.amazonaws.com:5000/API
+
+<b>Public API Calls:</b>
+
+<b> Get Article Keywords </b>
+<table>
+  <tr> 
+    <td> Description </td>
+    <td> This method will return the array of keywords that we have stored for that article. </td>
+</tr>
+  <tr>
+    <td>url </td>
+    <td> ec2-50-19-172-168.compute-1.amazonaws.com:5000/getTopKeywords </td>
+</tr>
+  <tr>
+    <td> parameters </td>
+    <td>
+      <ul>
+	<li> article – the ID of the article you wish to query </li>
+	<li> numResponses – the number of keywords you want back.
+	  If numResponses if 0 or negative, all keywords  will be returned </li>
+	<li> apikey – your API key </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td> response format </td>
+    <td> {{text: 'dog', relevance: 0.5674}, {text: 'cat', relevance: 0.4567}} </td>
+  </tr>
+</table>
+
+<b>Get Author Keywords</b>
+<table>
+  <tr>
+    <td>  Description </td>
+    <td>This method will return the array of keywords that we have accumulated from all of a specific author's articles </td>
+  </tr>
+  <tr>
+    <td>url </td>
+    <td> ec2-50-19-172-168.compute-1.amazonaws.com:5000/getAuthorKeywords </td>
+  </tr>
+  <tr>
+    <td> parameters </td>
+    <td>
+      <ul>
+	<li> author – the authors name as it appears in the data set you provided to us </li>
+	<li> apikey – your API key </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td> response format </td>
+    <td> {{text: 'dog', relevance: 0.5674}, {text: 'cat', relevance: 0.4567}} </td>
+  </tr>
+</table>
+
+
+<b> Get Article Facebook </b>
+<table>
+  <tr>
+    <td> Description </td>
+    <td> This method will return the array of facebook likes that are common to all of the articles readers.
+  </tr>
+  <tr>
+    <td> url </td>
+    <td>  ec2-50-19-172-168.compute-1.amazonaws.com:5000/getArticleFacebook </td>
+  </tr>
+  <tr>
+    <td> parameters </td>
+    <td>
+      <ul>
+	<li> article – the ID of the article you wish to query </li>
+	<li> apikey – your API key </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>response format </td>
+    <td>{'South Africa World Cup', 'Soccer', 'Football'} </td>
+  </tr>
+</table>
+
+<b> Get Article Reader Interests </b>
+<table>
+  <tr>
+    <td> Description </td>
+    <td>This method will return the array of keywords that have been accumulated from all of an articles readers. </td>
+  <tr>
+    <td>url</td>
+    <td> ec2-50-19-172-168.compute-1.amazonaws.com:5000/getArticleReaderInterests </td>
+  </tr>
+  <tr>
+    <td> parameters  </td>
+    <td>
+      <ul>
+	<li> article – the ID of the article you wish to query </li>
+	<li> apikey – your API key </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>response format </td>
+    <td> {{text: 'dog', relevance: 0.5674}, {text: 'cat', relevance: 0.4567}} </td>
+  </tr>
+</table>

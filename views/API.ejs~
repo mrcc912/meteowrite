@@ -1,0 +1,53 @@
+<h1> Meteowrite API Documentation v1.0 </h1>
+To obtain an API key, send an email to cs210-meteowrite@googlegroups.com
+These APIs are valid as of 4.25.2013 at 13:42:00
+They are subject to change at any time. Within 24 hours of a change, a new API documentation reference will be published. They can be accessed from:
+ec2-50-19-172-168.compute-1.amazonaws.com:5000/API
+
+Public API Calls:
+
+Get Article Keywords
+Description
+This method will return the array of keywords that we have stored for that article.
+url
+ec2-50-19-172-168.compute-1.amazonaws.com:5000/getTopKeywords
+parameters
+article – the ID of the article you wish to query
+numResponses – the number of keywords you want back. 
+If numResponses if 0 or negative, all keywords  will be returned
+apikey – your API key
+response format
+{{text: 'dog', relevance: 0.5674}, {text: 'cat', relevance: 0.4567}}
+
+Get Author Keywords
+Description
+This method will return the array of keywords that we have accumulated from all of a specific author's articles
+url
+ec2-50-19-172-168.compute-1.amazonaws.com:5000/getAuthorKeywords
+parameters
+author – the authors name as it appears in the data set you provided to us
+apikey – your API key
+response format
+{{text: 'dog', relevance: 0.5674}, {text: 'cat', relevance: 0.4567}}
+
+Get Article Facebook
+Description
+This method will return the array of facebook likes that are common to all of the articles readers.
+url
+ec2-50-19-172-168.compute-1.amazonaws.com:5000/getArticleFacebook
+parameters
+article – the ID of the article you wish to query
+apikey – your API key
+response format
+{'South Africa World Cup', 'Soccer', 'Football'}
+
+Get Article Reader Interests
+Description
+This method will return the array of keywords that have been accumulated from all of an articles readers. 
+url
+ec2-50-19-172-168.compute-1.amazonaws.com:5000/getArticleReaderInterests
+parameters
+article – the ID of the article you wish to query
+apikey – your API key
+response format
+{{text: 'dog', relevance: 0.5674}, {text: 'cat', relevance: 0.4567}}
