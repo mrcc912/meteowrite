@@ -2,10 +2,12 @@
 /*
  * GET home page.
  */
-
+var util = require('util');
 var alch = require("alchamy");
 var mongo = require('database');
-
+var sys = require('sys');
+var exec = require('child_process').exec,
+child;
 var twitter = require("twitter");
 
 exports.login = function(req, res)
@@ -23,6 +25,20 @@ exports.index = function(req, res){
     {
 	res.render('index', { title: 'Express' });
     }
+};
+
+
+
+exports.runPyScript = function(req, res) {
+  child = exec('./executed.py',
+  function(error, stdout, stderr) { 
+  
+    if(error != null) {
+      console.log('exec error: ' + error);
+    }
+    console.log("garbage");
+  }
+  );
 };
 
 exports.getArticle = function(req, res) {
@@ -59,6 +75,11 @@ exports.userPage = function(req, res){
     });
 };
 
+exports.addUser = function(req, res){
+  var username = req.query.username;
+  mongo.addUser(username, "", "", "", "", [], []); 
+};
+
 exports.getUser = function(req, res) {
   var username = req.query.username;
   mongo.getUser(username, function(userObj) {
@@ -80,6 +101,61 @@ exports.userReadArticlePost = function(req, res) {
   mongo.userReadArticle(userid, articleid, function(userObj){
         res.render("getUser", {title: "User Page",user: userObj });
   });
+};
+
+exports.processArticle = function(req, res) {
+  var id = req.body.username;
+  if(id == null) {
+    return;
+  }
+  var headline = req.body.headline;
+  if(headline == null) {
+    return;
+  }
+  
+  var biline = req.body.biline;
+  if(biline == null) {
+    biline = ""; 
+  }
+  var creditline = req.body.creditline;
+  if(creditline == null) {
+    creditline = ""; 
+  }
+  var source = req.body.source;
+  if(source == null) {
+    source = ""; 
+  }
+  var section = req.body.section;
+  if(section == null) {
+    section = "";
+  }
+  var URL = req.body.URL;
+  if(URL == null) {
+    URL = "";
+  }
+  var body = req.body.body;
+  if(body == null) {
+    return;
+  } 
+  var encodedId = encodeURIComponent(id);
+  var encodedHeadline = encodeURIComponent(headline);
+  var encodedBiline = encodedURIComponent(biline);
+  var encodedCreditline = encodedURIComponent(creditline);
+  var encodedSource = encodedURIComponent(source);
+  var encodedSection = encodedURIComponent(section);
+  var encodedURL = encodedURIComponent(URL);
+  var encodedBody = encodeURIComponent(body);
+  var commandLine = util.format('./executed.py "%s" "%s" "%s" "%s" "%s" "%s" "%s" "%s"', encodedId, encodedHeadline, encodedBiline, encodedCreditline, encodedSource, encodedSection, encodedURL, encodedBody);
+  child = exec(commandLine,
+  function(error, stdout, stderr) {
+    console.log('exec stdoout: ' + stdout)
+    if(error != null) {
+      console.log('exec error: ' + error);
+    }
+  }
+  );
+
+   
 };
 
 exports.keywordResponseRec = function(req, res) {
