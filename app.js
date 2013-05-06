@@ -35,6 +35,13 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
+/* Public API*/
+app.get('/getTopKeywords', routes.getTopKeywords);
+app.get('/getArticleReaderInterests', routes.getArticleReaderInterests);
+app.get('/getAuthorKeywords', routes.getAuthorKeywords);
+app.get('/getArticleFacebook', routes.getArticleFacebook);
+app.get('/API', routes.API);
+app.get('/addUser', routes.addUser);
 app.get('/', routes.index);
 app.get('/articleReader', routes.articleReader);
 app.get('/userRec', routes.userRec);
@@ -50,7 +57,7 @@ app.get('/getarticle', routes.getArticle);
 app.get('/articleRead', routes.userReadArticle);
 app.get('/reccPost', routes.reccPost);
 app.get('/articleOverlap', routes.articleOverlap);
-
+app.get('/py', routes.processArticle);
 app.post('/keywordResponse', routes.keywordResponse);
 app.post('/keywordResponseRec', routes.keywordResponseRec);
 app.post('/articleRead', routes.userReadArticlePost);
@@ -106,4 +113,3 @@ http.createServer(app).listen(app.get('port'), function(){
     console.log("Express server listening on port " + app.get('port'));
     init();
 });
-
