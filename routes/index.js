@@ -1,4 +1,3 @@
-
 /*
  * GET home page.
  */
@@ -223,14 +222,14 @@ exports.getTopKeywords = function(req, res)
 {
     console.log(req.query);
     mongo.getTopKeywordsForArticle(req.query.article, req.query.numResponses, req.query.apikey, function(data){
-	res.send(data);
+	res.end(data);
     });
 }
 
 exports.getArticleReaderInterests = function(req, res)
 {
     mongo.getArticleReaderLikes(req.query.article, req.query.apikey, function(data){
-	res.send(data);
+	res.end(data);
     });
 }
 

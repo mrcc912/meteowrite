@@ -35,14 +35,6 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-
-/* Public API*/
-app.get('/getTopKeywords', routes.getTopKeywords);
-app.get('/getArticleReaderInterests', routes.getArticleReaderInterests);
-app.get('/getAuthorKeywords', routes.getAuthorKeywords);
-app.get('/getArticleFacebook', routes.getArticleFacebook);
-app.get('/API', routes.API);
-
 app.get('/', routes.index);
 app.get('/articleReader', routes.articleReader);
 app.get('/userRec', routes.userRec);
@@ -86,10 +78,28 @@ app.post("/articleParser", function(req, res){
     
 });
 
+
+
+/* Public API*/
+app.get('/getTopKeywords', routes.getTopKeywords);
+app.get('/getArticleReaderInterests', routes.getArticleReaderInterests);
+app.get('/getAuthorKeywords', routes.getAuthorKeywords);
+app.get('/getArticleFacebook', routes.getArticleFacebook);
+app.get('/API', routes.API);
+app.get('/userReadArticle', routes.userReadArticle);
+
+
+
 function init()
 {
-  mongo.getAuthorKeywords("Mark Glover", "4efe22e97094d3c7231e6b061ae642a46e91fbb5", function(data){console.log(data)});
-
+    /*
+      mongo.getAuthorKeywords("Mark Glover", "4efe22e97094d3c7231e6b061ae642a46e91fbb5", function(data){
+	//console.log(data)
+    });
+    mongo.addAPIUser("Sacramento Bee");
+    mongo.getTopKeywordsForArticle("5175ceadf13dad6f4a0edec2", 6, "4efe22e97094d3c7231e6b061ae642a46e91fbb5" , function(data){console.log(data);});
+*/
+    mongo.getArticleReaderInterests("5175ceadf13dad6f4a0edec2", "4efe22e97094d3c7231e6b061ae642a46e91fbb5", function(data){console.log(data);});
 }
 
 http.createServer(app).listen(app.get('port'), function(){
@@ -97,7 +107,3 @@ http.createServer(app).listen(app.get('port'), function(){
     init();
 });
 
-/*
-mongo.addAPIUser("Sacramento Bee");
-mongo.getTopKeywordsForArticle("5175ceadf13dad6f4a0edec2", 6, "4efe22e97094d3c7231e6b061ae642a46e91fbb5" , function(data){console.log(data);});
-*/
