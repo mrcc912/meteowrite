@@ -92,13 +92,33 @@ app.get('/getArticleFacebook', routes.getArticleFacebook);
 app.get('/API', routes.API);
 app.get('/userReadArticle', routes.userReadArticle);
 
+
+function removeTestUsers()
+{
+    mongo.removeUser("jdo");
+    mongo.removeUser("janedo");
+}
+
+
+function createTestUsers(reset)
+{
+    mongo.addUser("jdo", "John Doe", "Houston, TX", "Stanford, CA", "male", ["English", "Spanish"], "BMC Software Inc.");
+    mongo.addUser("janedo", "Jane Doe", "Austin, TX", "Stanford, CA", "female", ["English", "Italian"], "BMC Software Inc.");
+
+}
 function init()
 {
     
     //mongo.getAuthorKeywords("Mark Glover", "4efe22e97094d3c7231e6b061ae642a46e91fbb5", function(data){});
     //mongo.getTopKeywordsForArticle("5175ceadf13dad6f4a0edec2", 6, "4efe22e97094d3c7231e6b061ae642a46e91fbb5" , function(data){console.log(data);});
-    //mongo.getArticleReaderInterests("5175ceadf13dad6f4a0edec2", "4efe22e97094d3c7231e6b061ae642a46e91fbb5", function(data){console.log(data);});
-    mongo.addAPIUser("Sacramento Bee");
+
+    //removeTestUsers();
+    //createTestUsers();
+    //mongo.userReadArticle("janedo", "5108195", function(data){});
+    
+    //mongo.getUser("jdo", function(data){console.log(data);});
+    //mongo.getArticleReaderInterests("5108195", "4efe22e97094d3c7231e6b061ae642a46e91fbb5", function(data){console.log(data);});
+    //mongo.addAPIUser("Sacramento Bee");
     //mongo.removeAPIUser("4efe22e97094d3c7231e6b061ae642a46e91fbb5");
     //mongo.reportAPIuse("4efe22e97094d3c7231e6b061ae642a46e91fbb5", "getTopKeywordsForArticle");
     //mongo.getAPIUseForKey("4efe22e97094d3c7231e6b061ae642a46e91fbb5", function(data){console.log(data);})

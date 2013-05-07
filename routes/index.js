@@ -296,16 +296,18 @@ exports.recentTweets = function(req, res)
 
 exports.getTopKeywords = function(req, res)
 {
-    console.log(req.query);
     mongo.getTopKeywordsForArticle(req.query.article, req.query.numResponses, req.query.apikey, function(data){
-	res.end(data);
+	//res.end(data);
+	res.end(JSON.stringify(data));
+	//console.log(data);
     });
 }
 
 exports.getArticleReaderInterests = function(req, res)
 {
-    mongo.getArticleReaderLikes(req.query.article, req.query.apikey, function(data){
-	res.end(data);
+    console.log(req.query);
+    mongo.getArticleReaderInterests(req.query.article, req.query.apikey, function(data){
+	res.end(JSON.stringify(data));
     });
 }
 
