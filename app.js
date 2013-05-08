@@ -84,6 +84,8 @@ app.post("/articleParser", function(req, res){
     });    
 });
 
+
+app.get('/testArticle', routes.testArticle);
 /* Public API*/
 app.get('/getTopKeywords', routes.getTopKeywords);
 app.get('/getArticleReaderInterests', routes.getArticleReaderInterests);

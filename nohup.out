@@ -1,0 +1,6 @@
+Express server listening on port 5000
+Connected to mongo server.
+[90mGET /testArticle [36m304 [90m45ms[0m
+[90mGET /stylesheets/sidebar_style.css [36m304 [90m10ms[0m
+[90mGET /js/highcharts.js [36m304 [90m3ms[0m
+[90mGET /javascripts/sidebar_script.js [36m304 [90m2ms[0m

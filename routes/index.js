@@ -86,14 +86,6 @@ exports.getUser = function(req, res) {
   });
 }
 
-exports.userReadArticle = function(req, res) {
-  var userid = req.query.userid;
-  var articleid = req.query.articleid;
-  mongo.userReadArticle(userid, articleid, function(userObj){
-	res.render("getUser", {title: "User Page",user: userObj });
-  });
-};
-
 exports.userReadArticlePost = function(req, res) {
   var userid = req.body.userid;
   var articleid = req.body.articleid;
@@ -291,6 +283,11 @@ exports.recentTweets = function(req, res)
 }
 
 
+exports.testArticle = function(req, res)
+{
+    res.render('test_article');
+}
+
 
 /* PUBLIC API ROUTES */
 
@@ -329,3 +326,9 @@ exports.API = function(req, res)
 {
     res.render('API');
 }
+
+exports.userReadArticle = function(req, res) {
+    mongo.userReadArticle(req.query.user, req.query.article, req.body.apikey, function(data){
+	res.send(data);
+    });
+};

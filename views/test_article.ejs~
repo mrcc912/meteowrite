@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title> Tag-Team Metrics</title>
+    <link rel='stylesheet' href="http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/stylesheets/sidebar_style.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"> </script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"> </script>
+    <script src="http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/js/highcharts.js"> </script>
+    <script src="http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/javascripts/sidebar_script.js"> </script>
+</head>
+
+
+<body>
+  <button id="show_admin_button" onclick="show_admin_panel();"> Admin Panel </button>
+  <div id="admin-sidebar">
+    <div id="article_keywords_div">
+    <h3> Article Keywords</h3>
+      <div id="container"></div>
+    </div>
+    <h3> Readers </h3>
+    <div id="user_container"></div>
+  </div>
+<!--  <iframe src="http://www.sacbee.com" id="article"></iframe> -->
+</body>
+<html>

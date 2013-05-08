@@ -1,0 +1,150 @@
+var sideBarOut  = true;
+function show_admin_panel()
+{
+    if(sideBarOut)
+    {
+	//hide the sidebar
+	console.log("hiding...");
+	$("#admin-sidebar").animate({
+	    width: 0,
+	    border: "0px"
+	}, 400, function(){
+	    console.log("hidden");
+	    sideBarOut = false;
+	    $("#admin-sidebar").each(function(){
+		$(this).hide();
+	    });
+	        //$("#container").hide();
+	});
+
+    }
+    else
+    {
+	//show the sidebar
+	console.log("showing...");
+
+	$("#admin-sidebar").each(function(){
+	    $(this).show();
+	});
+	$("#admin-sidebar").animate({
+	    width: "30%",
+	}, 400, function(){
+	    console.log("open");
+	    sideBarOut = true;
+	    $("#admin sidebar").css('border', "5px solid blue");
+
+	});
+
+
+    }
+};
+
+function createPieChart(id, chartData, chartName, chartTitle)
+{
+    $('#' + id).highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false
+        },
+        title: {
+            text: chartTitle
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage}%</b>',
+            percentageDecimals: 1
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    color: '#000000',
+                    connectorColor: '#000000',
+                    formatter: function() {
+                        return '<b>'+ this.point.name +'</b>: '+ this.percentage +' %';
+                    }
+                }
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: 'Article Keywords',
+            data: chartData
+        }]
+    });
+ 
+}
+
+
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false
+        },
+        title: {
+            text: 'Relevant Keywords for this article'
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage}%</b>',
+            percentageDecimals: 1
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    color: '#000000',
+                    connectorColor: '#000000',
+                    formatter: function() {
+                        return '<b>'+ this.point.name +'</b>: '+ this.percentage +' %';
+                    }
+                }
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: 'Article Keywords',
+            data: [
+                ['Dog',   45.0],
+                ['Fly-fishing',       26.8],
+                {
+                    name: 'Trees',
+                    y: 12.8,
+                    sliced: false,
+                    selected: true
+                },
+                ['Politics',    8.5],
+                ['Sports',     6.2],
+                ['Football',   0.7]
+            ]
+        }]
+    });
+});
+
+$(function () {
+    var data = [['Sports', 0.5], ['Dogs', 0.5]];
+    console.log("huzzah");
+    $.ajax({
+	url: "http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/getTopKeywords?article=5108195",
+	success: function(data){
+	    console.log("blah");
+	    console.log(data);
+	},
+	dataType: "application/json"
+    });
+    
+    $.get("http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/getTopKeywords",
+	  {
+	      article: "5108195",
+	      numResponses: 5
+	  }).done(function(response){
+	      alert('response received');
+	      console.log(response);
+	  });
+    createPieChart("user_container", data, 'user_shared_interests', 'Shared Reader Interests');
+});
