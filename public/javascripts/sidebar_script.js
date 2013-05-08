@@ -176,7 +176,8 @@ function getKeywords(id, num, api_key)
     var series = new Array();
     data.push(labels);
     data.push(series);
-    $.get("http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/getTopKeywords",
+    //$.get("http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/getTopKeywords",
+    $.get("http://ec2-50-19-172-168.compute-1.amazonaws.com:5000/getTopKeywords",
 	  {
 	      article: id,
 	      numResponses: num,
@@ -202,7 +203,8 @@ function readerInterests(id,api_key)
     var series = new Array();
     data.push(labels);
     data.push(series);
-    $.get("http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/getArticleReaderInterests",
+    $.get("http://ec2-50-19-172-168.compute-1.amazonaws.com:5000/getArticleReaderInterests",
+	  //$.get("http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/getArticleReaderInterests",
 	  {
 	      article: id,
 	      apikey: api_key
@@ -221,7 +223,8 @@ function readerInterests(id,api_key)
 
 function userReadArticle(aid, uid, api_key)
 {
-    $.get("http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/userReadArticle",
+    $.get("http://ec2-50-19-172-168.compute-1.amazonaws.com:5000/userReadArticle",
+    //$.get("http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/userReadArticle",
 	  {
 	      user: uid,
 	      article: aid,
