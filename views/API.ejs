@@ -85,11 +85,44 @@ ec2-50-19-172-168.compute-1.amazonaws.com:5000/API
   </tr>
 </table>
 
+<b> Add Article to Database (processes document and adds picks keywords) </b>
+<table>
+  <tr>
+    <td> Description </td>
+    <td> Given the proper fields this method will add an article to the existing article database, as well as run our natural language processing over the body of the article and save the results. </td>
+  </tr> 
+  <tr>
+    <td>url</td>
+    <td> ec2-50-19-172-168.compute-1.amazonaws.com:5000/processArticle </td>
+  </tr>
+  <tr>
+    <td> parameters (Post Request) </td>
+    <td>
+      <ul>
+        <li> id – the ID of the article </li>
+        <li> headline - the headline of an article </li>
+        <li> biline - the biline of the article (optional)</li>
+        <li> creditline - creditline of the article (optional)</li>
+        <li> source - source of the article (optional) </li>
+        <li> section - section of the article (optional) </li>
+        <li> URL - url where the article is found (optional) </li>
+        <li> body - the body of the article </li>
+        <li> apikey – your API key </li>
+      </ul>
+    </td>
+  </tr>
+   <tr>
+    <td>response format </td>
+    <td> {success: true/false} </td> 
+  </tr>
+</table>  
+
 <b> Get Article Reader Interests </b>
 <table>
   <tr>
     <td> Description </td>
     <td>This method will return the array of keywords that have been accumulated from all of an articles readers. </td>
+  </tr>
   <tr>
     <td>url</td>
     <td> ec2-50-19-172-168.compute-1.amazonaws.com:5000/getArticleReaderInterests </td>
