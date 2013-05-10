@@ -1,4 +1,8 @@
-var server = "http://ec2-54-224-28-145.compute-1.amazonaws.com:5000";
+//mrcc dev server
+//var server = "http://ec2-54-224-28-145.compute-1.amazonaws.com:5000";
+
+//deployment server
+var server = "http://ec2-50-19-172-168.compute-1.amazonaws.com:5000";
 var sideBarOut  = true;
 function show_admin_panel()
 {
@@ -125,7 +129,6 @@ function getKeywords(id, num, api_key)
     data.push(labels);
     data.push(series);
     $.get(server + "/getTopKeywords",
-    //$.get("http://ec2-50-19-172-168.compute-1.amazonaws.com:5000/getTopKeywords",
 	  {
 	      article: id,
 	      numResponses: num,
@@ -151,7 +154,6 @@ function readerInterests(id,api_key)
     var series = new Array();
     data.push(labels);
     data.push(series);
-    //$.get("http://ec2-50-19-172-168.compute-1.amazonaws.com:5000/getArticleReaderInterests",
     $.get(server + "/getArticleReaderInterests",
 	  {
 	      article: id,
@@ -171,7 +173,6 @@ function readerInterests(id,api_key)
 
 function userReadArticle(aid, uid, api_key)
 {
-    //$.get("http://ec2-50-19-172-168.compute-1.amazonaws.com:5000/userReadArticle",
     $.get(server + "/userReadArticle",
 	  {
 	      user: uid,
@@ -220,8 +221,8 @@ function reccAd(userID, ad_array, api_key)
 function meteowrite(article_id, num, api_key, user_id)
 {
     //include neccessary files
-    var script_include = $('<script src="http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/js/highcharts.js"> </script>');
-    var style_include = $('<link rel="stylesheet" href="http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/stylesheets/sidebar_style.css" />');
+    var script_include = $('<script src="' + server + '/js/highcharts.js"> </script>');
+    var style_include = $('<link rel="stylesheet" href="'+ server + '/stylesheets/sidebar_style.css" />');
     $("head").append(script_include);
     $("head").append(style_include);
     //create sidebar
