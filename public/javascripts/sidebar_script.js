@@ -1,10 +1,10 @@
+var server = "http://ec2-54-224-28-145.compute-1.amazonaws.com:5000";
 var sideBarOut  = true;
 function show_admin_panel()
 {
     if(sideBarOut)
     {
 	//hide the sidebar
-	console.log("hiding...");
 	$("#admin-sidebar").animate({
 	    width: 0,
 	    border: "0px"
@@ -21,8 +21,6 @@ function show_admin_panel()
     else
     {
 	//show the sidebar
-	console.log("showing...");
-
 	$("#admin-sidebar").each(function(){
 	    $(this).show();
 	});
@@ -119,56 +117,6 @@ function createBarChart(id, chartData, chartName, chartTitle)
     });
 }
 
-/*
-$(function () {
-    $('#container').highcharts({
-        chart: {
-            plotBackgroundColor: null,
-            plotBorderWidth: null,
-            plotShadow: false
-        },
-        title: {
-            text: 'Relevant Keywords for this article'
-        },
-        tooltip: {
-            pointFormat: '{series.name}: <b>{point.percentage}%</b>',
-            percentageDecimals: 1
-        },
-        plotOptions: {
-            pie: {
-                allowPointSelect: true,
-                cursor: 'pointer',
-                dataLabels: {
-                    enabled: true,
-                    color: '#000000',
-                    connectorColor: '#000000',
-                    formatter: function() {
-                        return '<b>'+ this.point.name +'</b>: '+ this.percentage +' %';
-                    }
-                }
-            }
-        },
-        series: [{
-            type: 'pie',
-            name: 'Article Keywords',
-            data: [
-                ['Dog',   45.0],
-                ['Fly-fishing',       26.8],
-                {
-                    name: 'Trees',
-                    y: 12.8,
-                    sliced: false,
-                    selected: true
-                },
-                ['Politics',    8.5],
-                ['Sports',     6.2],
-                ['Football',   0.7]
-            ]
-        }]
-    });
-});
-*/
-
 function getKeywords(id, num, api_key)
 {
     var data = new Array();
@@ -176,8 +124,8 @@ function getKeywords(id, num, api_key)
     var series = new Array();
     data.push(labels);
     data.push(series);
-    //$.get("http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/getTopKeywords",
-    $.get("http://ec2-50-19-172-168.compute-1.amazonaws.com:5000/getTopKeywords",
+    $.get(server + "/getTopKeywords",
+    //$.get("http://ec2-50-19-172-168.compute-1.amazonaws.com:5000/getTopKeywords",
 	  {
 	      article: id,
 	      numResponses: num,
@@ -203,8 +151,8 @@ function readerInterests(id,api_key)
     var series = new Array();
     data.push(labels);
     data.push(series);
-    $.get("http://ec2-50-19-172-168.compute-1.amazonaws.com:5000/getArticleReaderInterests",
-	  //$.get("http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/getArticleReaderInterests",
+    //$.get("http://ec2-50-19-172-168.compute-1.amazonaws.com:5000/getArticleReaderInterests",
+    $.get(server + "/getArticleReaderInterests",
 	  {
 	      article: id,
 	      apikey: api_key
@@ -223,8 +171,8 @@ function readerInterests(id,api_key)
 
 function userReadArticle(aid, uid, api_key)
 {
-    $.get("http://ec2-50-19-172-168.compute-1.amazonaws.com:5000/userReadArticle",
-    //$.get("http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/userReadArticle",
+    //$.get("http://ec2-50-19-172-168.compute-1.amazonaws.com:5000/userReadArticle",
+    $.get(server + "/userReadArticle",
 	  {
 	      user: uid,
 	      article: aid,
@@ -234,6 +182,40 @@ function userReadArticle(aid, uid, api_key)
 	  });
 }
 
+
+function getUser(api_key, username, location, keywords)
+{
+    var api_key = "aodsfjals;dkfj";
+    $.get(server + "/getUser",
+	  {
+	      params:{
+		  user: "mrcc912",
+		  location: "Redwood City, CA",
+		  keywords: [
+		      "batman",
+		      "superman",
+		      "spiderman"
+		  ]
+	      },
+	      apikey: api_key
+	  }).done(function(response){
+	      console.log(response);
+	  });
+}
+
+function reccAd(userID, ad_array, api_key)
+{
+    console.log("reccAd");
+    $.get(server + "/reccomendAd",
+	  {
+	      user: userID,
+	      ads: ad_array,
+	      apikey: api_key
+	  }).done(function(response){
+	      console.log("RECCOMENDATION RESPONSE IS HERE!!! YAY!! HUZZAH!!");
+	      console.log(response);
+	  });
+}
 
 function meteowrite(article_id, num, api_key, user_id)
 {
@@ -259,4 +241,28 @@ function meteowrite(article_id, num, api_key, user_id)
     userReadArticle(article_id, user_id, api_key);
     getKeywords(article_id, num, api_key);
     readerInterests(article_id, api_key);
+    getUser();
+    var ads = new Array();
+    ads.push({
+	location: "Redwood City, CA",
+	id: 12345,
+	keywords: ["fly", "fishing", "USA", "rods", "flys"]
+    });
+    
+    ads.push({
+	location: "Seattle, WA",
+	id: 12345,
+	keywords: ["dogs", "fishing", "USA", "rods", "flys"]
+    });
+
+    ads.push({
+	location: "Stanford, CA",
+	id: 12345,
+	keywords: [ "Brazil", "girls", "dancing", "class"]
+    });
+    
+    reccAd(user_id, ads, api_key);
+    console.log("Testing indexOf");
+    console.log("Brazilians".indexOf("Brazil"));
+    console.log("Brazil".indexOf("Brazilians"));
 }

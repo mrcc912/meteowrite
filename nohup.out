@@ -4,3 +4,35 @@ Connected to mongo server.
 [90mGET /stylesheets/sidebar_style.css [36m304 [90m10ms[0m
 [90mGET /js/highcharts.js [36m304 [90m3ms[0m
 [90mGET /javascripts/sidebar_script.js [36m304 [90m2ms[0m
+Express server listening on port 5000
+Connected to mongo server.
+Express server listening on port 5000
+Connected to mongo server.
+[90mGET /testArticle [32m200 [90m69ms - 603[0m
+[90mGET /javascripts/sidebar_script.js [32m200 [90m25ms - 6.27kb[0m
+[90mGET /js/highcharts.js?_=1368203464455 [32m200 [90m269ms - 131.1kb[0m
+[90mGET /userReadArticle?user=jdo&article=5108195&apikey= [32m200 [90m16ms[0m
+[90mGET /stylesheets/sidebar_style.css [32m200 [90m23ms - 577[0m
+[90mGET /getTopKeywords?article=5108195&numResponses=10&apikey= [32m200 [90m6ms[0m
+{ user: 'mrcc912',
+  location: 'Redwood City, CA',
+  keywords: [ 'batman', 'superman', 'spiderman' ] }
+api_key: aodsfjals;dkfj
+[90mGET /getUser?params%5Buser%5D=mrcc912&params%5Blocation%5D=Redwood+City%2C+CA&params%5Bkeywords%5D%5B%5D=batman&params%5Bkeywords%5D%5B%5D=superman&params%5Bkeywords%5D%5B%5D=spiderman&apikey=aodsfjals%3Bdkfj [32m200 [90m2ms[0m
+[90mGET /getArticleReaderInterests?article=5108195&apikey= [32m200 [90m12ms[0m
+here
+
+/home/mrcc/meteowrite/node_modules/mongoose/lib/utils.js:409
+        throw err;
+              ^
+TypeError: Cannot call method 'toUpperCase' of undefined
+    at Object.byName [as lookupByName] (/home/mrcc/meteowrite/node_modules/zipcodes/lib/index.js:15:17)
+    at Promise.<anonymous> (/home/mrcc/meteowrite/node_modules/database.js:982:30)
+    at Promise.<anonymous> (/home/mrcc/meteowrite/node_modules/mongoose/lib/promise.js:133:8)
+    at Promise.EventEmitter.emit (events.js:95:17)
+    at Promise.emit (/home/mrcc/meteowrite/node_modules/mongoose/lib/promise.js:66:38)
+    at Promise.complete (/home/mrcc/meteowrite/node_modules/mongoose/lib/promise.js:77:20)
+    at /home/mrcc/meteowrite/node_modules/mongoose/lib/query.js:1607:15
+    at model.Document.init (/home/mrcc/meteowrite/node_modules/mongoose/lib/document.js:227:11)
+    at model.init (/home/mrcc/meteowrite/node_modules/mongoose/lib/model.js:196:36)
+    at /home/mrcc/meteowrite/node_modules/mongoose/lib/query.js:1605:12

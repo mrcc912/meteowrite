@@ -294,15 +294,13 @@ exports.testArticle = function(req, res)
 exports.getTopKeywords = function(req, res)
 {
     mongo.getTopKeywordsForArticle(req.query.article, req.query.numResponses, req.query.apikey, function(data){
-	//res.end(data);
 	res.end(JSON.stringify(data));
-	//console.log(data);
+
     });
 }
 
 exports.getArticleReaderInterests = function(req, res)
 {
-    console.log(req.query);
     mongo.getArticleReaderInterests(req.query.article, req.query.apikey, function(data){
 	res.end(JSON.stringify(data));
     });
@@ -311,14 +309,14 @@ exports.getArticleReaderInterests = function(req, res)
 exports.getAuthorKeywords = function(req, res)
 {
     mongo.getAuthorKeywords(req.query.author, req.query.apikey, function(data){
-	res.send(data);
+	res.end(JSON.stringify(data));
     });
 }
 
 exports.getArticleFacebook = function(req, res)
 {
     mongo.getArticleFacebook(req.query.article, req.query.apikey, function(data){
-	res.send(data);
+	res.end(JSON.stringify(data));
     });
 }
 
@@ -329,6 +327,20 @@ exports.API = function(req, res)
 
 exports.userReadArticle = function(req, res) {
     mongo.userReadArticle(req.query.user, req.query.article, req.body.apikey, function(data){
-	res.send(data);
+	res.end(JSON.stringify(data));
     });
 };
+
+exports.getUser = function(req, res)
+{
+    mongo.getUsersWithParameters(req.query.params,req.query.apikey, function(data){
+	res.end(JSON.stringify(data));
+    });
+}
+
+exports.reccomendAd = function(req, res)
+{
+    mongo.reccomendAd(req.query.user, req.query.ads, function(data){
+	res.end(JSON.stringify(data));
+    });
+}

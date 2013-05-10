@@ -42,6 +42,8 @@ app.get('/getAuthorKeywords', routes.getAuthorKeywords);
 app.get('/getArticleFacebook', routes.getArticleFacebook);
 app.get('/API', routes.API);
 app.get('/addUser', routes.addUser);
+
+
 app.get('/', routes.index);
 app.get('/articleReader', routes.articleReader);
 app.get('/userRec', routes.userRec);
@@ -90,10 +92,15 @@ app.get('/testArticle', routes.testArticle);
 app.get('/getTopKeywords', routes.getTopKeywords);
 app.get('/getArticleReaderInterests', routes.getArticleReaderInterests);
 app.get('/getAuthorKeywords', routes.getAuthorKeywords);
-app.get('/getArticleFacebook', routes.getArticleFacebook);
 app.get('/API', routes.API);
 app.get('/userReadArticle', routes.userReadArticle);
 
+//not fully implemented
+app.get("/getUser", routes.getUser);
+app.get("/reccomendAd", routes.reccomendAd);
+
+app.get('/getArticleFacebook', routes.getArticleFacebook);
+/* TESTING FUNCTIONS */
 
 function removeTestUsers()
 {
