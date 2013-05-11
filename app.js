@@ -94,12 +94,14 @@ app.get('/getArticleReaderInterests', routes.getArticleReaderInterests);
 app.get('/getAuthorKeywords', routes.getAuthorKeywords);
 app.get('/API', routes.API);
 app.get('/userReadArticle', routes.userReadArticle);
+app.get("/reccomendAd", routes.reccomendAd);
+app.get('/sacbee', routes.sacbee);
 
 //not fully implemented
 app.get("/getUser", routes.getUser);
-app.get("/reccomendAd", routes.reccomendAd);
 
 app.get('/getArticleFacebook', routes.getArticleFacebook);
+
 /* TESTING FUNCTIONS */
 
 function removeTestUsers()

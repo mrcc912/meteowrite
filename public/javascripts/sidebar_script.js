@@ -1,8 +1,10 @@
 //mrcc dev server
-//var server = "http://ec2-54-224-28-145.compute-1.amazonaws.com:5000";
+var server = "http://ec2-54-224-28-145.compute-1.amazonaws.com:5000";
 
 //deployment server
-var server = "http://ec2-50-19-172-168.compute-1.amazonaws.com:5000";
+//var server = "http://ec2-50-19-172-168.compute-1.amazonaws.com:5000";
+
+
 var sideBarOut  = true;
 function show_admin_panel()
 {
@@ -161,7 +163,10 @@ function readerInterests(id,api_key)
 	  }).done(function(response){
 	      var res = JSON.parse(response);
 	      console.log(response);
-	      for(var word=0; word<res.length; word++)
+	      var limit = res.length;
+	      if(limit>25)
+		  limit = 25;
+	      for(var word=0; word<limit; word++)
 	      {
 		  data[0].push(res[word].text);
 		  data[1].push(res[word].rel);
@@ -186,7 +191,6 @@ function userReadArticle(aid, uid, api_key)
 
 function getUser(api_key, username, location, keywords)
 {
-    var api_key = "aodsfjals;dkfj";
     $.get(server + "/getUser",
 	  {
 	      params:{
@@ -218,8 +222,36 @@ function reccAd(userID, ad_array, api_key)
 	  });
 }
 
+
+function authorKeywords(article_id, biline, api_key)
+{
+    var data = new Array();
+    var labels  = new Array();
+    var series = new Array();
+    data.push(labels);
+    data.push(series);
+    $.get(server + "/getAuthorKeywords",
+	  {
+	      author: biline,
+	      apikey: api_key
+	  }).done(function(response){
+	      var res = JSON.parse(response);
+	      var limit = res.length;
+	      if(res.length >= 25)
+		  limit = 25;
+	      for(var word=0; word<limit; word++)
+	      {
+		  data[0].push(res[word].text);
+		  data[1].push(res[word].rel);
+	      }
+	      createBarChart("author_container", data, 'author_keywords', 'Author Keywords');
+	  });
+    
+}
+
 function meteowrite(article_id, num, api_key, user_id)
 {
+    console.log("art_id" + article_id + "num: " +  num + "api: " + api_key +"uid:" +  user_id);
     //include neccessary files
     var script_include = $('<script src="' + server + '/js/highcharts.js"> </script>');
     var style_include = $('<link rel="stylesheet" href="'+ server + '/stylesheets/sidebar_style.css" />');
@@ -230,19 +262,12 @@ function meteowrite(article_id, num, api_key, user_id)
     var sidebar = $('<div id="admin-sidebar"></div>');
     var art_div = $('<div id="article_container"></div>');
     var user_div = $('<div id="user_container"></div>');
+    var author_div = $('<div id="author_container"></div>');
     sidebar.append(art_div);
     sidebar.append(user_div);
+    sidebar.append(author_div);
     $("body").append(sidebar);
     $("body").append(button);
-    var article_id = "5108195";
-    var num = 10;
-    var api_key = ""
-    var user_id = "jdo";
-
-    userReadArticle(article_id, user_id, api_key);
-    getKeywords(article_id, num, api_key);
-    readerInterests(article_id, api_key);
-    getUser();
     var ads = new Array();
     ads.push({
 	location: "Redwood City, CA",
@@ -262,8 +287,17 @@ function meteowrite(article_id, num, api_key, user_id)
 	keywords: [ "Brazil", "girls", "dancing", "class"]
     });
     
-    reccAd(user_id, ads, api_key);
-    console.log("Testing indexOf");
-    console.log("Brazilians".indexOf("Brazil"));
-    console.log("Brazil".indexOf("Brazilians"));
+    userReadArticle(article_id, user_id, api_key);
+    
+    /*
+      getKeywords(article_id, num, api_key);
+      readerInterests(article_id, api_key);
+    
+      authorKeywords(article_id, biline, api_key);
+    
+      getUser();
+
+      reccAd(user_id, ads, api_key);
+*/
+
 }

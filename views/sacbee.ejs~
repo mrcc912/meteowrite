@@ -1,0 +1,47 @@
+<% layout('layout') -%>
+<script>
+	var article_id = "<%= art.id -%>";
+	var biline = "<%= art.biline -%>";	
+</script>	
+
+<!-- DEPLOYMENT -->
+
+<!--
+<script src="http://ec2-50-19-172-168.compute-1.amazonaws.com:5000/javascripts/sidebar_script.js"></script>
+-->
+<!-- MRCC TEST SERVER -->
+    <script src="http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/javascripts/sidebar_script.js"> </script>
+    <style>
+      #article{
+      text-align: center;
+      width: 50%;
+      height: 100%;
+      }
+      </style>
+
+<div id="article">
+     
+     <h1> <%= art.headline -%> </h1>
+     <h3> <%= art.biline -%> </h3>
+     <p>
+     <%= art.body -%>
+     </p>
+
+     <ul id="list">
+     </ul>
+
+</div>
+
+<script>
+  var other_arts = new Array();
+  other_arts.push($("<li><a href='" + server + "/sacbee?article_id=" + 4458591 + "'> Article_1</a></li>"));
+  other_arts.push($("<li><a href='" + server + "/sacbee?article_id=" + 5108195 + "'> Article_2</a></li>"));
+  other_arts.push($("<li><a href='" + server + "/sacbee?article_id=" + 3437546 + "'> Article_3</a></li>"));
+  other_arts.push($("<li><a href='" + server + "/sacbee?article_id=" + 5233118 + "'> Article_4</a></li>"));
+  other_arts.push($("<li><a href='" + server + "/sacbee?article_id=" + 4447106 + "'> Article_5</a></li>"));
+  other_arts.push($("<li><a href='" + server + "/sacbee?article_id=" + 4458591 + "'> Article_6</a></li>"));
+  other_arts.push($("<li><a href='" + server + "/sacbee?article_id=" + 5020288 + "'> Article_7</a></li>"));
+
+  $("#list").append(other_arts);
+  meteowrite(article_id, 10, "jdoe", "");
+</script>

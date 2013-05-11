@@ -42,9 +42,9 @@ exports.runPyScript = function(req, res) {
 
 exports.getArticle = function(req, res) {
   var articleId = req.query.articleID;
-  mongo.getArticle(articleId, function(art) {
-    res.render("getArticle", {title: "Single Article", article: art});
-  });
+    mongo.getArticle(articleId, function(art) {
+	res.render("getArticle", {title: "Single Article", article: art});
+    });
 }
 
 exports.article = function(req, res)
@@ -308,6 +308,8 @@ exports.getArticleReaderInterests = function(req, res)
 
 exports.getAuthorKeywords = function(req, res)
 {
+    //console.log("getAuthorKeywords");
+
     mongo.getAuthorKeywords(req.query.author, req.query.apikey, function(data){
 	res.end(JSON.stringify(data));
     });
@@ -326,7 +328,8 @@ exports.API = function(req, res)
 }
 
 exports.userReadArticle = function(req, res) {
-    mongo.userReadArticle(req.query.user, req.query.article, req.body.apikey, function(data){
+    console.log(req.query);
+    mongo.userReadArticle(req.query.user, req.query.article, req.query.apikey, function(data){
 	res.end(JSON.stringify(data));
     });
 };
@@ -340,7 +343,34 @@ exports.getUser = function(req, res)
 
 exports.reccomendAd = function(req, res)
 {
-    mongo.reccomendAd(req.query.user, req.query.ads, function(data){
+    mongo.reccomendAd(req.query.user, req.query.ads, req.query.apikey, function(data){
 	res.end(JSON.stringify(data));
+    });
+}
+
+exports.sacbee = function(req, res)
+{
+    if(!req.query.article_id)
+	req.query.article_id = 4458591;
+    mongo.getArticle(req.query.article_id, function(data){
+	if(data != -1)
+	{
+	    console.log("sending article to sacbee.ejs");
+	    console.log(data.biline);
+	    res.render('sacbee',{
+		art: data,
+		title: "Sacbee Article"
+	    });
+	}
+	else
+	{
+	    res.render('sabee', {
+		article_id: "",
+		body: "Could not find article with that id",
+		biline: "",
+		headline: "",
+		title: "Sacbee Article"
+	    });
+	}
     });
 }
