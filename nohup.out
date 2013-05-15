@@ -36,3 +36,153 @@ TypeError: Cannot call method 'toUpperCase' of undefined
     at model.Document.init (/home/mrcc/meteowrite/node_modules/mongoose/lib/document.js:227:11)
     at model.init (/home/mrcc/meteowrite/node_modules/mongoose/lib/model.js:196:36)
     at /home/mrcc/meteowrite/node_modules/mongoose/lib/query.js:1605:12
+Express server listening on port 5000
+Connected to mongo server.
+[90mGET /testArticle [32m200 [90m148ms - 809[0m
+[90mGET /javascripts/sidebar_script.js [32m200 [90m15ms - 6.69kb[0m
+[90mGET /js/highcharts.js?_=1368488618624 [32m200 [90m592ms - 131.1kb[0m
+{ user: 'jdoe',
+  article: '',
+  apikey: '7e0e6526f558f77d8544abf4cf64584b4786af12' }
+Reporting API use: 7e0e6526f558f77d8544abf4cf64584b4786af12::userReadArticle
+[ { api: 'userReadArticle',
+    time: Sat May 11 2013 18:09:12 GMT+0000 (UTC) },
+  { time: Sat May 11 2013 18:09:31 GMT+0000 (UTC),
+    api: 'userReadArticle' },
+  { api: 'userReadArticle',
+    time: Mon May 13 2013 23:39:42 GMT+0000 (UTC) } ]
+[90mGET /userReadArticle?user=jdoe&article=&apikey=7e0e6526f558f77d8544abf4cf64584b4786af12 [32m200 [90m40ms[0m
+saved apikey
+{ __v: 3,
+  _id: 518e731dd82772496b000001,
+  api_key: '7e0e6526f558f77d8544abf4cf64584b4786af12',
+  name: 'mrcc_test',
+  use_count: 
+   [ { time: Sat May 11 2013 18:09:12 GMT+0000 (UTC),
+       api: 'userReadArticle' },
+     { api: 'userReadArticle',
+       time: Sat May 11 2013 18:09:31 GMT+0000 (UTC) },
+     { time: Mon May 13 2013 23:39:42 GMT+0000 (UTC),
+       api: 'userReadArticle' } ] }
+[90mGET /stylesheets/sidebar_style.css [32m200 [90m9ms - 577[0m
+[90mGET /robots.txt [33m404 [90m3ms[0m
+[90mGET /testArticle [32m200 [90m2ms - 809[0m
+[90mGET /javascripts/sidebar_script.js [36m304 [90m123ms[0m
+{ user: 'jdoe',
+  article: '4458591',
+  apikey: '4efe22e97094d3c7231e6b061ae642a46e91fbb5' }
+Reporting API use: 4efe22e97094d3c7231e6b061ae642a46e91fbb5::userReadArticle
+[90mGET /stylesheets/sidebar_style.css [36m304 [90m6ms[0m
+[ { api: 'getTopKeywordsForArticle',
+    time: Tue May 14 2013 21:29:55 GMT+0000 (UTC) },
+  { time: Tue May 14 2013 21:38:23 GMT+0000 (UTC),
+    api: 'userReadArticle' },
+  { api: 'getArticleReaderInterests',
+    time: Tue May 14 2013 21:39:03 GMT+0000 (UTC) },
+  { time: Tue May 14 2013 21:40:17 GMT+0000 (UTC),
+    api: 'addUser' },
+  { api: 'getTopKeywordsForArticle',
+    time: Tue May 14 2013 21:41:01 GMT+0000 (UTC) },
+  { time: Tue May 14 2013 21:41:07 GMT+0000 (UTC),
+    api: 'userReadArticle' },
+  { api: 'userReadArticle',
+    time: Tue May 14 2013 21:56:42 GMT+0000 (UTC) } ]
+[90mGET /userReadArticle?user=jdoe&article=4458591&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m10ms[0m
+saved apikey
+{ __v: 7,
+  _id: 5188055c0e23a31819000001,
+  api_key: '4efe22e97094d3c7231e6b061ae642a46e91fbb5',
+  name: 'Sacramento Bee',
+  use_count: 
+   [ { time: Tue May 14 2013 21:29:55 GMT+0000 (UTC),
+       api: 'getTopKeywordsForArticle' },
+     { api: 'userReadArticle',
+       time: Tue May 14 2013 21:38:23 GMT+0000 (UTC) },
+     { time: Tue May 14 2013 21:39:03 GMT+0000 (UTC),
+       api: 'getArticleReaderInterests' },
+     { api: 'addUser',
+       time: Tue May 14 2013 21:40:17 GMT+0000 (UTC) },
+     { time: Tue May 14 2013 21:41:01 GMT+0000 (UTC),
+       api: 'getTopKeywordsForArticle' },
+     { api: 'userReadArticle',
+       time: Tue May 14 2013 21:41:07 GMT+0000 (UTC) },
+     { time: Tue May 14 2013 21:56:42 GMT+0000 (UTC),
+       api: 'userReadArticle' } ] }
+[90mGET /js/highcharts.js?_=1368568843237 [32m200 [90m308ms - 131.1kb[0m
+[90mGET /javascripts/sidebar_script.js [36m304 [90m1ms[0m
+{ user: 'jdoe',
+  article: '4458591',
+  apikey: '4efe22e97094d3c7231e6b061ae642a46e91fbb5' }
+Reporting API use: 4efe22e97094d3c7231e6b061ae642a46e91fbb5::userReadArticle
+[ { time: Tue May 14 2013 21:29:55 GMT+0000 (UTC),
+    api: 'getTopKeywordsForArticle' },
+  { api: 'userReadArticle',
+    time: Tue May 14 2013 21:38:23 GMT+0000 (UTC) },
+  { time: Tue May 14 2013 21:39:03 GMT+0000 (UTC),
+    api: 'getArticleReaderInterests' },
+  { api: 'addUser',
+    time: Tue May 14 2013 21:40:17 GMT+0000 (UTC) },
+  { time: Tue May 14 2013 21:41:01 GMT+0000 (UTC),
+    api: 'getTopKeywordsForArticle' },
+  { api: 'userReadArticle',
+    time: Tue May 14 2013 21:41:07 GMT+0000 (UTC) },
+  { time: Tue May 14 2013 21:56:42 GMT+0000 (UTC),
+    api: 'userReadArticle' },
+  { api: 'userReadArticle',
+    time: Tue May 14 2013 21:56:46 GMT+0000 (UTC) } ]
+[90mGET /userReadArticle?user=jdoe&article=4458591&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m9ms[0m
+[90mGET /stylesheets/sidebar_style.css [36m304 [90m4ms[0m
+[90mGET /js/highcharts.js?_=1368568847536 [32m200 [90m12ms - 131.1kb[0m
+saved apikey
+{ __v: 8,
+  _id: 5188055c0e23a31819000001,
+  api_key: '4efe22e97094d3c7231e6b061ae642a46e91fbb5',
+  name: 'Sacramento Bee',
+  use_count: 
+   [ { api: 'getTopKeywordsForArticle',
+       time: Tue May 14 2013 21:29:55 GMT+0000 (UTC) },
+     { time: Tue May 14 2013 21:38:23 GMT+0000 (UTC),
+       api: 'userReadArticle' },
+     { api: 'getArticleReaderInterests',
+       time: Tue May 14 2013 21:39:03 GMT+0000 (UTC) },
+     { time: Tue May 14 2013 21:40:17 GMT+0000 (UTC),
+       api: 'addUser' },
+     { api: 'getTopKeywordsForArticle',
+       time: Tue May 14 2013 21:41:01 GMT+0000 (UTC) },
+     { time: Tue May 14 2013 21:41:07 GMT+0000 (UTC),
+       api: 'userReadArticle' },
+     { api: 'userReadArticle',
+       time: Tue May 14 2013 21:56:42 GMT+0000 (UTC) },
+     { time: Tue May 14 2013 21:56:46 GMT+0000 (UTC),
+       api: 'userReadArticle' } ] }
+[90mGET /testArticle [32m200 [90m32ms - 809[0m
+[90mGET /javascripts/sidebar_script.js [36m304 [90m1ms[0m
+[90mGET /js/highcharts.js?_=1368568864172 [32m200 [90m1ms - 131.1kb[0m
+[90mGET /stylesheets/sidebar_style.css [36m304 [90m1ms[0m
+{ user: 'jdoe',
+  article: '',
+  apikey: '7e0e6526f558f77d8544abf4cf64584b4786af12' }
+Reporting API use: 7e0e6526f558f77d8544abf4cf64584b4786af12::userReadArticle
+[90mGET /userReadArticle?user=jdoe&article=&apikey=7e0e6526f558f77d8544abf4cf64584b4786af12 [32m200 [90m2ms[0m
+[ { time: Sat May 11 2013 18:09:12 GMT+0000 (UTC),
+    api: 'userReadArticle' },
+  { api: 'userReadArticle',
+    time: Sat May 11 2013 18:09:31 GMT+0000 (UTC) },
+  { time: Mon May 13 2013 23:39:42 GMT+0000 (UTC),
+    api: 'userReadArticle' },
+  { api: 'userReadArticle',
+    time: Tue May 14 2013 21:57:03 GMT+0000 (UTC) } ]
+saved apikey
+{ __v: 4,
+  _id: 518e731dd82772496b000001,
+  api_key: '7e0e6526f558f77d8544abf4cf64584b4786af12',
+  name: 'mrcc_test',
+  use_count: 
+   [ { api: 'userReadArticle',
+       time: Sat May 11 2013 18:09:12 GMT+0000 (UTC) },
+     { time: Sat May 11 2013 18:09:31 GMT+0000 (UTC),
+       api: 'userReadArticle' },
+     { api: 'userReadArticle',
+       time: Mon May 13 2013 23:39:42 GMT+0000 (UTC) },
+     { time: Tue May 14 2013 21:57:03 GMT+0000 (UTC),
+       api: 'userReadArticle' } ] }

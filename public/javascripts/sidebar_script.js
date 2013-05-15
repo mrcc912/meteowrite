@@ -289,15 +289,11 @@ function meteowrite(article_id, num, api_key, user_id)
     
     userReadArticle(article_id, user_id, api_key);
     
-    /*
       getKeywords(article_id, num, api_key);
       readerInterests(article_id, api_key);
     
       authorKeywords(article_id, biline, api_key);
-    
       getUser();
-
       reccAd(user_id, ads, api_key);
-*/
 
 }
