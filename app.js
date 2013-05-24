@@ -88,6 +88,7 @@ app.post("/articleParser", function(req, res){
 
 
 app.get('/testArticle', routes.testArticle);
+app.get('/apiuse', routes.apiuse);
 /* Public API*/
 app.get('/getTopKeywords', routes.getTopKeywords);
 app.get('/getArticleReaderInterests', routes.getArticleReaderInterests);
@@ -96,7 +97,7 @@ app.get('/API', routes.API);
 app.get('/userReadArticle', routes.userReadArticle);
 app.get("/reccomendAd", routes.reccomendAd);
 app.get('/sacbee', routes.sacbee);
-
+app.get('/reportBarUse', routes.reportBarUse);
 //not fully implemented
 app.get("/getUser", routes.getUser);
 
@@ -106,15 +107,33 @@ app.get('/getArticleFacebook', routes.getArticleFacebook);
 
 function removeTestUsers()
 {
-    mongo.removeUser("jdo");
-    mongo.removeUser("janedo");
+    mongo.removeUserByName("jdo");
+    mongo.removeUserByName("janedo");
 }
 
+var datalog = function(data){console.log(data);}
 
 function createTestUsers(reset)
 {
-    mongo.addUser("jdo", "John Doe", "Houston, TX", "Stanford, CA", "male", ["English", "Spanish"], "BMC Software Inc.");
-    mongo.addUser("janedo", "Jane Doe", "Austin, TX", "Stanford, CA", "female", ["English", "Italian"], "BMC Software Inc.");
+    var john_do_params = {username: "jdo",
+			  name: "John Doe",
+			  hometown: "Houston, TX",
+			  current_location: "Stanford, CA",
+			  gender: "male",
+			  languages: ["English", "Spanish"],
+			  work: ["BMC Software Inc."]
+			 };
+    
+    mongo.createUser(1, "4efe22e97094d3c7231e6b061ae642a46e91fbb5", john_do_params, datalog);
+    var jane_do_params = {username: "janedo",
+			  name : "Jane Doe",
+			  hometown : "Austin, TX",
+			  current_location :"Stanford, CA",
+			  gender: "female",
+			  languages : ["English", "Italian"],
+			  work: ["BMC Software Inc."]
+			 };
+    mongo.createUser(2, "4efe22e97094d3c7231e6b061ae642a46e91fbb5", jane_do_params, datalog);
 
 }
 function init()
@@ -123,8 +142,9 @@ function init()
     //mongo.getAuthorKeywords("Mark Glover", "4efe22e97094d3c7231e6b061ae642a46e91fbb5", function(data){});
     //mongo.getTopKeywordsForArticle("5175ceadf13dad6f4a0edec2", 6, "4efe22e97094d3c7231e6b061ae642a46e91fbb5" , function(data){console.log(data);});
 
-    //removeTestUsers();
+   // removeTestUsers();
     //createTestUsers();
+    //mongo.getUsers("4efe22e97094d3c7231e6b061ae642a46e91fbb5", datalog);
     //mongo.userReadArticle("janedo", "5108195", function(data){});
     
     //mongo.getUser("jdo", function(data){console.log(data);});
@@ -133,7 +153,8 @@ function init()
     //mongo.removeAPIUser("4efe22e97094d3c7231e6b061ae642a46e91fbb5");
     //mongo.reportAPIuse("4efe22e97094d3c7231e6b061ae642a46e91fbb5", "getTopKeywordsForArticle");
     //mongo.getAPIUseForKey("4efe22e97094d3c7231e6b061ae642a46e91fbb5", function(data){console.log(data);})
-    mongo.updateArticles("4efe22e97094d3c7231e6b061ae642a46e91fbb5");
+    //mongo.updateArticles("4efe22e97094d3c7231e6b061ae642a46e91fbb5");
+    mongo.clearReaders();
 }
 
 http.createServer(app).listen(app.get('port'), function(){

@@ -5,12 +5,19 @@ var server = "http://ec2-54-224-28-145.compute-1.amazonaws.com:5000";
 //var server = "http://ec2-50-19-172-168.compute-1.amazonaws.com:5000";
 
 
-var sideBarOut  = true;
+var sideBarOut  = false;
+var openTime;
+var closeTime;
+var api;
 function show_admin_panel()
 {
     if(sideBarOut)
     {
 	//hide the sidebar
+	closeTime = new Date();
+	var total = closeTime.getTime() - openTime.getTime();
+	console.log("reporting bar use with total: " + total);
+	reportBarUse(api, total);
 	$("#admin-sidebar").animate({
 	    width: 0,
 	    border: "0px"
@@ -27,6 +34,7 @@ function show_admin_panel()
     else
     {
 	//show the sidebar
+	openTime = new Date();
 	$("#admin-sidebar").each(function(){
 	    $(this).show();
 	});
@@ -120,6 +128,16 @@ function createBarChart(id, chartData, chartName, chartTitle)
 	    name: "relevance",
 	    data: chartData[1]
 	}]
+    });
+}
+
+function reportBarUse(time, api)
+{
+    $.get(server + "/reportBarUse", {
+	api_key: api,
+	duration: time
+    }).done(function(response){
+	console.log("huzzah result gathered!");
     });
 }
 
@@ -249,9 +267,9 @@ function authorKeywords(article_id, biline, api_key)
     
 }
 
-function meteowrite(article_id, num, api_key, user_id)
+function meteowrite(article_id, num, api_key, biline, user_id)
 {
-    console.log("art_id" + article_id + "num: " +  num + "api: " + api_key +"uid:" +  user_id);
+    api = api_key;
     //include neccessary files
     var script_include = $('<script src="' + server + '/js/highcharts.js"> </script>');
     var style_include = $('<link rel="stylesheet" href="'+ server + '/stylesheets/sidebar_style.css" />');
@@ -288,12 +306,9 @@ function meteowrite(article_id, num, api_key, user_id)
     });
     
     userReadArticle(article_id, user_id, api_key);
-    
-      getKeywords(article_id, num, api_key);
-      readerInterests(article_id, api_key);
-    
-      authorKeywords(article_id, biline, api_key);
-      getUser();
-      reccAd(user_id, ads, api_key);
-
+    getKeywords(article_id, num, api_key);
+    //readerInterests(article_id, api_key);
+    //authorKeywords(article_id, biline, api_key);
+    //getUser();
+    //reccAd(user_id, ads, api_key);
 }

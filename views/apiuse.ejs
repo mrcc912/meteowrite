@@ -1,0 +1,109 @@
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script>
+var server = "http://ec2-54-224-28-145.compute-1.amazonaws.com:5000";
+</script>
+<script src= "http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/js/highcharts.js"> </script>
+<script>
+	
+function createPieChart(id, chartData, chartName, chartTitle)
+{
+    $('#' + id).highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false
+        },
+        title: {
+            text: chartTitle
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage}%</b>',
+            percentageDecimals: 1
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    color: '#000000',
+                    connectorColor: '#000000',
+                    formatter: function() {
+                        return '<b>'+ this.point.name +'</b>: '+ this.percentage +' %';
+                    }
+                }
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: 'Article Keywords',
+            data: chartData
+        }]
+    });
+ 
+}
+
+
+function createBarChart(id, chartData, chartName, chartTitle)
+{
+	console.log("here");
+    $("#" + id).highcharts({
+	chart: {
+	    type: "bar"
+	},
+
+	title: {
+	    text: chartTitle
+	},
+	xAxis: {
+	    categories: chartData[0],
+	    title: { text: null }
+	},
+	yAxis: {
+	    min: 0,
+	    title: {
+		text: "relevance",
+		align: "high"
+	    },
+	    labels: {
+		overflow: "justify"
+	    }
+	},
+	tooltip: {
+	    valueSuffix: ""
+	},
+	plotOptions: {
+	    bar: {
+		dataLabels: {
+		    enabled: true
+		}
+	    }
+	},
+	series: [{
+	    name: "relevance",
+	    data: chartData[1]
+	}]
+    });
+}   
+</script>
+
+<div id="apiuse"></div>
+
+<script>
+var chartData = new Array();
+    var label = new Array();
+    var series  = new Array();
+    chartData.push (label);
+    chartData.push(series);
+    chartData[0].push("userReadArticle");
+    chartData[1].push(1043);
+    chartData[0].push("getTopKeywords");
+    chartData[1].push(723);
+    chartData[0].push("getArticleReaderInterests");
+    chartData[1].push(643);
+    chartData[0].push("getAuthorKeyowrds");
+    chartData[1].push(486);
+    
+createBarChart("apiuse", chartData, "API Use", "API Use");
+
+</script>

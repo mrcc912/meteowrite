@@ -53,23 +53,23 @@ exports.articleOverlap = function(req, res) {
 };
 
 exports.articleReader = function(req, res){
-        mongo.addUser(req.cookies.user, req.cookies.name, req.cookies.hometown, req.cookies.location, req.cookies.gender, req.cookies.language.split(","), [req.cookies.work]);
+    mongo.addUser(req.cookies.user, req.cookies.name, req.cookies.hometown, req.cookies.location, req.cookies.gender, req.cookies.language.split(","), [req.cookies.work]);
     res.render('articleReader', {title: "Article Entry"});
 };
 
 exports.userPage = function(req, res){
     var username = req.query.username;
-        mongo.addUser(req.cookies.user, req.cookies.name, req.cookies.hometown, req.cookies.location, req.cookies.gender, req.cookies.language.split(","), [req.cookies.work]);
+    mongo.addUser(req.cookies.user, req.cookies.name, req.cookies.hometown, req.cookies.location, req.cookies.gender, req.cookies.language.split(","), [req.cookies.work]);
     mongo.getUser(username, function(userObj){
 	res.render("user", {title: "User Page",user: userObj });
     });
 };
 
 exports.getUser = function(req, res) {
-  var username = req.query.username;
-  mongo.getUser(username, function(userObj) {
-    res.render("getUser", {title: "User Page", user: userObj });
-  });
+    //var username = req.query.username;
+    mongo.getUser(req.query.userID, function(userObj) {
+	res.render("getUser", {title: "User Page", user: userObj });
+    });
 }
 
 exports.userReadArticlePost = function(req, res) {
@@ -114,16 +114,16 @@ exports.userRec = function(req, res)
 {       
     var numRec = req.query.numrec; 
     var username = req.query.username;
+    var api = req.query.apikey;
+    mongo.relatedArticlesForUser(username, numRec, api, function(topMap) {   
+	res.render("userRec", {
+	    title: "User Reccomendation",
+            user: username,
+            numRec: numRec,
+	    keyMap:topMap 
+	});
+    });
     
-    mongo.relatedArticlesForUser(username, numRec, function(topMap) {   
-    res.render("userRec", {
-	title: "User Reccomendation",
-        user: username,
-        numRec: numRec,
-	keyMap:topMap 
-    });
-    });
-     
 };
 
 exports.reccomend = function(req, res)
@@ -161,7 +161,7 @@ exports.reccPost = function(req, res)
 	// find articles related to facebook data
 	// weight significance by slider value
 	// return top three
-	mongo.getArticlesRelatedToFacebook(req.cookies.user, token,  function(obj){
+	mongo.getArticlesRelatedToFacebook(req.cookies.user, req.query.userid, token, req.query.apikey, function(obj){
 	    console.log(obj);
 	    for(num in obj)
 	    {
@@ -228,7 +228,6 @@ exports.API = function(req, res)
 }
 
 exports.userReadArticle = function(req, res) {
-    console.log(req.query);
     mongo.userReadArticle(req.query.user, req.query.article, req.query.apikey, function(data){
 	res.end(JSON.stringify(data));
     });
@@ -252,7 +251,11 @@ exports.sacbee = function(req, res)
 {
     if(!req.query.article_id)
 	req.query.article_id = 4458591;
-    mongo.getArticle(req.query.article_id, function(data){
+    if(!req.query.api_key)
+	var api = "4efe22e97094d3c7231e6b061ae642a46e91fbb5";
+    else
+	var api = req.query.api_key;
+    mongo.getArticle(req.query.article_id, api, function(data){
 	if(data != -1)
 	{
 	    console.log("sending article to sacbee.ejs");
@@ -333,8 +336,20 @@ exports.addUser = function(req, res){
 };
 
 exports.getArticle = function(req, res) {
-  var articleId = req.query.articleID;
+    var articleId = req.query.articleID;
     mongo.getArticle(articleId, req.query.apikey, function(art) {
 	res.render("getArticle", {title: "Single Article", article: art});
     });
+};
+
+exports.reportBarUse = function(req, res)
+{
+    mongo.reportBarUse(req.query.api_key, req.query.duration, function(data){
+	console.log(data);
+    });
+};
+
+exports.apiuse = function(req, res)
+{
+    res.render('apiuse');
 }
