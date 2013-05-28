@@ -150,11 +150,12 @@ function init()
     //mongo.getUser("jdo", function(data){console.log(data);});
     //mongo.getArticleReaderInterests("5108195", "4efe22e97094d3c7231e6b061ae642a46e91fbb5", function(data){console.log(data);});
     //mongo.addAPIUser("Sacramento Bee");
+    //mongo.addAPIUser("Peninsula Press");
     //mongo.removeAPIUser("4efe22e97094d3c7231e6b061ae642a46e91fbb5");
     //mongo.reportAPIuse("4efe22e97094d3c7231e6b061ae642a46e91fbb5", "getTopKeywordsForArticle");
     //mongo.getAPIUseForKey("4efe22e97094d3c7231e6b061ae642a46e91fbb5", function(data){console.log(data);})
     //mongo.updateArticles("4efe22e97094d3c7231e6b061ae642a46e91fbb5");
-    mongo.clearReaders();
+    //mongo.clearReaders();
 }
 
 http.createServer(app).listen(app.get('port'), function(){

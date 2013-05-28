@@ -227,8 +227,20 @@ exports.API = function(req, res)
     res.render('API');
 }
 
+
+function parseUserId(req)
+{
+    if(req.query.user == "IP")
+    {
+	var id = req.connection.remoteAddress
+	var newID = id.split(".").join("");
+	return newID;
+    }
+    else return req.query.user
+}
 exports.userReadArticle = function(req, res) {
-    mongo.userReadArticle(req.query.user, req.query.article, req.query.apikey, function(data){
+    var userID = parseUserId(req);
+    mongo.userReadArticle(userID, req.query.article, req.query.apikey, function(data){
 	res.end(JSON.stringify(data));
     });
 };

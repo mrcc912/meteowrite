@@ -186,3 +186,624 @@ saved apikey
        time: Mon May 13 2013 23:39:42 GMT+0000 (UTC) },
      { time: Tue May 14 2013 21:57:03 GMT+0000 (UTC),
        api: 'userReadArticle' } ] }
+Express server listening on port 5000
+Connected to mongo server.
+Express server listening on port 5000
+Connected to mongo server.
+sending article to sacbee.ejs
+"Bee Sports Staff"
+[90mGET /sacbee [32m200 [90m96ms - 3.27kb[0m
+[90mGET /javascripts/sidebar_script.js [32m200 [90m33ms - 7kb[0m
+[90mGET /javascripts/jquery-1.9.1.js [32m200 [90m633ms - 262.09kb[0m
+[90mGET /js/highcharts.js?_=1369426213714 [32m200 [90m19ms - 131.1kb[0m
+[90mGET /userReadArticle?user=1&article=4458591&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m14ms[0m
+[90mGET /stylesheets/sidebar_style.css [32m200 [90m28ms - 577[0m
+[90mGET /getTopKeywords?article=4458591&numResponses=10&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m7ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 19[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m3ms - 19[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m27ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 19[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /robots.txt [33m404 [90m27ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m8ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m45ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m24ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m29ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m26ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m14ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m39ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m22ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m7ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m6ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m10ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m2ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m15ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m24ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m8ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m7ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m3ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m2ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m18ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m16ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m7ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m15ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m33ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m3ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m12ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m18ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m3ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m3ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m18ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m2ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m29ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m22ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m16ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m13ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m10ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m33ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /testArticle [32m200 [90m84ms - 813[0m
+[90mGET /javascripts/sidebar_script.js [32m200 [90m13ms - 7kb[0m
+[90mGET /js/highcharts.js?_=1369441203719 [32m200 [90m252ms - 131.1kb[0m
+[90mGET /stylesheets/sidebar_style.css [32m200 [90m27ms - 577[0m
+[90mGET /userReadArticle?user=1&article=&apikey=7e0e6526f558f77d8544abf4cf64584b4786af12 [32m200 [90m14ms[0m
+[90mGET /getTopKeywords?article=&numResponses=5&apikey=7e0e6526f558f77d8544abf4cf64584b4786af12 [32m200 [90m17ms[0m
+[90mGET /testArticle [32m200 [90m5ms - 813[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m40ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m23ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m27ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m46ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m39ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m11ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m28ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m33ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m34ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m7ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m3ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m22ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m8ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m18ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m34ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m18ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m3ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m33ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m77ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m12ms - 90[0m
+[90mGET /robots.txt [33m404 [90m60ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m36ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m77ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m93ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m92ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m351ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m6ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m95ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m36ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m79ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m58ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m24ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m22ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m17ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m113ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m39ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m3ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m34ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m3ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m34ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m44ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m23ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m42ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /robots.txt [33m404 [90m48ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m5ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m24ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m64ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m22ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m27ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m69ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m97ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m6ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m24ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m5ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m27ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m5ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m29ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m44ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m49ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
