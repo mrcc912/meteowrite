@@ -194,6 +194,8 @@ exports.testArticle = function(req, res)
 exports.getTopKeywords = function(req, res)
 {
     mongo.getTopKeywordsForArticle(req.query.article, req.query.numResponses, req.query.apikey, function(data){
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	res.end(JSON.stringify(data));
 
     });
@@ -202,6 +204,8 @@ exports.getTopKeywords = function(req, res)
 exports.getArticleReaderInterests = function(req, res)
 {
     mongo.getArticleReaderInterests(req.query.article, req.query.apikey, function(data){
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	res.end(JSON.stringify(data));
     });
 }
@@ -211,6 +215,8 @@ exports.getAuthorKeywords = function(req, res)
     //console.log("getAuthorKeywords");
 
     mongo.getAuthorKeywords(req.query.author, req.query.apikey, function(data){
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	res.end(JSON.stringify(data));
     });
 }
@@ -218,6 +224,8 @@ exports.getAuthorKeywords = function(req, res)
 exports.getArticleFacebook = function(req, res)
 {
     mongo.getArticleFacebook(req.query.article, req.query.apikey, function(data){
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	res.end(JSON.stringify(data));
     });
 }
@@ -241,6 +249,8 @@ function parseUserId(req)
 exports.userReadArticle = function(req, res) {
     var userID = parseUserId(req);
     mongo.userReadArticle(userID, req.query.article, req.query.apikey, function(data){
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	res.end(JSON.stringify(data));
     });
 };
@@ -248,6 +258,8 @@ exports.userReadArticle = function(req, res) {
 exports.getUser = function(req, res)
 {
     mongo.getUsersWithParameters(req.query.params,req.query.apikey, function(data){
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	res.end(JSON.stringify(data));
     });
 }
@@ -255,6 +267,8 @@ exports.getUser = function(req, res)
 exports.reccomendAd = function(req, res)
 {
     mongo.reccomendAd(req.query.user, req.query.ads, req.query.apikey, function(data){
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	res.end(JSON.stringify(data));
     });
 }
@@ -291,56 +305,74 @@ exports.sacbee = function(req, res)
 }
 
 exports.processArticle = function(req, res) {
-  var id = req.body.username;
-  if(id == null) {
-    return;
-  }
-  var headline = req.body.headline;
-  if(headline == null) {
-    return;
-  }
-  
-  var biline = req.body.biline;
-  if(biline == null) {
-    biline = ""; 
-  }
-  var creditline = req.body.creditline;
-  if(creditline == null) {
-    creditline = ""; 
-  }
-  var source = req.body.source;
-  if(source == null) {
-    source = ""; 
-  }
-  var section = req.body.section;
-  if(section == null) {
-    section = "";
-  }
-  var URL = req.body.URL;
-  if(URL == null) {
-    URL = "";
-  }
-  var body = req.body.body;
-  if(body == null) {
-    return;
-  } 
-  var encodedId = encodeURIComponent(id);
-  var encodedHeadline = encodeURIComponent(headline);
-  var encodedBiline = encodedURIComponent(biline);
-  var encodedCreditline = encodedURIComponent(creditline);
-  var encodedSource = encodedURIComponent(source);
-  var encodedSection = encodedURIComponent(section);
-  var encodedURL = encodedURIComponent(URL);
-  var encodedBody = encodeURIComponent(body);
-  var commandLine = util.format('./executed.py "%s" "%s" "%s" "%s" "%s" "%s" "%s" "%s"', encodedId, encodedHeadline, encodedBiline, encodedCreditline, encodedSource, encodedSection, encodedURL, encodedBody);
-  child = exec(commandLine,
-  function(error, stdout, stderr) {
-    console.log('exec stdoout: ' + stdout)
-    if(error != null) {
-      console.log('exec error: ' + error);
+
+    mongo.reportAPIuse(req.body.api_key, "addArticle");  
+    var id = req.body.id;
+    if(id == null) {
+	return;
     }
-  }
-  );
+    var headline = req.body.headline;
+    if(headline == null) {
+	return;
+    }
+  
+    var biline = req.body.biline;
+    if(biline == null) {
+	biline = ""; 
+    }
+    var creditline = req.body.creditline;
+    if(creditline == null) {
+	creditline = ""; 
+    }
+    var source = req.body.source;
+    if(source == null) {
+	source = ""; 
+    }
+    var section = req.body.section;
+    if(section == null) {
+	section = "";
+    }
+    var URL = req.body.URL;
+    if(URL == null) {
+	URL = "";
+    }
+    var body = req.body.body;
+    if(body == null) {
+	return;
+    } 
+    var apikey = req.body.api_key;
+    if(apikey == null)
+	apikey = "";
+
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+    mongo.checkArticleExistence(id, apikey, function(data){
+	console.log(data);
+	if(data){
+	    res.end("Article already exists");
+	}
+	else{
+	    var encodedId = encodeURIComponent(id);
+	    var encodedHeadline = encodeURIComponent(headline);
+	    var encodedBiline = encodeURIComponent(biline);
+	    var encodedCreditline = encodeURIComponent(creditline);
+	    var encodedSource = encodeURIComponent(source);
+	    var encodedSection = encodeURIComponent(section);
+	    var encodedURL = encodeURIComponent(URL);
+	    var encodedBody = encodeURIComponent(body);
+	    var encodedAPI = encodeURIComponent(apikey);
+	    var commandLine = util.format('./executed.py "%s" "%s" "%s" "%s" "%s" "%s" "%s" "%s" "%s"', encodedId, encodedHeadline, encodedBiline, encodedCreditline, encodedSource, encodedSection, encodedURL, encodedBody, encodedAPI);
+	    child = exec(commandLine,
+			 function(error, stdout, stderr) {
+			     console.log('exec stdoout: ' + stdout)
+			     if(error != null) {
+				 console.log('exec error: ' + error);
+			     }
+			     res.end("Upload Complete");
+			 }
+			);
+	}
+    });    			
 };
 
 exports.addUser = function(req, res){
@@ -363,5 +395,7 @@ exports.reportBarUse = function(req, res)
 
 exports.apiuse = function(req, res)
 {
-    res.render('apiuse');
+    mongo.getAllAPIUse(function(data){
+	res.render('apiuse', {stats: data});
+    });
 }

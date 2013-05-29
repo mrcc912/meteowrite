@@ -17,7 +17,7 @@ function addArticle(aid, title, author, URL, article_body,api_key, user, func)
 {
     $.ajax({
 	type: "POST",
-	url: meteowrite_server + "/addArticle",
+	url: meteowrite_server + "/py",
 	data: {
 	      id: aid,
 	      headline: title,
@@ -29,14 +29,27 @@ function addArticle(aid, title, author, URL, article_body,api_key, user, func)
 	success: function(data){
 	    console.log("yay");
 	    console.log(data);
-	    func(aid, user, api_key);
 	}
     });
+/*
+    $.post(meteowrite_server + "/py",
+	  {
+	      id: aid,
+	      headline: title,
+	      biline: author,
+	      body: article_body,
+	      api_key: api_key,
+	      URL: URL
+	  }).done(
+	   function(response){
+	      console.log(response);
+	      func(aid, user, api_key);
+	      
+	   });
+*/
 }
 
 $(function(){
-
-
     var elems= document.getElementsByClassName("post");
     var mw_articleID = elems[0].id.split("-")[1];    
     var title = elems[0].children[1].innerHTML;

@@ -1,809 +1,1785 @@
 Express server listening on port 5000
 Connected to mongo server.
-[90mGET /testArticle [36m304 [90m45ms[0m
-[90mGET /stylesheets/sidebar_style.css [36m304 [90m10ms[0m
-[90mGET /js/highcharts.js [36m304 [90m3ms[0m
-[90mGET /javascripts/sidebar_script.js [36m304 [90m2ms[0m
-Express server listening on port 5000
-Connected to mongo server.
-Express server listening on port 5000
-Connected to mongo server.
-[90mGET /testArticle [32m200 [90m69ms - 603[0m
-[90mGET /javascripts/sidebar_script.js [32m200 [90m25ms - 6.27kb[0m
-[90mGET /js/highcharts.js?_=1368203464455 [32m200 [90m269ms - 131.1kb[0m
-[90mGET /userReadArticle?user=jdo&article=5108195&apikey= [32m200 [90m16ms[0m
-[90mGET /stylesheets/sidebar_style.css [32m200 [90m23ms - 577[0m
-[90mGET /getTopKeywords?article=5108195&numResponses=10&apikey= [32m200 [90m6ms[0m
-{ user: 'mrcc912',
-  location: 'Redwood City, CA',
-  keywords: [ 'batman', 'superman', 'spiderman' ] }
-api_key: aodsfjals;dkfj
-[90mGET /getUser?params%5Buser%5D=mrcc912&params%5Blocation%5D=Redwood+City%2C+CA&params%5Bkeywords%5D%5B%5D=batman&params%5Bkeywords%5D%5B%5D=superman&params%5Bkeywords%5D%5B%5D=spiderman&apikey=aodsfjals%3Bdkfj [32m200 [90m2ms[0m
-[90mGET /getArticleReaderInterests?article=5108195&apikey= [32m200 [90m12ms[0m
-here
+[90mGET /javascripts/sacbee_script.js [36m304 [90m11ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m83ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m40ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m49ms[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
 
-/home/mrcc/meteowrite/node_modules/mongoose/lib/utils.js:409
-        throw err;
-              ^
-TypeError: Cannot call method 'toUpperCase' of undefined
-    at Object.byName [as lookupByName] (/home/mrcc/meteowrite/node_modules/zipcodes/lib/index.js:15:17)
-    at Promise.<anonymous> (/home/mrcc/meteowrite/node_modules/database.js:982:30)
-    at Promise.<anonymous> (/home/mrcc/meteowrite/node_modules/mongoose/lib/promise.js:133:8)
-    at Promise.EventEmitter.emit (events.js:95:17)
-    at Promise.emit (/home/mrcc/meteowrite/node_modules/mongoose/lib/promise.js:66:38)
-    at Promise.complete (/home/mrcc/meteowrite/node_modules/mongoose/lib/promise.js:77:20)
-    at /home/mrcc/meteowrite/node_modules/mongoose/lib/query.js:1607:15
-    at model.Document.init (/home/mrcc/meteowrite/node_modules/mongoose/lib/document.js:227:11)
-    at model.init (/home/mrcc/meteowrite/node_modules/mongoose/lib/model.js:196:36)
-    at /home/mrcc/meteowrite/node_modules/mongoose/lib/query.js:1605:12
-Express server listening on port 5000
-Connected to mongo server.
-[90mGET /testArticle [32m200 [90m148ms - 809[0m
-[90mGET /javascripts/sidebar_script.js [32m200 [90m15ms - 6.69kb[0m
-[90mGET /js/highcharts.js?_=1368488618624 [32m200 [90m592ms - 131.1kb[0m
-{ user: 'jdoe',
-  article: '',
-  apikey: '7e0e6526f558f77d8544abf4cf64584b4786af12' }
-Reporting API use: 7e0e6526f558f77d8544abf4cf64584b4786af12::userReadArticle
-[ { api: 'userReadArticle',
-    time: Sat May 11 2013 18:09:12 GMT+0000 (UTC) },
-  { time: Sat May 11 2013 18:09:31 GMT+0000 (UTC),
-    api: 'userReadArticle' },
-  { api: 'userReadArticle',
-    time: Mon May 13 2013 23:39:42 GMT+0000 (UTC) } ]
-[90mGET /userReadArticle?user=jdoe&article=&apikey=7e0e6526f558f77d8544abf4cf64584b4786af12 [32m200 [90m40ms[0m
-saved apikey
-{ __v: 3,
-  _id: 518e731dd82772496b000001,
-  api_key: '7e0e6526f558f77d8544abf4cf64584b4786af12',
-  name: 'mrcc_test',
-  use_count: 
-   [ { time: Sat May 11 2013 18:09:12 GMT+0000 (UTC),
-       api: 'userReadArticle' },
-     { api: 'userReadArticle',
-       time: Sat May 11 2013 18:09:31 GMT+0000 (UTC) },
-     { time: Mon May 13 2013 23:39:42 GMT+0000 (UTC),
-       api: 'userReadArticle' } ] }
-[90mGET /stylesheets/sidebar_style.css [32m200 [90m9ms - 577[0m
-[90mGET /robots.txt [33m404 [90m3ms[0m
-[90mGET /testArticle [32m200 [90m2ms - 809[0m
-[90mGET /javascripts/sidebar_script.js [36m304 [90m123ms[0m
-{ user: 'jdoe',
-  article: '4458591',
-  apikey: '4efe22e97094d3c7231e6b061ae642a46e91fbb5' }
-Reporting API use: 4efe22e97094d3c7231e6b061ae642a46e91fbb5::userReadArticle
-[90mGET /stylesheets/sidebar_style.css [36m304 [90m6ms[0m
-[ { api: 'getTopKeywordsForArticle',
-    time: Tue May 14 2013 21:29:55 GMT+0000 (UTC) },
-  { time: Tue May 14 2013 21:38:23 GMT+0000 (UTC),
-    api: 'userReadArticle' },
-  { api: 'getArticleReaderInterests',
-    time: Tue May 14 2013 21:39:03 GMT+0000 (UTC) },
-  { time: Tue May 14 2013 21:40:17 GMT+0000 (UTC),
-    api: 'addUser' },
-  { api: 'getTopKeywordsForArticle',
-    time: Tue May 14 2013 21:41:01 GMT+0000 (UTC) },
-  { time: Tue May 14 2013 21:41:07 GMT+0000 (UTC),
-    api: 'userReadArticle' },
-  { api: 'userReadArticle',
-    time: Tue May 14 2013 21:56:42 GMT+0000 (UTC) } ]
-[90mGET /userReadArticle?user=jdoe&article=4458591&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m10ms[0m
-saved apikey
-{ __v: 7,
-  _id: 5188055c0e23a31819000001,
-  api_key: '4efe22e97094d3c7231e6b061ae642a46e91fbb5',
-  name: 'Sacramento Bee',
-  use_count: 
-   [ { time: Tue May 14 2013 21:29:55 GMT+0000 (UTC),
-       api: 'getTopKeywordsForArticle' },
-     { api: 'userReadArticle',
-       time: Tue May 14 2013 21:38:23 GMT+0000 (UTC) },
-     { time: Tue May 14 2013 21:39:03 GMT+0000 (UTC),
-       api: 'getArticleReaderInterests' },
-     { api: 'addUser',
-       time: Tue May 14 2013 21:40:17 GMT+0000 (UTC) },
-     { time: Tue May 14 2013 21:41:01 GMT+0000 (UTC),
-       api: 'getTopKeywordsForArticle' },
-     { api: 'userReadArticle',
-       time: Tue May 14 2013 21:41:07 GMT+0000 (UTC) },
-     { time: Tue May 14 2013 21:56:42 GMT+0000 (UTC),
-       api: 'userReadArticle' } ] }
-[90mGET /js/highcharts.js?_=1368568843237 [32m200 [90m308ms - 131.1kb[0m
-[90mGET /javascripts/sidebar_script.js [36m304 [90m1ms[0m
-{ user: 'jdoe',
-  article: '4458591',
-  apikey: '4efe22e97094d3c7231e6b061ae642a46e91fbb5' }
-Reporting API use: 4efe22e97094d3c7231e6b061ae642a46e91fbb5::userReadArticle
-[ { time: Tue May 14 2013 21:29:55 GMT+0000 (UTC),
-    api: 'getTopKeywordsForArticle' },
-  { api: 'userReadArticle',
-    time: Tue May 14 2013 21:38:23 GMT+0000 (UTC) },
-  { time: Tue May 14 2013 21:39:03 GMT+0000 (UTC),
-    api: 'getArticleReaderInterests' },
-  { api: 'addUser',
-    time: Tue May 14 2013 21:40:17 GMT+0000 (UTC) },
-  { time: Tue May 14 2013 21:41:01 GMT+0000 (UTC),
-    api: 'getTopKeywordsForArticle' },
-  { api: 'userReadArticle',
-    time: Tue May 14 2013 21:41:07 GMT+0000 (UTC) },
-  { time: Tue May 14 2013 21:56:42 GMT+0000 (UTC),
-    api: 'userReadArticle' },
-  { api: 'userReadArticle',
-    time: Tue May 14 2013 21:56:46 GMT+0000 (UTC) } ]
-[90mGET /userReadArticle?user=jdoe&article=4458591&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m9ms[0m
-[90mGET /stylesheets/sidebar_style.css [36m304 [90m4ms[0m
-[90mGET /js/highcharts.js?_=1368568847536 [32m200 [90m12ms - 131.1kb[0m
-saved apikey
-{ __v: 8,
-  _id: 5188055c0e23a31819000001,
-  api_key: '4efe22e97094d3c7231e6b061ae642a46e91fbb5',
-  name: 'Sacramento Bee',
-  use_count: 
-   [ { api: 'getTopKeywordsForArticle',
-       time: Tue May 14 2013 21:29:55 GMT+0000 (UTC) },
-     { time: Tue May 14 2013 21:38:23 GMT+0000 (UTC),
-       api: 'userReadArticle' },
-     { api: 'getArticleReaderInterests',
-       time: Tue May 14 2013 21:39:03 GMT+0000 (UTC) },
-     { time: Tue May 14 2013 21:40:17 GMT+0000 (UTC),
-       api: 'addUser' },
-     { api: 'getTopKeywordsForArticle',
-       time: Tue May 14 2013 21:41:01 GMT+0000 (UTC) },
-     { time: Tue May 14 2013 21:41:07 GMT+0000 (UTC),
-       api: 'userReadArticle' },
-     { api: 'userReadArticle',
-       time: Tue May 14 2013 21:56:42 GMT+0000 (UTC) },
-     { time: Tue May 14 2013 21:56:46 GMT+0000 (UTC),
-       api: 'userReadArticle' } ] }
-[90mGET /testArticle [32m200 [90m32ms - 809[0m
-[90mGET /javascripts/sidebar_script.js [36m304 [90m1ms[0m
-[90mGET /js/highcharts.js?_=1368568864172 [32m200 [90m1ms - 131.1kb[0m
-[90mGET /stylesheets/sidebar_style.css [36m304 [90m1ms[0m
-{ user: 'jdoe',
-  article: '',
-  apikey: '7e0e6526f558f77d8544abf4cf64584b4786af12' }
-Reporting API use: 7e0e6526f558f77d8544abf4cf64584b4786af12::userReadArticle
-[90mGET /userReadArticle?user=jdoe&article=&apikey=7e0e6526f558f77d8544abf4cf64584b4786af12 [32m200 [90m2ms[0m
-[ { time: Sat May 11 2013 18:09:12 GMT+0000 (UTC),
-    api: 'userReadArticle' },
-  { api: 'userReadArticle',
-    time: Sat May 11 2013 18:09:31 GMT+0000 (UTC) },
-  { time: Mon May 13 2013 23:39:42 GMT+0000 (UTC),
-    api: 'userReadArticle' },
-  { api: 'userReadArticle',
-    time: Tue May 14 2013 21:57:03 GMT+0000 (UTC) } ]
-saved apikey
-{ __v: 4,
-  _id: 518e731dd82772496b000001,
-  api_key: '7e0e6526f558f77d8544abf4cf64584b4786af12',
-  name: 'mrcc_test',
-  use_count: 
-   [ { api: 'userReadArticle',
-       time: Sat May 11 2013 18:09:12 GMT+0000 (UTC) },
-     { time: Sat May 11 2013 18:09:31 GMT+0000 (UTC),
-       api: 'userReadArticle' },
-     { api: 'userReadArticle',
-       time: Mon May 13 2013 23:39:42 GMT+0000 (UTC) },
-     { time: Tue May 14 2013 21:57:03 GMT+0000 (UTC),
-       api: 'userReadArticle' } ] }
-Express server listening on port 5000
-Connected to mongo server.
-Express server listening on port 5000
-Connected to mongo server.
-sending article to sacbee.ejs
-"Bee Sports Staff"
-[90mGET /sacbee [32m200 [90m96ms - 3.27kb[0m
-[90mGET /javascripts/sidebar_script.js [32m200 [90m33ms - 7kb[0m
-[90mGET /javascripts/jquery-1.9.1.js [32m200 [90m633ms - 262.09kb[0m
-[90mGET /js/highcharts.js?_=1369426213714 [32m200 [90m19ms - 131.1kb[0m
-[90mGET /userReadArticle?user=1&article=4458591&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m14ms[0m
-[90mGET /stylesheets/sidebar_style.css [32m200 [90m28ms - 577[0m
-[90mGET /getTopKeywords?article=4458591&numResponses=10&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m7ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 19[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m3ms - 19[0m
+[90mPOST /addArticle [32m200 [90m2296ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 6814579183,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5b3a46a13621c7b000001,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m87ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 1.54kb[0m
+null
+exec stdoout: 51a5b46427be267c28618b8b
+
+[90mPOST /addArticle [32m200 [90m2320ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 916231112,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5b4656a13621c7b000002,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=25761&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m42ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 1.54kb[0m
+null
+exec stdoout: 51a5b7b627be267cf1e35584
+
+[90mPOST /addArticle [32m200 [90m2587ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 6718021133,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5b7b66a13621c7b000003,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26768&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m59ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1107ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 1702258179,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5ba6b6a13621c7b000004,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26716&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m26ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m33ms - 1.54kb[0m
+null
+exec stdoout: 51a5bae027be267dd240c2b4
+
+[90mPOST /py [32m200 [90m3218ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m106ms - 1.54kb[0m
+null
+exec stdoout: 51a5bc7a27be267e323d97aa
+
+[90mPOST /addArticle [32m200 [90m3764ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 21987132157,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5bc7b6a13621c7b000005,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26719&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m57ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m80ms[0m
+null
+exec stdoout: 51a5bd3627be267e657c69dc
+
+[90mPOST /addArticle [32m200 [90m2867ms[0m
+[90mGET /userReadArticle?user=IP&article=26719&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m48ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m34ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1258ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 17414121347,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5bdbb6a13621c7b000006,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=4144&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m55ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m41ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1325ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 10876188132,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5bea06a13621c7b000007,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m58ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m22ms[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1051ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m17ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m148ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m181ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m104ms - 1.54kb[0m
+null
+exec stdoout: 51a5c46027be26016d5fd70c
+
+[90mPOST /addArticle [32m200 [90m4710ms[0m
+[90mGET /userReadArticle?user=IP&article=25761&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m16ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m116ms - 1.54kb[0m
+null
+exec stdoout: 51a5c83627be26026984801e
+
+[90mPOST /addArticle [32m200 [90m7206ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 118243211248,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5c8366a13621c7b000008,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26865&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m30ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m36ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1237ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 861341373,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5ca386a13621c7b000009,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=8325&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m26ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m786ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 922422185,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5cb626a13621c7b00000a,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=10044&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m23ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m30ms[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m862ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 8412410778,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5ce4a6a13621c7b00000b,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m26ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m4ms - 1.54kb[0m
+null
+exec stdoout: 51a5dd7027be2607b8ad80b6
+
+[90mPOST /addArticle [32m200 [90m9836ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 1820245112,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5dd746a13621c7b00000c,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=18800&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m26ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1093ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 21711024534,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5e0006a13621c7b00000d,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=25252&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m24ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m993ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 74894466,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5e04a6a13621c7b00000e,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=10339&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m39ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m759ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 80250230,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5e2b76a13621c7b00000f,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m19ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m8ms - 1.54kb[0m
 [90mGET /javascripts/pennypress_script.js [36m304 [90m27ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 19[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /robots.txt [33m404 [90m27ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m8ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m45ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m24ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m29ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m26ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m14ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m39ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m22ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m7ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m6ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m10ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m2ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m15ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m24ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m8ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m7ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m3ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m2ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m18ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m16ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m7ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m15ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m33ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m3ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m12ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m18ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m3ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m3ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m18ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m2ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m29ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m22ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m16ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m13ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m10ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m33ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /testArticle [32m200 [90m84ms - 813[0m
-[90mGET /javascripts/sidebar_script.js [32m200 [90m13ms - 7kb[0m
-[90mGET /js/highcharts.js?_=1369441203719 [32m200 [90m252ms - 131.1kb[0m
-[90mGET /stylesheets/sidebar_style.css [32m200 [90m27ms - 577[0m
-[90mGET /userReadArticle?user=1&article=&apikey=7e0e6526f558f77d8544abf4cf64584b4786af12 [32m200 [90m14ms[0m
-[90mGET /getTopKeywords?article=&numResponses=5&apikey=7e0e6526f558f77d8544abf4cf64584b4786af12 [32m200 [90m17ms[0m
-[90mGET /testArticle [32m200 [90m5ms - 813[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m40ms - 90[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m987ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 766919885,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5e8fe6a13621c7b000010,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=19689&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m793ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 71221125149,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5ec646a13621c7b000011,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=25252&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m22ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 1.54kb[0m
+null
+exec stdoout: 51a5ec6d27be260bb9ffe05e
+
+[90mPOST /addArticle [32m200 [90m2642ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 71178144244,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5ec6d6a13621c7b000012,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26733&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 1.54kb[0m
+null
+exec stdoout: 51a5ec7227be260bbfa6305a
+
+[90mPOST /addArticle [32m200 [90m2661ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 67173103208,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5ec726a13621c7b000013,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26865&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m21ms[0m
 [90mGET /javascripts/pennypress_script.js [36m304 [90m23ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
+null
+exec stdoout: 51a5ec9427be260bd46b790d
+
+[90mPOST /addArticle [32m200 [90m3385ms[0m
+[90mGET /userReadArticle?user=IP&article=26714&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m9ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m863ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 68144204252,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5f2596a13621c7b000014,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m19ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 1.54kb[0m
+null
+exec stdoout: 51a5f69127be260e4aaee815
+
+[90mPOST /addArticle [32m200 [90m2033ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 9813720680,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5f6926a13621c7b000015,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=11964&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m112ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1046ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 8222532249,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5f97d6a13621c7b000016,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=25252&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m22ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m851ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 17054584,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5fda86a13621c7b000017,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=19579&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m20ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m5ms - 1.54kb[0m
+[90mGET /addArticle [33m404 [90m31ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 1507097123,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5fdd06a13621c7b000018,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=19579&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m22ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 150707528,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a5fe3f6a13621c7b000019,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=19579&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m47ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m709ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 666623158,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a6004b6a13621c7b00001a,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=25252&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m855ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 1749426215,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a604fe6a13621c7b00001b,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=22637&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m20ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 1.54kb[0m
+null
+exec stdoout: 51a6092f27be2612fdc080ac
+
+[90mPOST /addArticle [32m200 [90m1237ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 98248105253,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a6092f6a13621c7b00001c,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26039&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m33ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m843ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 204146914,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a60a096a13621c7b00001d,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=18784&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m20ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m849ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 7213216148,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a60a326a13621c7b00001e,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m18ms[0m
 [90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m27ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m46ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m39ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m11ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+null
+exec stdoout: 51a60a5e27be26134b6681e5
+
+[90mPOST /addArticle [32m200 [90m1244ms[0m
+[90mGET /userReadArticle?user=IP&article=25833&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m21ms[0m
+null
+exec stdoout: 51a60a8527be261360270c5e
+
+[90mPOST /addArticle [32m200 [90m1127ms[0m
+[90mGET /userReadArticle?user=IP&article=26039&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m15ms[0m
 [90mGET /javascripts/pennypress_script.js [36m304 [90m28ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m33ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m34ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+null
+exec stdoout: 51a60abf27be2613753edff6
+
+[90mPOST /addArticle [32m200 [90m2800ms[0m
+[90mGET /userReadArticle?user=IP&article=26714&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m5ms - 1.54kb[0m
 [90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m7ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m3ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m22ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m8ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m18ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m34ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m18ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m3ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m33ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m77ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
+null
+exec stdoout: 51a60d3227be261411f2802b
+
+[90mPOST /addArticle [32m200 [90m2448ms[0m
+[90mGET /userReadArticle?user=IP&article=26768&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m19ms[0m
+null
+exec stdoout: 51a60d7a27be2614268e4b95
+
+[90mPOST /addArticle [32m200 [90m2734ms[0m
+[90mGET /userReadArticle?user=IP&article=26714&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m16ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 1.54kb[0m
+null
+exec stdoout: 51a60eb427be26147ac0dc4d
+
+[90mPOST /addArticle [32m200 [90m1331ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 16614711178,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a60eb46a13621c7b00001f,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=25305&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 1.54kb[0m
+null
+exec stdoout: 51a60f1827be26149e1d4076
+
+[90mPOST /addArticle [32m200 [90m2383ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 74850162,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a60f186a13621c7b000020,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=18290&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m38ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m25ms[0m
+null
+exec stdoout: 51a60fa727be2614c3beb29d
+
+[90mPOST /addArticle [32m200 [90m2486ms[0m
+[90mGET /userReadArticle?user=IP&article=18290&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m16ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m846ms[0m
+[90mGET /userReadArticle?user=IP&article=5662&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m16ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m33ms - 1.54kb[0m
+null
+exec stdoout: 51a610d627be26151ae9ac04
+
+[90mPOST /addArticle [32m200 [90m2070ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 128129513,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a610d96a13621c7b000021,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=25229&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m28ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+null
+exec stdoout: 51a6129127be2615895a50c2
+
+[90mPOST /addArticle [32m200 [90m1028ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 19254144229,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a612916a13621c7b000022,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26039&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m32ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1272ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 4917672104,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a612d46a13621c7b000023,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26716&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m52ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m4ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 36, in main
+    keywordsCalais = makeOCConnection(body)
+  File "./executed.py", line 81, in makeOCConnection
+    result = calais.analyze(text)
+  File "/home/mrcc/meteowrite/python-calais/calais.py", line 81, in analyze
+    return CalaisResponse(self.rest_POST(content))
+  File "/home/mrcc/meteowrite/python-calais/calais.py", line 119, in __init__
+    raise ValueError(raw_result)
+ValueError: <Error Method="ProcessText" calaisRequestID="fe32f59e-79fd-3eed-13ef-0be40895f6ba" CreationDate="2013-05-29 09:43:20" CalaisVersion="R4.3_7.1.1103.5"><Exception>Calais Backend-Server is Busy. Please try again later.</Exception></Error>
+
+[90mPOST /addArticle [32m200 [90m983ms[0m
+[90mGET /userReadArticle?user=IP&article=25463&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m23ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1407ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 20121018999,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a614e06a13621c7b000024,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m25ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m3545ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 466427229,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a616246a13621c7b000025,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=18417&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m31ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m746ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m430ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 242324838,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a6180b6a13621c7b000026,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=25930&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m27ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m34ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1078ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m3ms - 1.54kb[0m
+{ __v: 0,
+  keywords: [],
+  id: 1073157181,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a618906a13621c7b000027,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=25191&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m31ms[0m
+null
+exec stdoout: 51a6189527be261731e46f23
+
+[90mPOST /addArticle [32m200 [90m2223ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 3811115169,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a618956a13621c7b000028,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=802&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m27ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m816ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 96254205251,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a619b36a13621c7b000029,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=19689&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m24ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m815ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 4721147186,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a61a976a13621c7b00002a,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=19689&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m20ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m89ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m2ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1973ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 166137186249,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a621136a13621c7b00002b,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=25528&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m24ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m884ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 16613718662,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a622776a13621c7b00002c,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=5662&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m41ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m740ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 24986215,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a623666a13621c7b00002d,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m34ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+null
+exec stdoout: 51a623a627be261a0a11dfd2
+
+[90mPOST /addArticle [32m200 [90m3167ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 2051789845,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a623a66a13621c7b00002e,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=24532&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m23ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m3420ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 64150218,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a624be6a13621c7b00002f,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=10044&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m23ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m360ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 716089187,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a624d26a13621c7b000030,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=19556&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m821ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 50200211106,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a627f06a13621c7b000031,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26455&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m23ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m803ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 24518027,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a6296d6a13621c7b000032,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26269&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m23ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m43ms[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m755ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 241501438,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a62a3f6a13621c7b000033,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m42ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m525ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 2085444201,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a62a636a13621c7b000034,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=7613&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m21ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m840ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 247136,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a62a966a13621c7b000035,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=25252&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m26ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 1.54kb[0m
+null
+exec stdoout: 51a62a9a27be261bf024c4dd
+
+[90mPOST /addArticle [32m200 [90m2605ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1596ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 17424037217,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a62bfb6a13621c7b000036,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=22616&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m24ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 1.54kb[0m
+null
+exec stdoout: 51a62d8a27be261cb043bd6e
+
+[90mPOST /addArticle [32m200 [90m3242ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 7422215312,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a62d8a6a13621c7b000037,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26439&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m34ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1184ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 7917966222,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a62dcb6a13621c7b000038,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=25252&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m44ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m2053ms[0m
 [90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m12ms - 90[0m
-[90mGET /robots.txt [33m404 [90m60ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m1801ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m28ms[0m
 [90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m36ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m77ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m93ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m92ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m351ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m6ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m95ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m36ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m79ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m58ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m24ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m22ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m17ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m113ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m39ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m3ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m34ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m3ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m34ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m44ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m23ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m42ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /robots.txt [33m404 [90m48ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m5ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m24ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m64ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m22ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m17ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m27ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m69ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m97ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m20ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m6ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m24ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m5ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m27ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m5ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m29ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m18ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m44ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m49ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 90[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 90[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m818ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 8517061214,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a630206a13621c7b000039,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m20ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+null
+exec stdoout: 51a633fb27be261e638dc755
+
+[90mPOST /addArticle [32m200 [90m1155ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 1312532424,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a633fb6a13621c7b00003a,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=14272&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m25ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 1.54kb[0m
+null
+exec stdoout: 51a6340d27be261e695ac483
+
+[90mPOST /addArticle [32m200 [90m883ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 18474183194,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a6340d6a13621c7b00003b,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26408&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m38ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m2801ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 4914237176,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a635646a13621c7b00003c,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=9668&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m30ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m33ms - 1.54kb[0m
+null
+exec stdoout: 51a635d127be261eed704364
+
+[90mPOST /addArticle [32m200 [90m1934ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 7688130152,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a635d16a13621c7b00003d,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=26564&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m30ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 1.54kb[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m979ms[0m
+{ __v: 0,
+  keywords: [],
+  id: 14920701,
+  api_key: '1e2956a7d55d2317858cf4db7d564f676a34b249',
+  _id: 51a637546a13621c7b00003e,
+  facebookLikes: [],
+  tweetsRead: [],
+  articlesRead: [],
+  work: [],
+  languages: [] }
+[90mGET /userReadArticle?user=IP&article=25968&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m27ms[0m
+null
+exec stdoout: 
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 90, in <module>
+    main()
+  File "./executed.py", line 35, in main
+    keywords = makeAlchemyConnection(body)
+  File "./executed.py", line 72, in makeAlchemyConnection
+    data = json.loads(data)
+  File "/usr/lib/python2.7/json/__init__.py", line 326, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+[90mPOST /addArticle [32m200 [90m990ms[0m

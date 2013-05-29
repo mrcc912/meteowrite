@@ -1,10 +1,14 @@
+<html>
+<head>
+	<title> API Use Charts </title>
+</head>
+
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script>
 var server = "http://ec2-54-224-28-145.compute-1.amazonaws.com:5000";
 </script>
 <script src= "http://ec2-54-224-28-145.compute-1.amazonaws.com:5000/js/highcharts.js"> </script>
 <script>
-	
 function createPieChart(id, chartData, chartName, chartTitle)
 {
     $('#' + id).highcharts({
@@ -80,30 +84,44 @@ function createBarChart(id, chartData, chartName, chartTitle)
 	    }
 	},
 	series: [{
-	    name: "relevance",
+	    name: "# of calls",
 	    data: chartData[1]
 	}]
     });
 }   
 </script>
-
-<div id="apiuse"></div>
-
+<body>
+<div id="graphs"></div>
+</body>
 <script>
-var chartData = new Array();
-    var label = new Array();
-    var series  = new Array();
-    chartData.push (label);
-    chartData.push(series);
-    chartData[0].push("userReadArticle");
-    chartData[1].push(1043);
-    chartData[0].push("getTopKeywords");
-    chartData[1].push(723);
-    chartData[0].push("getArticleReaderInterests");
-    chartData[1].push(643);
-    chartData[0].push("getAuthorKeyowrds");
-    chartData[1].push(486);
-    
-createBarChart("apiuse", chartData, "API Use", "API Use");
+<% for(var i=0; i<stats.length; i++) { %>
+   var chartData = new Array();
+   var label = new Array();
+   var series  = new Array();
+   chartData.push (label);
+   chartData.push(series);
+   var data = new Array();
+   <% for (var j=0; j<stats[i].use_count.length; j++) { %>
+      var name = "<%= stats[i].use_count[j].api %>";
+      var time = new Date("<%= stats[i].use_count[j].time %>");
+      if(data[name])
+	data[name]++;
+      else
+	data[name] = 1;
+   <% } %>
+   for(name in data)
+   {
+	chartData[0].push(name);
+	chartData[1].push(data[name]);
+   }
+   var div = document.createElement("DIV");
+   div.id = "<%=stats[i]._id %>";
+   //$("#graphs").appendChild(div);
+   document.getElementById("graphs").appendChild(div);
+   var apiuser_name = "<%= stats[i].name %>";
+   createBarChart(div.id, chartData, apiuser_name, apiuser_name);
+<% } %>
 
 </script>
+
+</html>

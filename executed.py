@@ -18,7 +18,7 @@ def main():
     raise Exception('Incorrect number of parameters')
 
 
-  connection = MongoClient()
+  connection = MongoClient("mongodb://ec2-54-235-227-153.compute-1.amazonaws.com", 27017);
   db = connection.raw
   article = db.articles
 
@@ -30,11 +30,13 @@ def main():
   section = urllib.unquote(sys.argv[6])
   url = urllib.unquote(sys.argv[7])
   body = urllib.unquote(sys.argv[8])
+  api = urllib.unquote(sys.argv[9])
 
   keywords = makeAlchemyConnection(body)
   keywordsCalais = makeOCConnection(body)
-  newArticle = {"id":articleId, "headline":headline, "biline":biline, "creditline":creditline, "source":source, "section":section, "URL":URL, "body":body, "keywords":keywords, "keywordsCalais": keywordsCalais}
+  newArticle = {"id":articleId, "headline":headline, "biline":biline, "creditline":creditline, "source":source, "section":section, "URL":url, "body":body, "keywords":keywords, "keywordsCalais": keywordsCalais, "api_key": api}
   articleId = article.insert(newArticle)
+  print articleId
 
   #print 'id: ', curId, '\n'
   #print 'headline: ', headline, '\n'

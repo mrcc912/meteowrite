@@ -59,7 +59,9 @@ app.get('/getarticle', routes.getArticle);
 app.get('/articleRead', routes.userReadArticle);
 app.get('/reccPost', routes.reccPost);
 app.get('/articleOverlap', routes.articleOverlap);
-app.get('/py', routes.processArticle);
+
+app.post('/py', routes.processArticle);
+app.post('/addArticle', routes.processArticle);
 app.post('/keywordResponse', routes.keywordResponse);
 app.post('/keywordResponseRec', routes.keywordResponseRec);
 app.post('/articleRead', routes.userReadArticlePost);
