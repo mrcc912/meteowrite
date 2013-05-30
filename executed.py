@@ -79,8 +79,8 @@ def makeAlchemyConnection(text):
     for tup in keywords:
       tup[u'relevance'] = float(tup[u'relevance'])
       return keywords
-    except: 
-      return []
+  except: 
+    return []
 
 def makeOCConnection(text):
   apiKey = "mn9qgy5fzn96qy9s65n9weda"
