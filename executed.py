@@ -23,6 +23,7 @@ def main():
   article = db.articles
 
   articleId = urllib.unquote(sys.argv[1])
+  articleId = int(articleId)
   headline = urllib.unquote(sys.argv[2])
   biline = urllib.unquote(sys.argv[3])
   creditline = urllib.unquote(sys.argv[4])
@@ -34,9 +35,12 @@ def main():
 
   keywords = makeAlchemyConnection(body)
   keywordsCalais = makeOCConnection(body)
-  newArticle = {"id":articleId, "headline":headline, "biline":biline, "creditline":creditline, "source":source, "section":section, "URL":url, "body":body, "keywords":keywords, "keywordsCalais": keywordsCalais, "api_key": api}
-  articleId = article.insert(newArticle)
-  print articleId
+  art = article.find_one({"id": articleId, "api_key":api});
+  if art==None :
+    newArticle = {"id":articleId, "headline":headline, "biline":biline, "creditline":creditline, "source":source, "section":section, "URL":url, "body":body, "keywords":keywords, "keywordsCalais": keywordsCalais, "api_key": api}
+    articleId = article.insert(newArticle)
+  else:
+    return art
 
   #print 'id: ', curId, '\n'
   #print 'headline: ', headline, '\n'
@@ -69,12 +73,15 @@ def makeAlchemyConnection(text):
   uri = 'http://access.alchemyapi.com/calls/text/TextGetRankedKeywords'
   body = 'apikey=' + apiKey + '&text='+ urllib.quote(text,'') + '&outputMode=json'
   data = urllib2.urlopen(uri + "?" + body).read()
-  data = json.loads(data)
-  keywords = data[u'keywords']
-  for tup in keywords:
-    tup[u'relevance'] = float(tup[u'relevance'])
-  return keywords
-  
+  try:
+    data = json.loads(data)
+    keywords = data[u'keywords']
+    for tup in keywords:
+      tup[u'relevance'] = float(tup[u'relevance'])
+      return keywords
+    except: 
+      return []
+
 def makeOCConnection(text):
   apiKey = "mn9qgy5fzn96qy9s65n9weda"
   calais = Calais(apiKey, submitter="python-calais demo")
