@@ -3,13 +3,13 @@
  */
 
 var express = require('express')
-  , routes = require('./routes')
-  , user = require('./routes/user')
-  , article = require('./routes/article')
-  , http = require('http')
-  , engine = require('ejs-locals')
-  , path = require('path')
-  , reader = require('file')
+, routes = require('./routes')
+, user = require('./routes/user')
+, article = require('./routes/article')
+, http = require('http')
+, engine = require('ejs-locals')
+, path = require('path')
+, reader = require('file')
 , mongo = require('database')
 , alchemy = require('alchamy');;
 
@@ -42,7 +42,11 @@ app.get('/getAuthorKeywords', routes.getAuthorKeywords);
 app.get('/getArticleFacebook', routes.getArticleFacebook);
 app.get('/API', routes.API);
 app.get('/addUser', routes.addUser);
-
+app.get("/reccomendAd", routes.reccomendAd);
+app.get('/sacbee', routes.sacbee);
+app.get('/reportBarUse', routes.reportBarUse);
+app.get('/userReadArticle', routes.userReadArticle);
+app.post('/addArticle', routes.processArticle);
 
 app.get('/', routes.index);
 app.get('/articleReader', routes.articleReader);
@@ -59,51 +63,18 @@ app.get('/getarticle', routes.getArticle);
 app.get('/articleRead', routes.userReadArticle);
 app.get('/reccPost', routes.reccPost);
 app.get('/articleOverlap', routes.articleOverlap);
-
-app.post('/py', routes.processArticle);
-app.post('/addArticle', routes.processArticle);
 app.post('/keywordResponse', routes.keywordResponse);
 app.post('/keywordResponseRec', routes.keywordResponseRec);
-app.post('/articleRead', routes.userReadArticlePost);
 app.get('/recentTweets', routes.recentTweets);
-
-app.post('/readArticle', function(req, res){
-    console.log(req.body);
-    mongo.addArticle(
-	req.body.id,
-	req.body.headline,
-	req.body.biline,
-	req.body.creditline,
-	req.body.source,
-	req.body.section,
-	req.body.url,
-	req.body.body,
-	function(obj){res.render('viewArticle', {title: "Article Reader"});}
-    );
-});
-
-app.post("/articleParser", function(req, res){
-    alchemy.getKeywords(123, req.body.body, function(id, obj){
-	mongo.addKeywords(req.cookies.user, obj.keywords);
-    });    
-});
-
-
-app.get('/testArticle', routes.testArticle);
-app.get('/apiuse', routes.apiuse);
-/* Public API*/
-app.get('/getTopKeywords', routes.getTopKeywords);
-app.get('/getArticleReaderInterests', routes.getArticleReaderInterests);
-app.get('/getAuthorKeywords', routes.getAuthorKeywords);
-app.get('/API', routes.API);
-app.get('/userReadArticle', routes.userReadArticle);
-app.get("/reccomendAd", routes.reccomendAd);
-app.get('/sacbee', routes.sacbee);
-app.get('/reportBarUse', routes.reportBarUse);
-//not fully implemented
 app.get("/getUser", routes.getUser);
 
-app.get('/getArticleFacebook', routes.getArticleFacebook);
+app.get('/apiuse', routes.apiuse);
+app.get('/testArticle', routes.testArticle);
+
+/* Stats Dashboard*/
+app.get("/metrics_dashboard", routes.metrics_view);
+app.get("/metrics_login", routes.metrics_login);
+app.post("/metrics_login_post", routes.metrics_login_post);
 
 /* TESTING FUNCTIONS */
 

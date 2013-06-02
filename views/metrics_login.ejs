@@ -1,0 +1,44 @@
+<% layout('layout') -%>
+<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha1.js"></script>
+<style>
+#login_form
+{
+position:relative;
+	width: 50%;
+	left: 25%;
+}
+
+#login_div
+{
+	text-align: center;
+width: 100%;
+position: absolute;
+}
+
+#logo{
+width: 25%;
+}
+  
+</style>
+
+<h2><%= error_message %> </h2>
+<div id="login_div">
+  <img id="logo" src="/images/tag_team_logo_2.gif" alt="tag_team_logo"/>
+  <form id="login_form" action="/metrics_login_post" method="post">
+    <label for="username"> Username: </label> 
+    <input type="text" id="username" name="username"/>
+    <label for="password"> Password: </label>
+    <input type="password" name="password" id="password"/>
+    <input type="hidden" name="hash" id="hash"/>
+    <button onclick="calcHash()" name="submit">Login</button>
+  </form>
+</div>
+
+<script>
+function calcHash()
+{
+    var password = $("#password").val();
+    var hash = CryptoJS.SHA1(password);
+    $("#hash").val(hash);
+}
+</script>

@@ -1,0 +1,178 @@
+<% layout('layout') -%>
+
+<style>
+#article_list_div
+{
+height: 100%;
+width: 50%;
+position: absolute;
+top: 50px;
+left: 5%;
+border   
+}
+
+#article_list_div ul{
+height: 90%;
+overflow: auto;
+}
+
+#sidebar{
+height: 100%;
+width: 24%;
+right: 0px;
+position: absolute;
+background: blue;
+}
+</style>
+
+<script src="/javascripts/highcharts.js"></script>
+<div id="article_list_div">
+<ul data-role="listview" data-filter="true" class="ui-listview">
+<% for(var i=0; i<articles.length; i++){%>
+
+
+<li>
+  <a href="#" data-icon="arrow-r" data-iconpos="right" selected="true" onclick="showGraphsFor(<%= articles[i].id %>,'<%= articles[i].biline %>' ,'<%=articles[i].api_key %>')">
+    <h3> <%= articles[i].headline %></h3>
+    <p> <%= articles[i].biline %></p>
+    <p> Readers: <%= articles[i].readers.length %> </p>
+  </a>
+</li>
+<% } %>
+</ul>
+</div>
+
+<div id="sidebar">
+   <div id="article_keywords"></div><br/>
+   <div id="reader_keywords"></div><br/>
+   <div id="author_keywords"></div><br/>
+     
+</div>
+
+
+<script>
+
+function showGraphsFor(id, biline, api_key)
+{
+getKeywords(id, 5, api_key);
+//readerInterests(id, api_key);
+//authorKeywords(id, biline, api_key);
+}
+
+function getKeywords(id, num, api_key)
+{
+    var data = new Array();
+    var labels  = new Array();
+    var series = new Array();
+    data.push(labels);
+    data.push(series);
+    $.get("/getTopKeywords",
+	  {
+	      article: id,
+	      numResponses: num,
+	      apikey: api_key
+	  }).done(function(response){
+	      var res = JSON.parse(response);
+console.log(res);
+	      for(var word=0; word<res.length; word++)
+	      {
+		  data[0].push(res[word].text);
+		  data[1].push(parseFloat(res[word].rel));
+	      }
+	      createBarChart("article_keywords", data, 'article_keywords', 'Article Keywords');
+	  });    
+}
+
+function readerInterests(id,api_key)
+{
+    var data = new Array();
+    var labels  = new Array();
+    var series = new Array();
+    data.push(labels);
+    data.push(series);
+    $.get("/getArticleReaderInterests",
+	  {
+	      article: id,
+	      apikey: api_key
+	  }).done(function(response){
+	      var res = JSON.parse(response);
+	      console.log(response);
+	      var limit = res.length;
+	      if(limit>25)
+		  limit = 25;
+	      for(var word=0; word<limit; word++)
+	      {
+		  data[0].push(res[word].text);
+		  data[1].push(parseFloat(res[word].rel));
+	      }
+	      createBarChart("reader_keywords", data, 'user_shared_interests', 'Shared Reader Interests');
+	  });
+}
+
+function authorKeywords(article_id, biline, api_key)
+{
+    var data = new Array();
+    var labels  = new Array();
+    var series = new Array();
+    data.push(labels);
+    data.push(series);
+    $.get("/getAuthorKeywords",
+	  {
+	      author: biline,
+	      apikey: api_key
+	  }).done(function(response){
+	      var res = JSON.parse(response);
+	      var limit = res.length;
+	      if(res.length >= 25)
+		  limit = 25;
+	      for(var word=0; word<limit; word++)
+	      {
+		  data[0].push(res[word].text);
+		  data[1].push(parseFloat(res[word].rel));
+	      }
+	      createBarChart("author_keywords", data, 'author_keywords', 'Author Keywords');
+	  });    
+}
+
+function createBarChart(id, chartData, chartName, chartTitle)
+{
+    $("#" + id).highcharts({
+	chart: {
+	    type: "bar"
+	},
+
+	title: {
+	    text: chartTitle
+	},
+	xAxis: {
+	    categories: chartData[0],
+	    title: { text: null }
+	},
+	yAxis: {
+	    min: 0,
+	    title: {
+		text: "relevance",
+		align: "high"
+	    },
+	    labels: {
+		overflow: "justify"
+	    }
+	},
+	tooltip: {
+	    valueSuffix: ""
+	},
+	plotOptions: {
+	    bar: {
+		dataLabels: {
+		    enabled: true
+		}
+	    }
+	},
+	series: [{
+	    name: "relevance",
+	    data: chartData[1]
+	}]
+    });
+}
+
+</script>

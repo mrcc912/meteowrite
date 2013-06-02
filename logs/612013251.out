@@ -1,0 +1,412 @@
+Express server listening on port 5000
+Connected to mongo server.
+[90mGET /javascripts/pennypress_script.js [32m200 [90m44ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m110ms[0m
+[90mGET /userReadArticle?user=IP&article=26952&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m86ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m3022ms[0m
+[90mGET /userReadArticle?user=IP&article=4022&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m59ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m574ms[0m
+[90mGET /userReadArticle?user=IP&article=5797&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m52ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m31ms[0m
+[90mGET /userReadArticle?user=IP&article=26944&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m46ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m61ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m74ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m121ms[0m
+[90mGET /userReadArticle?user=IP&article=26930&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m62ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m6059ms[0m
+[90mGET /userReadArticle?user=IP&article=16926&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m85ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m1005ms[0m
+[90mGET /userReadArticle?user=IP&article=12740&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m87ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m38ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m7ms[0m
+[90mPOST /addArticle [32m200 [90m116ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m78ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m221ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m47ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m14ms[0m
+[90mGET /userReadArticle?user=IP&article=26944&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m59ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m549ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m57ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m95ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m40ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m3020ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m380ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m70ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m230ms[0m
+[90mGET /userReadArticle?user=IP&article=26768&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m51ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m661ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m46ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m19ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m18ms[0m
+[90mGET /userReadArticle?user=IP&article=26952&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m55ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m36ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m38ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m9ms[0m
+[90mPOST /addArticle [32m200 [90m321ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m4ms[0m
+[90mPOST /addArticle [32m200 [90m31ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m17ms[0m
+[90mGET /userReadArticle?user=IP&article=26455&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m48ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m135ms[0m
+[90mGET /userReadArticle?user=IP&article=26930&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m46ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m2644ms[0m
+[90mGET /userReadArticle?user=IP&article=16104&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m110ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m50ms[0m
+[90mGET /userReadArticle?user=IP&article=26039&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m42ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m134ms[0m
+[90mGET /userReadArticle?user=IP&article=26930&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m44ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m30ms[0m
+[90mPOST /addArticle [32m200 [90m145ms[0m
+[90mGET /userReadArticle?user=IP&article=26922&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m18ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m1226ms[0m
+[90mGET /userReadArticle?user=IP&article=24019&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m46ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m278ms[0m
+[90mGET /userReadArticle?user=IP&article=25463&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m49ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m596ms[0m
+[90mGET /userReadArticle?user=IP&article=23672&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m43ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m641ms[0m
+[90mGET /userReadArticle?user=IP&article=5797&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m43ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m103ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m48ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m18ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m381ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m308ms[0m
+[90mGET /userReadArticle?user=IP&article=10339&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m52ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m42ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m142ms[0m
+[90mGET /userReadArticle?user=IP&article=26930&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m44ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m5536ms[0m
+[90mGET /userReadArticle?user=IP&article=18700&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m54ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m146ms[0m
+[90mGET /userReadArticle?user=IP&article=9668&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m98ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m6ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m103ms[0m
+[90mGET /userReadArticle?user=IP&article=26952&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m54ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m19ms[0m
+[90mPOST /addArticle [32m200 [90m303ms[0m
+[90mGET /userReadArticle?user=IP&article=25252&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m122ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m22ms[0m
+[90mPOST /addArticle [32m200 [90m221ms[0m
+[90mGET /userReadArticle?user=IP&article=26922&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m11ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m21ms[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m1126ms[0m
+[90mGET /userReadArticle?user=IP&article=26932&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m12ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m301ms[0m
+[90mGET /userReadArticle?user=IP&article=1740&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m44ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m2828ms[0m
+[90mGET /userReadArticle?user=IP&article=17217&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m40ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m840ms[0m
+[90mGET /userReadArticle?user=IP&article=5797&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m44ms[0m
+[90mPOST /addArticle [32m200 [90m127ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m3ms[0m
+[90mPOST /addArticle [32m200 [90m288ms[0m
+[90mGET /userReadArticle?user=IP&article=10044&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m12ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m5623ms[0m
+[90mGET /userReadArticle?user=IP&article=19705&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m48ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m24ms[0m
+[90mPOST /addArticle [32m200 [90m236ms[0m
+[90mGET /userReadArticle?user=IP&article=19705&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m10ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m4ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m210ms[0m
+[90mGET /userReadArticle?user=IP&article=10044&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m57ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m7ms[0m
+[90mGET /userReadArticle?user=IP&article=20917&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m43ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m1ms[0m
+[90mPOST /addArticle [32m200 [90m87ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m44ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m3715ms[0m
+[90mGET /userReadArticle?user=IP&article=24780&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m72ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m173ms[0m
+[90mGET /userReadArticle?user=IP&article=26930&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m62ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m6ms[0m
+[90mPOST /addArticle [32m200 [90m280ms[0m
+[90mGET /userReadArticle?user=IP&article=19705&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m163ms[0m
+[90mGET /userReadArticle?user=IP&article=26714&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m85ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m10ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m970ms[0m
+[90mGET /userReadArticle?user=IP&article=25620&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m48ms[0m
+[90mGET /userReadArticle?user=IP&article=10207&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m48ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m594ms[0m
+[90mGET /userReadArticle?user=IP&article=8325&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m65ms[0m
+[90mGET /userReadArticle?user=IP&article=14386&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m81ms[0m
+[90mGET /userReadArticle?user=IP&article=17486&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m53ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m633ms[0m
+[90mGET /userReadArticle?user=IP&article=19689&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m50ms[0m
+[90mGET /userReadArticle?user=IP&article=19689&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m70ms[0m
+[90mGET /userReadArticle?user=IP&article=19689&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m89ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m3905ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m14ms[0m
+[90mGET /userReadArticle?user=IP&article=18354&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m42ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m181ms[0m
+[90mGET /userReadArticle?user=IP&article=26930&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m89ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m31ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m58ms[0m
+[90mGET /userReadArticle?user=IP&article=18800&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m128ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m22ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m121ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m44ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m276ms[0m
+[90mGET /userReadArticle?user=IP&article=26922&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m60ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m137ms[0m
+[90mGET /userReadArticle?user=IP&article=10339&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m50ms[0m
+[90mPOST /addArticle [32m200 [90m135ms[0m
+[90mGET /userReadArticle?user=IP&article=10339&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /metrics_dashboard [32m200 [90m80ms - 795[0m
+[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m13ms[0m
+[90mGET /javascripts/highcharts.js [36m304 [90m4ms[0m
+[90mGET /stylesheets/images/ajax-loader.gif [33m404 [90m2ms[0m
+[90mGET /metrics_dashboard [32m200 [90m5ms - 795[0m
+[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/highcharts.js [36m304 [90m1ms[0m
+[90mGET /login [32m200 [90m52ms - 3.67kb[0m
+[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m8ms[0m
+[90mPOST /addArticle [32m200 [90m424ms[0m
+[90mGET /metrics_login [32m200 [90m17ms - 1000[0m
+[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m2ms[0m
+[90mGET /userReadArticle?user=IP&article=26455&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m45ms[0m
+[90mGET /metrics_login [32m200 [90m3ms - 1.02kb[0m
+[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m0ms[0m
+[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m2ms[0m
+[90mGET /metrics_login [32m200 [90m3ms - 1.04kb[0m
+[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m7ms[0m
+[90mGET /metrics_login [32m200 [90m25ms - 1.08kb[0m
+[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m12ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m2425ms[0m
+[90mGET /userReadArticle?user=IP&article=26930&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m52ms[0m
+[90mGET /metrics_login [32m200 [90m26ms - 1.09kb[0m
+[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m0ms[0m
+[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m3ms[0m
+[90mGET /metrics_login [32m200 [90m25ms - 1.11kb[0m
+[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m3ms[0m
+[90mGET /metrics_login [32m200 [90m12ms - 1.14kb[0m
+[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m4408ms[0m
+[90mGET /userReadArticle?user=IP&article=22637&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m62ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m136ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m48ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m80ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m49ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m5897ms[0m
+[90mGET /userReadArticle?user=IP&article=19528&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m54ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m2ms[0m
+[90mPOST /addArticle [32m200 [90m90ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m48ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m33ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m1562ms[0m
+[90mGET /userReadArticle?user=IP&article=18800&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m51ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m7ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m1775ms[0m
+[90mGET /userReadArticle?user=IP&article=17155&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m48ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m30ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m641ms[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m12ms[0m
+[90mPOST /addArticle [32m200 [90m195ms[0m
+[90mGET /userReadArticle?user=IP&article=26714&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m46ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m321ms[0m
+[90mGET /userReadArticle?user=IP&article=26714&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m1ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m195ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m52ms[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m1128ms[0m
+[90mGET /userReadArticle?user=IP&article=24917&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m59ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m2ms[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m3196ms[0m
+[90mGET /userReadArticle?user=IP&article=23083&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m49ms[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m804ms[0m
+[90mGET /userReadArticle?user=IP&article=23102&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m10ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m9ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m1349ms[0m
+[90mGET /userReadArticle?user=IP&article=9118&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m49ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m39ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m244ms[0m
+[90mGET /userReadArticle?user=IP&article=10055&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m58ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m3062ms[0m
+[90mGET /userReadArticle?user=IP&article=26719&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m56ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m1032ms[0m
+[90mGET /userReadArticle?user=IP&article=26930&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m51ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m48ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m97ms[0m
+[90mGET /userReadArticle?user=IP&article=18800&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m53ms[0m
+[90mPOST /addArticle [32m200 [90m33ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m61ms[0m
+[90mGET /userReadArticle?user=IP&article=10044&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m50ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m2824ms[0m
+[90mGET /userReadArticle?user=IP&article=26922&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m76ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m104ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m72ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m9836ms[0m
+[90mGET /userReadArticle?user=IP&article=5623&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m140ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m24ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m505ms[0m
+[90mGET /userReadArticle?user=IP&article=24780&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m156ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m22ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m21ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m1089ms[0m
+[90mGET /userReadArticle?user=IP&article=19689&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m58ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m80ms[0m
+[90mGET /userReadArticle?user=IP&article=26714&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m50ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m28ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m20ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m150ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m45ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m2866ms[0m
+[90mGET /userReadArticle?user=IP&article=18953&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m88ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m25ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m109ms[0m
+[90mGET /userReadArticle?user=IP&article=26930&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m60ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m2ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m26ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m4665ms[0m
+[90mGET /userReadArticle?user=IP&article=21830&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m94ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m33ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m5ms[0m
+[90mGET /userReadArticle?user=IP&article=24917&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m123ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m73ms - 1.54kb[0m
+exec stdoout: 
+[90mPOST /addArticle [32m200 [90m1703ms[0m
+[90mGET /userReadArticle?user=IP&article=7089&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m54ms[0m
+[90mGET /robots.txt [33m404 [90m35ms[0m
+[90mGET /userReadArticle?user=IP&article=26648&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m80ms[0m
+[90mGET /userReadArticle?user=IP&article=25622&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m83ms[0m
+[90mGET /userReadArticle?user=IP&article=26648&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m177ms[0m
+
+/home/mrcc/meteowrite/node_modules/mongoose/lib/utils.js:409
+        throw err;
+              ^
+VersionError: No matching document found.
+    at handleSave (/home/mrcc/meteowrite/node_modules/mongoose/lib/model.js:328:23)
+    at /home/mrcc/meteowrite/node_modules/mongoose/lib/utils.js:404:16
+    at null.<anonymous> (/home/mrcc/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection.js:480:9)
+    at g (events.js:175:14)
+    at EventEmitter.emit (events.js:106:17)
+    at Server.Base._callHandler (/home/mrcc/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/base.js:130:25)
+    at /home/mrcc/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:517:20
+    at MongoReply.parseBody (/home/mrcc/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js:127:5)
+    at null.<anonymous> (/home/mrcc/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:476:22)
+    at EventEmitter.emit (events.js:95:17)

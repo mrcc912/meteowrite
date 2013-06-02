@@ -41,8 +41,6 @@ exports.runPyScript = function(req, res) {
 exports.article = function(req, res)
 {
     mongo.addUser(req.cookies.user, req.cookies.name, req.cookies.hometown, req.cookies.location, req.cookies.gender, req.cookies.language.split(","), [req.cookies.work]);
-    console.log(req.cookies);
-    console.log(req.cookies.user);
     res.render('article', {title: "article"});
 };
 
@@ -84,10 +82,6 @@ exports.keywordResponseRec = function(req, res) {
   var username = req.body.username;
   var keywords = req.body.KEYWORD;
   var numRec = req.body.numRec;
-  console.log(username);
-  console.log(numRec);
-  console.log(keywords);
-  console.log("flag");
   /*mongo.addWordsToUserBlacklist(username,keywords,function(user) {
   
     mongo.relatedArticlesForUserObj(user, numRec, function(topMap) {
@@ -162,10 +156,8 @@ exports.reccPost = function(req, res)
 	// weight significance by slider value
 	// return top three
 	mongo.getArticlesRelatedToFacebook(req.cookies.user, req.query.userid, token, req.query.apikey, function(obj){
-	    console.log(obj);
 	    for(num in obj)
 	    {
-		console.log(obj[num]);
 	    }
 	    res.render('facebookRec', {
 		title: "User Reccomendation",
@@ -212,8 +204,6 @@ exports.getArticleReaderInterests = function(req, res)
 
 exports.getAuthorKeywords = function(req, res)
 {
-    //console.log("getAuthorKeywords");
-
     mongo.getAuthorKeywords(req.query.author, req.query.apikey, function(data){
 	res.header("Access-Control-Allow-Origin", "*");
 	res.header("Access-Control-Allow-Headers", "X-Requested-With");
@@ -284,8 +274,6 @@ exports.sacbee = function(req, res)
     mongo.getArticle(req.query.article_id, api, function(data){
 	if(data != -1)
 	{
-	    console.log("sending article to sacbee.ejs");
-	    console.log(data.biline);
 	    res.render('sacbee',{
 		art: data,
 		title: "Sacbee Article"
@@ -347,7 +335,6 @@ exports.processArticle = function(req, res) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "X-Requested-With");
     mongo.checkArticleExistence(id, apikey, function(data){
-	console.log(data);
 	if(data){
 	    res.end("Article already exists");
 	}
@@ -389,7 +376,6 @@ exports.getArticle = function(req, res) {
 exports.reportBarUse = function(req, res)
 {
     mongo.reportBarUse(req.query.api_key, req.query.duration, function(data){
-	console.log(data);
     });
 };
 
@@ -397,5 +383,83 @@ exports.apiuse = function(req, res)
 {
     mongo.getAllAPIUse(function(data){
 	res.render('apiuse', {stats: data});
+    });
+}
+
+
+
+/*************************************************************
+**************************************************************
+**************************************************************
+**************************************************************
+________________STATISTICS PORTAL_____________________________
+*************************************************************
+**************************************************************
+**************************************************************
+*************************************************************/
+
+exports.metrics_login = function(req, res)
+{
+    res.render('metrics_login', {
+	title: "Metrics Login",
+	error_message: ""
+    });
+}
+
+exports.metrics_view = function(req, res)
+{
+    mongo.getArticles(req.query.api_key, function(articles){
+	res.render('metrics_view', {
+	    title: "Metrics Homepage",
+	    articles: articles
+	});    
+    });
+/*
+    if(req.session.user){
+	res.render('metrics_view', {
+	    title: "Metrics Homepage"
+	});
+    }
+    else
+    {    
+	res.render('metrics_login', {
+	    title: "Metrics Login",
+	    error_message: ""
+	});
+    } 
+*/
+}
+
+exports.metrics_login_post = function(req, res)
+{
+    //check login
+    mongo.metrics_user_login(req.body.username, req.body.password, function(data){
+	if(!data)
+	{
+	    console.log("ERROR HERE, NULL RETURN VALUE!!");
+	}
+	if(data == -2)
+	{
+	    res.render('metrics_login', {
+		title: "Metrics Login",
+		error_message: "Could not find that username"
+	    });	    
+	}
+	if(data == -1)
+	{
+	    res.render('Metrics_login', {
+		title: "Metrics Login",
+		error_message: "Incorrect Username/Password"
+	    });	    
+	}
+	else
+	{
+	    mongo.getArticles(req.query.api_key, function(articles){
+		res.render('metrics_view', {
+		    title: "Metrics Homepage",
+		    articles: articles
+		});    
+	    });
+	}
     });
 }

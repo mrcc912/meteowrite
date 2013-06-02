@@ -1,0 +1,32 @@
+<% layout('layout') -%>
+
+<style>
+#article_list_div
+{
+height: 100%;
+width: 75%;
+position: absolute;
+left: 0px;
+background: red;
+}
+
+#sidebar{
+height: 100%;
+width: 24%;
+right: 0px;
+position: absolute;
+background: blue;
+}
+</style>
+
+<script src="/javascripts/highcharts.js"></script>
+<div id="article_list_div">
+<ul
+</div>
+
+<div id="sidebar">
+   <div id="article_keywords"></div><br/>
+   <div id="reader_keywords"></div><br/>
+   <div id="author_keywords"></div><br/>
+     
+</div>
