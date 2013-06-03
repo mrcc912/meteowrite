@@ -98,3 +98,30 @@ articles is not defined
 [90mGET /javascripts/highcharts.js [36m304 [90m4ms[0m
 [90mGET /sacbee [32m200 [90m18ms - 3.25kb[0m
 [90mGET /javascripts/sidebar_script.js [32m200 [90m16ms - 7kb[0m
+Express server listening on port 5000
+Connected to mongo server.
+[90mGET /metrics_dashboard?api_key=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m222ms - 45.41kb[0m
+[90mGET /javascripts/highcharts.js [36m304 [90m7ms[0m
+[90mGET /getTopKeywords?article=26691&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m12ms[0m
+here
+here
+[90mGET /getAuthorKeywords?author=+By+Jingjing+Tan+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m10ms[0m
+[90mGET /getTopKeywords?article=20917&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m8ms[0m
+here
+here
+[90mGET /getAuthorKeywords?author=+By+Xandra+Clark+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m128ms[0m
+
+/home/ubuntu/meteowrite/node_modules/mongoose/lib/utils.js:409
+        throw err;
+              ^
+VersionError: No matching document found.
+    at handleSave (/home/ubuntu/meteowrite/node_modules/mongoose/lib/model.js:328:23)
+    at /home/ubuntu/meteowrite/node_modules/mongoose/lib/utils.js:404:16
+    at null.<anonymous> (/home/ubuntu/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection.js:480:9)
+    at g (events.js:175:14)
+    at EventEmitter.emit (events.js:106:17)
+    at Server.Base._callHandler (/home/ubuntu/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/base.js:130:25)
+    at /home/ubuntu/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:517:20
+    at MongoReply.parseBody (/home/ubuntu/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js:127:5)
+    at null.<anonymous> (/home/ubuntu/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:476:22)
+    at EventEmitter.emit (events.js:95:17)

@@ -23,7 +23,7 @@ def main():
   article = db.articles
 
   articleId = urllib.unquote(sys.argv[1])
-  articleId = int(articleId)
+  #articleId = int(articleId)
   headline = urllib.unquote(sys.argv[2])
   biline = urllib.unquote(sys.argv[3])
   creditline = urllib.unquote(sys.argv[4])
