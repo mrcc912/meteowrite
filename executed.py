@@ -37,9 +37,15 @@ def main():
   if art==None :
     newArticle = {"id":articleId, "headline":headline, "biline":biline, "creditline":creditline, "source":source, "section":section, "URL":url, "body":body, "keywords":keywords, "keywordsCalais": keywordsCalais, "api_key": api}
     articleId = article.insert(newArticle)
+<<<<<<< HEAD
 
 
     
+=======
+    print articleId
+    print newArticle["api_key"]
+    return newArticle
+>>>>>>> 3b47d4e44374a189cf9582a08f58ad7fce27ab3d
   else:
     return art
 

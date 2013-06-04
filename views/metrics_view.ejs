@@ -55,6 +55,11 @@ background: blue;
 function showGraphsFor(id, biline, api_key)
 {
 getKeywords(id, 5, api_key, biline);
+<<<<<<< HEAD
+=======
+//readerInterests(id, api_key);
+//authorKeywords(id, biline, api_key);
+>>>>>>> 3b47d4e44374a189cf9582a08f58ad7fce27ab3d
 }
 
 function getKeywords(id, num, api_key, biline)
@@ -71,14 +76,18 @@ function getKeywords(id, num, api_key, biline)
 	      apikey: api_key
 	  }).done(function(response){
 	      var res = JSON.parse(response);
-console.log(res);
+
 	      for(var word=0; word<res.length; word++)
 	      {
 		  data[0].push(res[word].text);
 		  data[1].push(parseFloat(res[word].rel));
 	      }
 	      createBarChart("article_keywords", data, 'article_keywords', 'Article Keywords');
+<<<<<<< HEAD
 	      readerInterests(id, 5, api_key, biline); 
+=======
+	      authorKeywords(id, biline, api_key);
+>>>>>>> 3b47d4e44374a189cf9582a08f58ad7fce27ab3d
 	  });    
 }
 
@@ -96,7 +105,6 @@ function readerInterests(id, num, api_key, biline)
 	      apikey: api_key
 	  }).done(function(response){
 	      var res = JSON.parse(response);
-	      console.log(response);
 	      var limit = res.length;
 	      if(limit>25)
 		  limit = 25;
