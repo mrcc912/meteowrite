@@ -12,18 +12,16 @@ import urllib2
 from HTMLParser import HTMLParser
 from calais import Calais
 
-
 def main():
   if len(sys.argv) < 9:
     raise Exception('Incorrect number of parameters')
-
 
   connection = MongoClient("mongodb://ec2-54-235-227-153.compute-1.amazonaws.com", 27017);
   db = connection.raw
   article = db.articles
 
   articleId = urllib.unquote(sys.argv[1])
-  articleId = int(articleId)
+  #articleId = int(articleId)
   headline = urllib.unquote(sys.argv[2])
   biline = urllib.unquote(sys.argv[3])
   creditline = urllib.unquote(sys.argv[4])
@@ -39,6 +37,9 @@ def main():
   if art==None :
     newArticle = {"id":articleId, "headline":headline, "biline":biline, "creditline":creditline, "source":source, "section":section, "URL":url, "body":body, "keywords":keywords, "keywordsCalais": keywordsCalais, "api_key": api}
     articleId = article.insert(newArticle)
+
+
+    
   else:
     return art
 

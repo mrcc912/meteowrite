@@ -128,6 +128,7 @@ function init()
     //mongo.reportAPIuse("4efe22e97094d3c7231e6b061ae642a46e91fbb5", "getTopKeywordsForArticle");
     //mongo.getAPIUseForKey("4efe22e97094d3c7231e6b061ae642a46e91fbb5", function(data){console.log(data);})
     //mongo.updateArticles("4efe22e97094d3c7231e6b061ae642a46e91fbb5");
+    //mongo.clearAll("1e2956a7d55d2317858cf4db7d564f676a34b249");
 }
 
 http.createServer(app).listen(app.get('port'), function(){

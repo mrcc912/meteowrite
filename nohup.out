@@ -1,100 +1,41 @@
 Express server listening on port 5000
 Connected to mongo server.
-[90mGET /metrics_login [32m200 [90m71ms - 1.22kb[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m21ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m3ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m4ms[0m
-[90mGET /stylesheets/images/ajax-loader.gif [33m404 [90m2ms[0m
-[90mGET /images/tag_team_logo_2.gif [32m200 [90m7ms - 13.81kb[0m
-[90mGET /metrics_login [32m200 [90m6ms - 1.24kb[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m1ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m4ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m1ms[0m
-[90mGET /stylesheets/images/ajax-loader.gif [33m404 [90m2ms[0m
-[90mGET /images/tag_team_logo_2.gif [36m304 [90m1ms[0m
-[90mGET /metrics_login [32m200 [90m21ms - 1.24kb[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m2ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m1ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m2ms[0m
-[90mGET /images/tag_team_logo_2.gif [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m18ms - 1.54kb[0m
-[90mPOST /addArticle [32m200 [90m317ms[0m
-[90mGET /userReadArticle?user=IP&article=5623&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m103ms[0m
-[90mGET /metrics_view [33m404 [90m15ms[0m
-[90mGET /metrics_dashboard [32m200 [90m3ms - 795[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m1ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m4ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m2ms[0m
-[90mGET /javascripts/highcharts.js [32m200 [90m289ms - 131.1kb[0m
-[90mGET /metrics_dashboard [32m200 [90m2ms - 792[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m4ms[0m
-[90mGET /javascripts/highcharts.js [36m304 [90m2ms[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m1ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m4ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 1.54kb[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m33ms - 1.54kb[0m
-exec stdoout: 
-[90mPOST /addArticle [32m200 [90m3371ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m25ms[0m
-[90mPOST /addArticle [32m200 [90m137ms[0m
-[90mGET /userReadArticle?user=IP&article=26768&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m61ms[0m
-[90mGET /robots.txt [33m404 [90m22ms[0m
-[90mGET /userReadArticle?user=IP&article=19689&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m116ms[0m
-[90mGET /sacbee [32m200 [90m110ms - 3.25kb[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m4ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m2ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m3ms[0m
-[90mGET /javascripts/sidebar_script.js [32m200 [90m11ms - 7kb[0m
-[90mGET /js/highcharts.js?_=1370125077055 [32m200 [90m373ms - 131.1kb[0m
-[90mGET /userReadArticle?user=1&article=4458591&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m8ms[0m
-[90mGET /stylesheets/sidebar_style.css [32m200 [90m10ms - 577[0m
-[90mGET /stylesheets/images/ajax-loader.gif [33m404 [90m2ms[0m
-[90mGET /getTopKeywords?article=4458591&numResponses=10&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m5ms[0m
-[90mGET /sacbee?article_id=3437546 [32m200 [90m9ms - 2.55kb[0m
-[90mGET /javascripts/sidebar_script.js?_=1370125077056 [32m200 [90m3ms - 7kb[0m
-[90mGET /js/highcharts.js?_=1370125077057 [32m200 [90m360ms - 131.1kb[0m
-[90mGET /sacbee [36m304 [90m16ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m6ms[0m
-[90mGET /javascripts/sidebar_script.js [36m304 [90m2ms[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m1ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m18ms[0m
-[90mGET /js/highcharts.js?_=1370125096919 [32m200 [90m383ms - 131.1kb[0m
-[90mGET /stylesheets/sidebar_style.css [36m304 [90m2ms[0m
-[90mGET /getTopKeywords?article=4458591&numResponses=10&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m8ms[0m
-[90mGET /userReadArticle?user=1&article=4458591&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m41ms[0m
-[90mGET /sacbee [36m304 [90m37ms[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m3ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m3ms[0m
-[90mGET /javascripts/sidebar_script.js [36m304 [90m3ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m3ms[0m
-[90mGET /js/highcharts.js?_=1370125241997 [32m200 [90m398ms - 131.1kb[0m
-[90mGET /stylesheets/sidebar_style.css [36m304 [90m1ms[0m
-[90mGET /userReadArticle?user=1&article=4458591&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m8ms[0m
-[90mGET /stylesheets/images/ajax-loader.gif [33m404 [90m1ms[0m
-[90mGET /getTopKeywords?article=4458591&numResponses=10&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m4ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 1.54kb[0m
-[90mPOST /addArticle [32m200 [90m520ms[0m
-[90mGET /userReadArticle?user=IP&article=26922&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m77ms[0m
-ReferenceError: /home/mrcc/meteowrite/views/metrics_view.ejs:24
-    22| <script src="/javascripts/highcharts.js"></script>
-    23| <div id="article_list_div">
- >> 24| <ul data-role="listview" data-filter="true" class="ui-listview">
-    25| <% for(var i=0; i<articles.length; i++){%>
-    26| 
-    27| <li>
+[90mGET /javascripts/pennypress_script.js [32m200 [90m43ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [36m304 [90m5ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m4ms - 1.54kb[0m
+exec stdoout: 51ad09ed27be266cdf1353f8
+10411
+Corn ethanol is inefficient and drives food prices higher
+<strong>QUESTION: I read years ago that ethanol plants needed to be subsidized in order to make “ends meet.” Since then, how much has the efficiency of ethanol-producing technology improved? Is the industry now getting more energy out of the ethanol produced than put in? How dependent is this efficiency on the type of biofuel used (corn, grass, sugar cane)?</strong> <em>Asked by Hector Raynal, El Paso, Texas</em><a rel="attachment wp-att-6651" href="http://www.penipress.com/2010/12/21/led-bulbs-are-the-best-lighting-choice/penipress-top_stanford-sage-logo_large-2/"><img class="alignnone size-large wp-image-6651" title="PeniPress Top_Stanford-SAGE-logo_large" src="http://www.penipress.com/wp-content/uploads/2010/12/PeniPress-Top_Stanford-SAGE-logo_large1-1024x249.png" alt="" height="107" width="442"></a><strong>ANSWER: </strong>The United States&nbsp;loves corn. We use it for&nbsp;<a href="http://www.cornproducts.com/" target="_blank">everything</a>, from Coca-Cola sweetener to cow feed to “plastic” cup base. And we grow a lot of it: about 730 billion pounds in 2010*. On par with America’s love for corn is its oil addiction—and over the past 10 years we have combined these two great infatuations in the form of ethanol, a biofuel that can be mixed with gasoline to power cars and trucks. While the process of making corn ethanol involves simple fermentation and distillation—not unlike making whisky or vodka—the impacts of moving nearly 126 billion pounds of corn off the table and into the tank are enormous, and infinitely more complex.Corn, like any plant, needs sunlight, soil and water to grow. In the United States, it gets myriad additional inputs: in 2005, farmers applied 10 billion pounds of nitrogen fertilizer to our nation’s corn, irrigated more than 80 percent of the cropland and sprayed about 170 million pounds of herbicides—and that’s while the plants were still in the field. Once the&nbsp;<a href="http://en.wikipedia.org/wiki/The_Little_Red_Hen" target="_blank">Little Red Hen</a> is ready to harvest all of that corn, it needs to be picked, packaged and shipped off for processing and distribution.Every step in that process requires energy. The question is, can we get more energy&nbsp;<em>out</em> of corn ethanol that we have to put&nbsp;<em>in</em>? This is the&nbsp;<a href="http://ngm.nationalgeographic.com/2007/10/biofuels/biofuels-interactive" target="_blank">energy output ratio</a> you’re asking about. If the Hen sends the corn to be made into biofuel, she will get about 1.3 units of biofuel energy out for every unit of fossil fuel energy in. And unfortunately, that’s the lowest energy ratio out there for biofuels. For comparison, Brazil—the world’s second largest biofuels producer after the United States—gets an output ratio of 2 from their sugar cane ethanol. Also, studies on net energy output of biofuels are convoluted and often hard to sift through: while&nbsp;<a href="http://www.springerlink.com/content/r1552355771656v0/" target="_blank">some</a> say it takes more energy to produce biofuels than the fuel provides,&nbsp;<a href="http://www.transportation.anl.gov/pdfs/AF/265.pdf" target="_blank">others</a> say just the opposite. We’ll attempt to clarify the situation in the&nbsp;<a href="http://www.stanfordalumni.org/news/magazine/sage/201104/biofuels/nittygritty.html">Nitty Gritty</a>.While energy ratios give a valuable metric for comparison, judging the impacts of biofuels—and their ultimate value as a sustainable fuel source—is more complex than comparing energy outputs or piecing together&nbsp;<a href="http://www.stanfordalumni.org/news/magazine/sage/201103/impact/essential.html">lifecycle analyses</a>. Corn ethanol has environmental, economic and social impacts that reach far beyond the gas tank. And by almost any analysis, those impacts make it a poor choice for fuel in the United States.One such negative impact is diverting corn from food to fuel: the 14 million acres of corn we used for biofuels in 2008 could have fed 26&nbsp;million cows to maturity, or have sustained as many as 100 million people for a year. Further, choosing to use that corn for fuel decreased the amount available as food on the international market and may have contributed to&nbsp;<a href="http://www.science20.com/news_articles/ethanol_mandates_may_spike_food_prices_economists_warn" target="_blank">skyrocketing food prices</a> and&nbsp;<a href="http://www.scientificamerican.com/article.cfm?id=biofuels-bad-for-people-and-climate" target="_blank">increasing deforestation</a> rates in the Amazon.So with all of the harmful side effects, why doesn’t the Red Hen just keep the corn on the table and out of the tank? Even characters in fables are susceptible to economic incentives, evidently. With the help of decades of farm subsidies keeping inputs cheap, a tariff on foreign ethanol, 40 percent of production costs being covered by tax dollars, and government mandates for production, sending corn to the tank earns famers a lot more money. Is that really our primary goal from an alternative fuel source? Almost certainly not, so lets look elsewhere for fuel and leave the corn for the cola and cows.<a href="http://www.stanfordalumni.org/news/magazine/sage/201104/biofuels/nittygritty.html"><strong>READ MORE: Life cycle assessments capture more of corn ethanol’s overarching impacts [Click through for the Nitty Gritty Answer]. </strong></a><strong><a rel="attachment wp-att-5770" href="http://www.penipress.com/2010/12/08/which-is-more-eco-friendly-real-or-artificial-christmas-trees/ask-sage-button/"><img class="alignnone size-full wp-image-5770" title="Ask SAGE button" src="http://www.penipress.com/wp-content/uploads/2010/12/Ask-SAGE-button.png" alt="" height="73" width="300"></a></strong>&nbsp;
 
-articles is not defined
-    at eval (eval at <anonymous> (/home/mrcc/meteowrite/node_modules/ejs/lib/ejs.js:234:12), <anonymous>:29:469)
-    at /home/mrcc/meteowrite/node_modules/ejs/lib/ejs.js:239:15
-    at Object.exports.render (/home/mrcc/meteowrite/node_modules/ejs/lib/ejs.js:277:13)
-    at Object.exports.renderFile (/home/mrcc/meteowrite/node_modules/ejs/lib/ejs.js:303:22)
-    at View.module.exports [as engine] (/home/mrcc/meteowrite/node_modules/ejs-locals/index.js:85:7)
-    at View.render (/home/mrcc/meteowrite/node_modules/express/lib/view.js:75:8)
-    at Function.app.render (/home/mrcc/meteowrite/node_modules/express/lib/application.js:504:10)
-    at ServerResponse.res.render (/home/mrcc/meteowrite/node_modules/express/lib/response.js:753:7)
-    at exports.metrics_view (/home/mrcc/meteowrite/routes/index.js:412:6)
-    at callbacks (/home/mrcc/meteowrite/node_modules/express/lib/router/index.js:161:37)
-[90mGET /metrics_dashboard?api_key=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [31m500 [90m55ms[0m
-[90mGET /javascripts/highcharts.js [36m304 [90m4ms[0m
-[90mGET /sacbee [32m200 [90m18ms - 3.25kb[0m
-[90mGET /javascripts/sidebar_script.js [32m200 [90m16ms - 7kb[0m
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 105, in <module>
+    main()
+  File "./executed.py", line 45, in main
+    print newArticle["url"]
+KeyError: 'url'
+
+[90mPOST /addArticle [32m200 [90m4774ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m125ms[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m27ms - 1.54kb[0m
+[90mGET /javascripts/pennypress_script.js [32m200 [90m23ms - 1.54kb[0m
+[90mPOST /addArticle [32m200 [90m143ms[0m
+[90mGET /userReadArticle?user=IP&article=10411&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m76ms[0m
+[90mGET /robots.txt [33m404 [90m25ms[0m
+[90mGET /userReadArticle?user=IP&article=3596&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m32ms[0m
+[90mGET /userReadArticle?user=IP&article=24910&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m16ms[0m
+
+/home/mrcc/meteowrite/node_modules/mongoose/lib/utils.js:409
+        throw err;
+              ^
+VersionError: No matching document found.
+    at handleSave (/home/mrcc/meteowrite/node_modules/mongoose/lib/model.js:328:23)
+    at /home/mrcc/meteowrite/node_modules/mongoose/lib/utils.js:404:16
+    at null.<anonymous> (/home/mrcc/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection.js:480:9)
+    at g (events.js:175:14)
+    at EventEmitter.emit (events.js:106:17)
+    at Server.Base._callHandler (/home/mrcc/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/base.js:130:25)
+    at /home/mrcc/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:517:20
+    at MongoReply.parseBody (/home/mrcc/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js:127:5)
+    at null.<anonymous> (/home/mrcc/meteowrite/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:476:22)
+    at EventEmitter.emit (events.js:95:17)

@@ -185,7 +185,7 @@ exports.testArticle = function(req, res)
 
 exports.getTopKeywords = function(req, res)
 {
-    mongo.getTopKeywordsForArticle(req.query.article, req.query.numResponses, req.query.apikey, function(data){
+    mongo.getTopKeywordsForArticle("" + req.query.article, req.query.numResponses, req.query.apikey, function(data){
 	res.header("Access-Control-Allow-Origin", "*");
 	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	res.end(JSON.stringify(data));
@@ -195,7 +195,7 @@ exports.getTopKeywords = function(req, res)
 
 exports.getArticleReaderInterests = function(req, res)
 {
-    mongo.getArticleReaderInterests(req.query.article, req.query.apikey, function(data){
+    mongo.getArticleReaderInterests("" + req.query.article, req.query.apikey, req.query.numResponses, function(data){
 	res.header("Access-Control-Allow-Origin", "*");
 	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	res.end(JSON.stringify(data));
@@ -204,7 +204,7 @@ exports.getArticleReaderInterests = function(req, res)
 
 exports.getAuthorKeywords = function(req, res)
 {
-    mongo.getAuthorKeywords(req.query.author, req.query.apikey, function(data){
+    mongo.getAuthorKeywords(req.query.author, req.query.apikey, req.query.numResponses,function(data){
 	res.header("Access-Control-Allow-Origin", "*");
 	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	res.end(JSON.stringify(data));
@@ -213,7 +213,7 @@ exports.getAuthorKeywords = function(req, res)
 
 exports.getArticleFacebook = function(req, res)
 {
-    mongo.getArticleFacebook(req.query.article, req.query.apikey, function(data){
+    mongo.getArticleFacebook("" + req.query.article, req.query.apikey, function(data){
 	res.header("Access-Control-Allow-Origin", "*");
 	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	res.end(JSON.stringify(data));
@@ -238,7 +238,7 @@ function parseUserId(req)
 }
 exports.userReadArticle = function(req, res) {
     var userID = parseUserId(req);
-    mongo.userReadArticle(userID, req.query.article, req.query.apikey, function(data){
+    mongo.userReadArticle(userID, "" + req.query.article, req.query.apikey, function(data){
 	res.header("Access-Control-Allow-Origin", "*");
 	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	res.end(JSON.stringify(data));
@@ -271,7 +271,7 @@ exports.sacbee = function(req, res)
 	var api = "4efe22e97094d3c7231e6b061ae642a46e91fbb5";
     else
 	var api = req.query.api_key;
-    mongo.getArticle(req.query.article_id, api, function(data){
+    mongo.getArticle("" + req.query.article_id, api, function(data){
 	if(data != -1)
 	{
 	    res.render('sacbee',{
@@ -328,6 +328,8 @@ exports.processArticle = function(req, res) {
     if(body == null) {
 	return;
     } 
+    body = body.replace(/(<([^>]+)>)/ig,"");
+    
     var apikey = req.body.api_key;
     if(apikey == null)
 	apikey = "";
@@ -367,7 +369,7 @@ exports.addUser = function(req, res){
 };
 
 exports.getArticle = function(req, res) {
-    var articleId = req.query.articleID;
+    var articleId = "" + req.query.articleID;
     mongo.getArticle(articleId, req.query.apikey, function(art) {
 	res.render("getArticle", {title: "Single Article", article: art});
     });

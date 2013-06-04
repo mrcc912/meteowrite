@@ -54,12 +54,10 @@ background: blue;
 
 function showGraphsFor(id, biline, api_key)
 {
-getKeywords(id, 5, api_key);
-//readerInterests(id, api_key);
-//authorKeywords(id, biline, api_key);
+getKeywords(id, 5, api_key, biline);
 }
 
-function getKeywords(id, num, api_key)
+function getKeywords(id, num, api_key, biline)
 {
     var data = new Array();
     var labels  = new Array();
@@ -80,10 +78,11 @@ console.log(res);
 		  data[1].push(parseFloat(res[word].rel));
 	      }
 	      createBarChart("article_keywords", data, 'article_keywords', 'Article Keywords');
+	      readerInterests(id, 5, api_key, biline); 
 	  });    
 }
 
-function readerInterests(id,api_key)
+function readerInterests(id, num, api_key, biline)
 {
     var data = new Array();
     var labels  = new Array();
@@ -93,6 +92,7 @@ function readerInterests(id,api_key)
     $.get("/getArticleReaderInterests",
 	  {
 	      article: id,
+	      numResponses: num,
 	      apikey: api_key
 	  }).done(function(response){
 	      var res = JSON.parse(response);
@@ -106,10 +106,11 @@ function readerInterests(id,api_key)
 		  data[1].push(parseFloat(res[word].rel));
 	      }
 	      createBarChart("reader_keywords", data, 'user_shared_interests', 'Shared Reader Interests');
+	      authorKeywords(id, biline, 5, api_key);		 
 	  });
 }
 
-function authorKeywords(article_id, biline, api_key)
+function authorKeywords(article_id, biline, num, api_key)
 {
     var data = new Array();
     var labels  = new Array();
@@ -119,6 +120,7 @@ function authorKeywords(article_id, biline, api_key)
     $.get("/getAuthorKeywords",
 	  {
 	      author: biline,
+	      numResponses: num,
 	      apikey: api_key
 	  }).done(function(response){
 	      var res = JSON.parse(response);
