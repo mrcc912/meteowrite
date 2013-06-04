@@ -1,115 +1,522 @@
 Express server listening on port 5000
 Connected to mongo server.
-[90mGET /metrics_login [32m200 [90m71ms - 1.22kb[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m21ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m3ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m4ms[0m
-[90mGET /stylesheets/images/ajax-loader.gif [33m404 [90m2ms[0m
-[90mGET /images/tag_team_logo_2.gif [32m200 [90m7ms - 13.81kb[0m
-[90mGET /metrics_login [32m200 [90m6ms - 1.24kb[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m1ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m4ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m1ms[0m
-[90mGET /stylesheets/images/ajax-loader.gif [33m404 [90m2ms[0m
-[90mGET /images/tag_team_logo_2.gif [36m304 [90m1ms[0m
-[90mGET /metrics_login [32m200 [90m21ms - 1.24kb[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m2ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m1ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m2ms[0m
-[90mGET /images/tag_team_logo_2.gif [36m304 [90m1ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m18ms - 1.54kb[0m
-[90mPOST /addArticle [32m200 [90m317ms[0m
-[90mGET /userReadArticle?user=IP&article=5623&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m103ms[0m
-[90mGET /metrics_view [33m404 [90m15ms[0m
-[90mGET /metrics_dashboard [32m200 [90m3ms - 795[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m1ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m4ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m2ms[0m
-[90mGET /javascripts/highcharts.js [32m200 [90m289ms - 131.1kb[0m
-[90mGET /metrics_dashboard [32m200 [90m2ms - 792[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m4ms[0m
-[90mGET /javascripts/highcharts.js [36m304 [90m2ms[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m1ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m4ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m32ms - 1.54kb[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m33ms - 1.54kb[0m
-exec stdoout: 
-[90mPOST /addArticle [32m200 [90m3371ms[0m
-[90mGET /javascripts/pennypress_script.js [36m304 [90m25ms[0m
-[90mPOST /addArticle [32m200 [90m137ms[0m
-[90mGET /userReadArticle?user=IP&article=26768&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m61ms[0m
-[90mGET /robots.txt [33m404 [90m22ms[0m
-[90mGET /userReadArticle?user=IP&article=19689&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m116ms[0m
-[90mGET /sacbee [32m200 [90m110ms - 3.25kb[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m4ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m2ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m3ms[0m
-[90mGET /javascripts/sidebar_script.js [32m200 [90m11ms - 7kb[0m
-[90mGET /js/highcharts.js?_=1370125077055 [32m200 [90m373ms - 131.1kb[0m
-[90mGET /userReadArticle?user=1&article=4458591&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m8ms[0m
-[90mGET /stylesheets/sidebar_style.css [32m200 [90m10ms - 577[0m
-[90mGET /stylesheets/images/ajax-loader.gif [33m404 [90m2ms[0m
-[90mGET /getTopKeywords?article=4458591&numResponses=10&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m5ms[0m
-[90mGET /sacbee?article_id=3437546 [32m200 [90m9ms - 2.55kb[0m
-[90mGET /javascripts/sidebar_script.js?_=1370125077056 [32m200 [90m3ms - 7kb[0m
-[90mGET /js/highcharts.js?_=1370125077057 [32m200 [90m360ms - 131.1kb[0m
-[90mGET /sacbee [36m304 [90m16ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m6ms[0m
-[90mGET /javascripts/sidebar_script.js [36m304 [90m2ms[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m1ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m18ms[0m
-[90mGET /js/highcharts.js?_=1370125096919 [32m200 [90m383ms - 131.1kb[0m
-[90mGET /stylesheets/sidebar_style.css [36m304 [90m2ms[0m
-[90mGET /getTopKeywords?article=4458591&numResponses=10&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m8ms[0m
-[90mGET /userReadArticle?user=1&article=4458591&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m41ms[0m
-[90mGET /sacbee [36m304 [90m37ms[0m
-[90mGET /javascripts/jquery-1.9.1.js [36m304 [90m3ms[0m
-[90mGET /javascripts/jquery.mobile-1.3.0.min.js [36m304 [90m3ms[0m
-[90mGET /javascripts/sidebar_script.js [36m304 [90m3ms[0m
-[90mGET /stylesheets/jquery.mobile-1.3.0.min.css [36m304 [90m3ms[0m
-[90mGET /js/highcharts.js?_=1370125241997 [32m200 [90m398ms - 131.1kb[0m
-[90mGET /stylesheets/sidebar_style.css [36m304 [90m1ms[0m
-[90mGET /userReadArticle?user=1&article=4458591&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m8ms[0m
-[90mGET /stylesheets/images/ajax-loader.gif [33m404 [90m1ms[0m
-[90mGET /getTopKeywords?article=4458591&numResponses=10&apikey=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [32m200 [90m4ms[0m
-[90mGET /javascripts/pennypress_script.js [32m200 [90m29ms - 1.54kb[0m
-[90mPOST /addArticle [32m200 [90m520ms[0m
-[90mGET /userReadArticle?user=IP&article=26922&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m77ms[0m
-ReferenceError: /home/mrcc/meteowrite/views/metrics_view.ejs:24
-    22| <script src="/javascripts/highcharts.js"></script>
-    23| <div id="article_list_div">
- >> 24| <ul data-role="listview" data-filter="true" class="ui-listview">
-    25| <% for(var i=0; i<articles.length; i++){%>
-    26| 
-    27| <li>
+exec stdoout: 51ad1397c8e2331977436f3c
+3ShmwY1ZUsLzLAY8nwt46w
+For 16 years, Carissa Carpenter has peddled her glitzy dream of building a massive movie studio in the rural reaches of Northern California, hopscotching from town to town in search of the ideal location.
 
-articles is not defined
-    at eval (eval at <anonymous> (/home/mrcc/meteowrite/node_modules/ejs/lib/ejs.js:234:12), <anonymous>:29:469)
-    at /home/mrcc/meteowrite/node_modules/ejs/lib/ejs.js:239:15
-    at Object.exports.render (/home/mrcc/meteowrite/node_modules/ejs/lib/ejs.js:277:13)
-    at Object.exports.renderFile (/home/mrcc/meteowrite/node_modules/ejs/lib/ejs.js:303:22)
-    at View.module.exports [as engine] (/home/mrcc/meteowrite/node_modules/ejs-locals/index.js:85:7)
-    at View.render (/home/mrcc/meteowrite/node_modules/express/lib/view.js:75:8)
-    at Function.app.render (/home/mrcc/meteowrite/node_modules/express/lib/application.js:504:10)
-    at ServerResponse.res.render (/home/mrcc/meteowrite/node_modules/express/lib/response.js:753:7)
-    at exports.metrics_view (/home/mrcc/meteowrite/routes/index.js:412:6)
-    at callbacks (/home/mrcc/meteowrite/node_modules/express/lib/router/index.js:161:37)
-[90mGET /metrics_dashboard?api_key=4efe22e97094d3c7231e6b061ae642a46e91fbb5 [31m500 [90m55ms[0m
-[90mGET /javascripts/highcharts.js [36m304 [90m4ms[0m
-[90mGET /sacbee [32m200 [90m18ms - 3.25kb[0m
-[90mGET /javascripts/sidebar_script.js [32m200 [90m16ms - 7kb[0m
-Express server listening on port 5000
-Connected to mongo server.
-[90mGET /metrics_dashboard?api_key=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m222ms - 45.41kb[0m
-[90mGET /javascripts/highcharts.js [36m304 [90m7ms[0m
-[90mGET /getTopKeywords?article=26691&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m12ms[0m
-here
-here
-[90mGET /getAuthorKeywords?author=+By+Jingjing+Tan+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m10ms[0m
-[90mGET /getTopKeywords?article=20917&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m8ms[0m
-here
-here
-[90mGET /getAuthorKeywords?author=+By+Xandra+Clark+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m128ms[0m
+She vowed to build a slice of Hollywood in El Dorado Hills, on farmland in Sutter County and at the shuttered Navy base at Mare Island. None materialized. Now, the self-described entertainment executive says she is tantalizingly close to having her company, Morning View LLC, bring a $2.8 billion project to the town of Dixon, population 18,449.
+
+The studio would be one of the largest development projects in Northern California history, more than six times the price tag of the proposed downtown arena to be built for the Sacramento Kings.
+
+"We did it, we got 300 acres," a triumphant Carpenter, 50, told the Dixon City Council at a March 12 meeting. "It is time for Morning View to move forward."
+
+Amid grandiose promises of an eco-friendly movie studio with multiple sound stages, plentiful union jobs and an influx of A-list celebrities to the farming town, Carpenter's proposal was hailed in April by Dixon City Manager Jim Lindley as "a big boon to us."
+
+"I've done as much due diligence as possible, and all I can tell you is, this'll be a huge coup for the city," Lindley told The Bee.
+
+But a Bee examination of numerous public records chronicling her financial difficulties raises questions about Carpenter's ability to deliver that dream.
+
+At the same time Carpenter was pitching her studio plans to various communities – each time proposing a project larger and more expensive than the last – she was blazing a 20-year trail of lawsuits, liens and civil judgments across California.
+
+Court records show that Carpenter has been slapped with at least 19 local, state and federal tax liens since 1992 (many also name her ex-husband), alleging failure to pay tax bills ranging from a $68 boat assessment in Placer County to more than $121,000 to the IRS.
+
+Until a month ago, she was facing two felony counts for failing to pay for a stay at an exclusive Topanga Canyon bed and breakfast. She has been accused in civil courts of writing bad checks for goods and services ranging from cosmetic dentistry to moving-company costs to board-and-care expenses for her horses, a thoroughbred named Lear and a mini horse named Astro Puff.
+
+Carpenter has been named in at least 26 judgments for nonpayment of debts, court records show. Since 1991, she has been hit with more than $988,000 in court-ordered judgments and a lawsuit settlement, stemming from bounced rent checks, breached contracts, unpaid medical bills and missed car payments.
+
+Meanwhile, former investors and past business associates describe losing hundreds of thousands of dollars and many long hours in her failed studio projects, dating back to 1997. In the past 16 years, she has attempted to raise millions for studio proposals in El Dorado, Sutter, San Joaquin, Solano and Stanislaus counties, as well as a pitch in South Carolina. All of those projects fizzled.
+
+"She cost me a lot of money," said Everett Parsons, a former Montgomery Ward executive who said he lost at least $250,000 in his pursuit of Carpenter's studio dreams in 1999 and 2000.
+
+Parsons said he came out of retirement to become Carpenter's chief operating officer, pouring his own money into her vision while also making her personal loans.
+
+"I never sat down and tried to put a total pencil to it," said Parsons, 71, who has since left Granite Bay and now lives in Florida. "Each time I did, I wanted to kick myself even harder."
+
+Carpenter offers a variety of explanations for her dealings in civil, criminal and small-claims courts in California. She frequently cites health issues as a source of financial misunderstandings.
+
+In a written statement to The Bee, she said she suffers from a "serious congenital heart disease," lost consciousness for three weeks in Europe, battled ovarian cancer and was violently assaulted in a Placer County rental home.
+
+Other cases, she said, are the result of identity theft or false claims.
+
+"I have never failed to pay any debt justly owed and have never filed for bankruptcy," she wrote to The Bee on May 7, after granting a sit-down interview with the newspaper one week earlier in Los Angeles.
+
+She continued to express optimism about her latest studio proposal, stating that "we are on the brink of achieving our vision in the good city of Dixon and I am very proud."
+
+In a 10-week investigation, The Bee identified 28 civil and two criminal actions filed against Carissa Carpenter in Sacramento, Los Angeles and Placer counties since 1991, not including the judgments and liens recorded during that period. All involve accusations of unpaid debts, delinquent accounts, serial bad-check writing and fraud.
+
+Among the allegations:
+
+• A felony complaint filed by the Sacramento County district attorney charged her with siphoning money from her grandmother's bank account in 2003, resulting in the 89-year-old woman being unable to pay for her oxygen and being evicted from her assisted-living facility. The charges involved a loss of $34,357.81 – some of which Carpenter allegedly spent on "riding lessons in London and membership to a dating service," according to the court file – and were dismissed after the grandmother died. Carpenter denied wrongdoing and said she had been gravely ill, lying unconscious in Europe, when the financial problems ensued.
+
+• A botched attempt by Carpenter to buy an $18.5 million Beverly Hills mansion in 2004 resulted in a $650,000 settlement with the owner that she has yet to pay. "Eventually, I'm going to pay him," Carpenter said. "I've tried to be reasonable with him and work it out." The homeowner, a businessman and philanthropist, said he planned to send the debt out for collection.
+
+• A $57,437.45 judgment against Carpenter was filed Dec. 12 on behalf of a Beverly Hills dentist, who said she asked him to perform a complete restoration of her teeth "using the highest grade of laboratory fabricated materials." The check she wrote bounced, court papers state, and Carpenter told The Bee she had not paid because she fell ill and the dental work was not completed. "When I get well, I'll pay him," she said in an interview.
+
+But, a week later, in a written statement, she told The Bee that the court had sided with her and she didn't owe anything. Court records do not show the judgment was overturned.
+
+• A $110,790 judgment was lodged against her in 2007 in Los Angeles, claiming she failed to repay an $80,000 loan from an Orange County woman. The 2003 loan was secured by two paintings and a "Napoleon fainting couch" as collateral, court papers state. Carpenter said she was being treated for ovarian cancer at the time and has no knowledge of the loan or subsequent lawsuit.
+
+Public records present a contradictory view of a woman who told The Bee in 2000 that she had secured $425 million in financing for the Sutter County movie studio project – and that she could pick up the phone and get a favor from the White House.
+
+Just four years later, in an interview with a Sacramento County sheriff's detective investigating the case involving her grandmother, Carpenter said she had little money or assets.
+
+"I don't have a permanent address," Carpenter said, according to a crime report filed in the case. "I live with friends here in Southern California and in Northern California.
+
+"I move around. I guess you could say I am homeless. I can't work, and I am on Social Security."
+
+She now portrays herself as prosperous and influential, telling The Bee in her written statement that she and her Morning View team have "close relationships with many different filmmakers" and that financing is imminent.
+
+Carpenter granted a sit-down interview with The Bee in April, settling in at a table she had reserved at a TGI Friday's in Simi Valley. She conceded she owns no property, but said she has nearly $100 million set aside from investors to start on the Dixon project. She also said she has $50 million in "tax credits," which her attorney later explained were the result of past company losses that could now be used as collateral.
+
+"We're one of the largest construction projects as far as I know in the United States right now, and that's pretty expensive to do," Carpenter said.
+
+Since her arrival last year in Dixon, she has talked a bold game, discussing the unnamed filmmakers she already has inked to 10- or 20-year leases and the $200 million annual "philanthropy budget" that will be devoted to charitable and educational causes in Dixon. She said she wants to contribute 25 percent of the studio's profits into heart disease and cancer research while also funding local causes, such as the area rugby team, the Dixon May Fair and Meals on Wheels.
+
+She attributes her past business setbacks to the scope and complexity of building one of the largest state-of-the art movie studios in the world.
+
+But Dixon, she said, is "the right city."
+
+City Manager Lindley said in April that he had vetted Carpenter and was satisfied that the Morning View project is legitimate.
+
+"I don't want to put myself out on a limb," Lindley said. "In other words, I'm not going to ruin my career on something I don't believe is real. I'm not going to jeopardize my future by falling victim to some sort of scam.
+
+"It's as real as it can be."
+
+
+On a warm afternoon in late April, Lindley and the town's mayor, Jack Batchelor Jr., stood on a weedy patch of ground southwest of town and gazed out at the possibilities.
+
+This flat farmland, they explained, is part of the 300-acre tract Carpenter announced on March 12 that her team had finally assembled, securing signed letters of intent from multiple landowners.
+
+Two weeks later, Carpenter publicly revealed that the movie studio plot had grown to 548 acres – again, with no money apparently changing hands, but with more letters of intent to sell from additional property owners.
+
+Carpenter told The Bee that accumulating the amount of property needed for the Dixon studio was difficult, but that she accomplished it by offering $50,000 an acre for land that is valued at $18,000 to $20,000 an acre.
+
+Lindley said in April that he expected those purchase agreements to be worked out in early May, followed by a quick escrow of perhaps 30 days. To date, this has not happened.
+
+Carpenter initially promised that the studio would open in January 2015, then recently moved the date to October 2015.
+
+She has yet to pay the city a $100,000 deposit she guaranteed last year to cover time devoted by city staff to work on the project. Lindley said in late April that he was confident the money would arrive soon, as the city had begun interviews to hire a project manager who is to be paid by Morning View and devoted exclusively to the studio proposal.
+
+Driving back to City Hall from the acreage, Lindley and Batchelor said community excitement is building.
+
+"A huge amount of people are very excited about having Nicole Kidman and Robert De Niro running around town," Lindley said.
+
+Batchelor said that, should he ever happen across Tom Cruise in his town, he would simply say: "Good morning, sir, and welcome to Dixon."
+
+The prospect of a movie studio in rural Solano County has been intoxicating for some residents, who have watched Dixon endure a series of economic setbacks and growing pains in recent years.
+
+About 25 miles southwest of Sacramento, the community remains rooted in agriculture. Train tracks still slice through town, passing by an imposing grain elevator on the edge of a three-block-long downtown strip. In the past two decades, as its population nearly doubled, the city has evolved into more of a bedroom community for Davis, Sacramento and Bay Area commuters.
+
+Since Carpenter first approached Dixon last year, she has told officials she envisions a state-of-the-art studio with "1,000+ high income jobs in the first 6-12 months of operations," according to an Aug. 21 open letter from Morning View LLC to the city.
+
+The letter also promises "2,000+ indirect jobs" supplying the studio with services and supplies, low-cost electricity from "our green studio's solar farm" and a job-training program for local residents.
+
+Additionally, the letter informs residents they can expect a "positive potential impact on Dixon property values. …"
+
+And the cost for all this?
+
+"We will not ask the City to pay for any of the costs related to this project, including but not limited to redevelopment, rezoning, and/or infrastructure improvement. We will pay our own way," according to the letter, signed by Carpenter and the Morning View leadership team.
+
+Carpenter refers regularly to her Morning View team of advisers who will help transform Dixon. Morning View was registered in California in 2008 as a limited liability corporation, one of at least three entertainment-related LLCs and five corporations or businesses that Carpenter has been affiliated with in the past two decades.
+
+Carpenter identifies herself as chief executive officer of Morning View, whose corporate office address listed on the LLC's letterhead is a mail-drop box in Malibu.
+
+Carpenter frequently praises her broad base of support.
+
+"There's 33 of us in total that make up the corporate team, as well as the investment group and the lending team," she said. "So, it's a wide range of people, it's not just investors."
+
+Most of her team members must remain confidential, she said, explaining that is a necessary byproduct of the way Hollywood does business.
+
+Lindley said he has no problem with Carpenter's desire to keep identities of the investors private.
+
+"They're mostly studio execs and former filmmakers that are putting their own personal money in," the city manager said.
+
+Among the project's most ardent supporters in Solano County have been officials with the International Brotherhood of Electrical Workers. On local websites, and at public meetings, union leaders have extolled the virtues of the project and urged public support.
+
+Robert W. Naylor, Carpenter's Morning View attorney and a former state legislator, recently told The Bee that the IBEW is "prepared to make a major investment of their pension fund" into the movie studio project.
+
+Dan Broadwater, business manager of IBEW Local 180, referred calls to Naylor.
+
+Some Dixon residents have expressed skepticism from the beginning. One local blogger, Bil Paul, likened the scenario to "The Music Man," the classic musical in which a scam artist, Harold Hill, descends on River City, Iowa, posing as the organizer of a boys band while planning to fleece naive townsfolk.
+
+Mayor Batchelor dismissed concerns about Carpenter's past during an April interview.
+
+"A lot of that stuff is hearsay, as far as I'm concerned," he said. "I think anybody that's in business – if you dig deep enough, you're going to find something that may have occurred, and there's always two sides to the story.
+
+"Everything that we have done with Carissa Carpenter has been aboveboard," he said, "and we have no reason to doubt that she isn't honest and straightforward in her desire to see this project through."
+
+
+Carissa Carpenter has been starring in this role for more than a decade.
+
+She arrived for her April luncheon appointment with The Bee driven in a sleek, black Mercedes-Benz, her platinum-blond hair tumbling past her shoulders. Over a grilled chicken Cobb salad – no tomato, no avocado – she referred to famed "Star Wars" creator George Lucas by his first name and talked about the eccentric lodging and dining demands of celebrities on location.
+
+So who is Carissa Carpenter?
+
+Those who have encountered the California native – in City Council chambers and in the courts – have widely divergent views, with descriptions ranging from visionary to fanciful dreamer to fraud.
+
+This much is clear: Carpenter's quest to raise millions for a movie studio in Dixon is the sixth time in 16 years that she has embarked on a similar fundraising mission in Northern California, with an additional pitch in South Carolina.
+
+Former investors and past business associates describe a distinctive pattern: lots of initial hype, promises of a big money stream from unnamed investors, enthusiasm among local officials – then missed deadlines, delays and, ultimately, failure.
+
+"She's an actress," said Thomas E. Persons Sr., a prominent Columbia, S.C., businessman, who initially believed that Carpenter could deliver on plans in 2001 for a movie studio in his state. He introduced her to the governor and other influential South Carolinians, who had her flown around by helicopter. But that proposal never came to fruition.
+
+"It just kind of went poof because the money didn't come in," he said. "I finally said, 'To heck with this thing. It's going nowhere.' "
+
+Carpenter's pursuit of her studio dates back to 1997, when her proposal for property in the El Dorado Hills area became a local sensation.
+
+That year, Carpenter – who was then married and known as Carissa Blix – made her pitch via Declaration Studios, a California corporation she created in 1994. At the time, she identified herself as chairman of the board and chief executive officer.
+
+Carpenter said she and her then-husband, Everett Blix, moved to the Sacramento area from Los Angeles in 1991. Based in Granite Bay, they set up shop as casting directors finding studio work for actors.
+
+By 1997, the vision had expanded. Declaration Studios was proposing to build what it touted as the world's largest movie studio: a 140-acre facility with nearly 1 million square feet of sound stages, screening rooms and other facilities. The foothills property straddled El Dorado and Sacramento counties, south of Highway 50.
+
+As would happen in later proposals, including Dixon, Carpenter's Declaration Studios declined to publicly identify its investors.
+
+The proposed size and scope of the project attracted some of the region's most prominent players, including developers Angelo K. Tsakopoulos and Stefan Manolakas. Both developers filed applications to rezone part of their Carson Creek development near El Dorado Hills to accommodate the studio.
+
+Soon, the lavish proposal was attracting media attention, and Carpenter hired the blue-chip public relations and marketing firm of Runyon Saltzman & Einhorn.
+
+Carpenter's knack for forging alliances with local business and political leaders, gaining their enthusiastic support, would become a pattern over the years as she shopped her studio proposal to various jurisdictions.
+
+Tsakopoulos, one of the region's most influential developers, said in a recent interview that he was impressed with Carpenter and the people with whom she was associated.
+
+He explained that the 1997 project died because "we could not get the county of El Dorado to move fast enough to satisfy them and to give us or guarantee us enough water."
+
+"She is very legitimate," Tsakopoulos said. "At that time, she had George Lucas looking at properties that we have south of Folsom, some of it in Sacramento County and some of it in El Dorado County.
+
+"And I understand, I was not there, but she told me that George Lucas came two times by helicopter from his home in San Rafael."
+
+Lucas was unavailable for comment, but a spokeswoman told The Bee in an emailed response that the company had no knowledge of a project in El Dorado County, nor in Dixon.
+
+Some of Carpenter's relationships in the El Dorado deal eventually soured. Runyon Saltzman & Einhorn, for instance, sued Declaration Studios in October 1998 for more than $23,000 in alleged unpaid debt.
+
+Court records and documents retained by the firm show that the agency tried for months to get payment for work performed between February and September 1997. Runyon Saltzman & Einhorn eventually got a judgment for $33,904.21, which included interest and legal fees. However, Estelle Saltzman, the firm's board chairwoman, said she recalled that the bulk of the debt, if not all of it, eventually was written off as uncollectible.
+
+"It came down to the fact, 'This isn't worth it,' " Saltzman said. "We would be spending good money after bad …"
+
+When asked recently about the debt and the judgment, Carpenter responded: "My recollection is the suit was dismissed by the court."
+
+
+Despite the stumble in El Dorado Hills, some of Carpenter's earliest investors told The Bee that they still believed the studio plan could work.
+
+Parsons, the former Montgomery Ward executive, and Mike Reinero, a Roseville entrepreneur, said the primary obstacle in the El Dorado project had been naturally occurring asbestos. When that project collapsed under the weight of environmental issues, they said, they were eager to help Carpenter find a new location.
+
+Parsons said he met Carissa and Everett Blix in the 1990s, when they were neighbors in Los Lagos, a gated community in Granite Bay. Parsons was intrigued by their glamorous work as casting directors, and he enjoyed the lively functions their families attended in the exclusive neighborhood.
+
+Reinero, also an actor and filmmaker, auditioned for them in 1996. He thought the couple seemed "fairly wealthy at the time," living in a luxurious home.
+
+Both Reinero and Parsons agreed in the late 1990s to be on Carpenter's board of directors, promoting her studio plans and sinking more than $250,000 each into her vision.
+
+Reinero and Parsons said that, at the time, they were unaware of the scope of Carpenter's financial problems.
+
+While the El Dorado project was sputtering in mid-1997, documents show that debts were mounting for Carpenter and her soon-to-be ex-husband. Between February 1997 and November 2001, the year they divorced, the couple – and sometimes Carpenter alone – were hit with 26 liens, judgments and default notices totaling about $282,000.
+
+Creditors were filing suits and winning judgments – from an Auburn heating and air conditioning company owed $612 for furnace repair, to a Loomis woman, awarded more than $2,500 after the couple's check bounced for the board, training and veterinary care of their horses, according to Placer County court records.
+
+By mid-1999, the Los Lagos home was in default. And, the IRS had filed two liens in 1997 and 1998, demanding more than $165,000.
+
+Several of the largest liens, including the IRS tab, have since been released. But, according to public records, at least 10 tax liens remain active against Carpenter in Placer County.
+
+Carpenter told The Bee she was unaware of liens filed against her, but that if they do exist, they are likely the fault of her ex-husband.
+
+Everett Blix declined to be interviewed for this story, saying he has had no business dealings with Carpenter since their separation in 2000.
+
+During this period, as the debts mounted, another studio proposal began to take shape.
+
+By October 2000, Carpenter was pitching a new plan to build a $450 million spa, resort, studio and retail complex in Sutter County, north of then-Arco Arena.
+
+In a glowing profile in The Bee, Carpenter described how she spent much of her young life on the road as a child actor and budding young model, transforming herself as an adult into a successful agent and casting director. She posed whimsically for a Bee photographer, standing in the vacant field in Sutter County with a bright red umbrella.
+
+Carpenter said project developers were in escrow to buy 1,670 acres of farmland for the project and that a private trust had assembled $425 million to back the project, according to Bee archives. But the project never went anywhere.
+
+"They just literally disappeared on us," said Lisa Wilson, Sutter County's planning manager.
+
+Reinero, who said he lost his $250,000 in the El Dorado and Sutter deals, said he believed Carpenter's vision was "clear." In the Sutter deal, he said, she had successfully hammered together three separate financing packages with international investment groups. Ultimately, he said, the deal fell apart when Carpenter was unwilling to relinquish the reins and allow someone hand-picked by the investors to oversee the project.
+
+Carpenter blamed environmental issues involving rare species for killing the Sutter deal.
+
+There were other problems, Reinero said, citing Carpenter's increasing reliance on investment money to pay her living expenses. He and other board members confronted her about her handling of the investment deals, he said, and he and three other board members resigned.
+
+"She wasn't doing this to bilk people out of their money," Reinero said. "She really firmly believed she could make this happen."
+
+Others are less charitable.
+
+"She'd go out and get somebody to invest, and then use the money for personal uses – trips and her mortgage or rent and stuff like this," said Parsons, noting that he severed his association with Carpenter in early 2001. "Some of the things she was doing were just ridiculous."
+
+Naylor, Carpenter's Sacramento attorney, denied those allegations.
+
+"Ms. Carpenter only used investor funds for her ordinary business expenses," Naylor wrote to The Bee after consulting with his client. "It was transparent and aboveboard and agreed to in general in advance. There was no impropriety."
+
+Around the same time as the Sutter deal, Carpenter made a similar pitch for a studio project in South Carolina. Once again, the talk was tantalizing: a $400 million to $500 million Disney World-style studio, this one focused on animation.
+
+Carpenter was flown into the state in January 2001 with an impressive entourage that included Hollywood luminaries, and the group was wined and dined – with Carpenter's exacting frappuccino demands dutifully met, Persons said.
+
+But that project also died.
+
+"As someone in government once told me, if it sounds too good to be true, it probably is," said Persons, the Columbia businessman and former AT&T senior executive who helped open doors for the visitors.
+
+According to Carpenter, that deal foundered because South Carolina weather is "horrible" and "our filmmakers didn't want to go there."
+
+Her next target, around 2004, was Lathrop, south of Stockton. She told The Bee that project failed because of zoning and water issues.
+
+Eventually, she moved on to Vallejo. This time, the proposal had ballooned into a $1 billion studio on Mare Island, on ground once occupied by the Navy.
+
+It was 2010, and Vallejo was in bankruptcy and desperate for investment, said Phil Batchelor (no relation to the Dixon mayor), who was interim city manager at the time and a well-known crisis manager for government entities.
+
+"We had an exclusive right to negotiate with them," Batchelor said. "There were certain provisions that they were to make payments at certain periods of time.
+
+"And, finally, after they didn't make the payments and the exclusive right to negotiate expired, that was the end of it. They just didn't make the payments. … It was all talk."
+
+During the Vallejo effort, Carpenter did deposit $50,000 to defray city costs of working with her team, Batchelor said. Carpenter said in an interview that she ended up spending more than $4 million on that effort, an assertion Batchelor disputes.
+
+Both sides have accused the other of mishandling the deal, although Carpenter recently dangled allegations of corruption. She told The Bee in April that Batchelor and another city official had indicated that some of the money might be shipped off to a Swiss bank account.
+
+Batchelor called her version of events "all an illusion."
+
+"That's great," Batchelor said. "You can see what we're dealing with here, just by 'Swiss bank accounts and Vallejo.' It's nonsense."
+
+
+Naylor, Carpenter's attorney, told The Bee in early May that he was unaware of his client's numerous lawsuits, judgments and other legal matters. But he called back later that day to say that Carpenter "has an answer for everything."
+
+"It was enough to satisfy me that she has an explanation for all these things that will put it in a different light," said Naylor, a lobbyist and former state GOP chairman.
+
+He said Carpenter had been victimized in recent years by someone "emptying out her bank accounts," resulting in bounced checks. A lieutenant in the Los Angeles Police Department's fraud unit confirmed it has an open investigation from August 2011 involving Carpenter as a victim of financial crimes, but he said he could not elaborate.
+
+By late last week, Dixon officials were no longer eager to talk about the movie studio or the $100,000 deposit expected from Carpenter.
+
+"We are still working on the progress of that," said Mayor Batchelor, declining to comment further.
+
+He referred further questions to Lindley, who did not respond to phone calls or emails for comment.
+
+Late Friday, Carpenter contacted The Bee and said she was calling from a hospital bed in Santa Monica, explaining she'd undergone a "major hysterectomy."
+
+She said her team was about to open escrow on the Dixon project but that funding had been delayed by The Bee's inquiries into her background. She said she had called her lenders to alert them to the pending story and that they repeated their vetting process.
+
+She said she has nothing to hide.
+
+"Even public records have another side to them," she said.
+
+"People would not have stood by me this long if I was not a good human being and an honorable person. … I've not hurt anybody."
+
+Encounters with Carissa Carpenter
+
+The Beverly Hills dentist
+The Los Angeles mogul
+The inn owners
+The evicted grandmother
+
+Call The Bee's Marjie Lundstrom, (916) 321-1055.
+
+© Copyright The Sacramento Bee. All rights reserved.
+
+Order Reprint
+Hollywood coming to Dixon? Executive's financial troubles raise questions
+
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 103, in <module>
+    main()
+  File "./executed.py", line 46, in main
+    print newArticle["url"]
+KeyError: 'url'
+
+[90mPOST /addArticle [32m200 [90m12446ms[0m
+exec stdoout: 51ad14afc8e233197e5c2210
+3L2PZTR4p8sqdbzBvNIudd
+MURPHYS
+
+
+Shakespeare's words once again come alive under Sierra stars.
+
+Murphys Creek Theatre presents its annual outdoor Shakespeare Festival at the Cornelia B. Stevenot Memorial Amphitheater in Murphys, staging the bard's comedy "Much Ado About Nothing."
+
+Tickets run $10-$20 and attendees are welcome to bring picnic dinners as well as lawn chairs or blankets.
+
+The theater also offers its "Dinner, Wine and Shakespeare" experience ($45), which includes a catered meal and local wine.
+
+"Much Ado" kicks off June 21 and runs Friday and Saturday nights through July 20. Guests can arrive at 6:30 p.m. to enjoy live music and dinner before the performance. The play starts at 8 p.m.
+
+Tickets are available online at www.murphyscreektheatre.org or by calling the theater at (209) 728-8422. The amphitheater is at the Albeno Munari Vineyard and Winery, 2690 San Domingo Road, Murphys.
+
+
+
+
+SACRAMENTO
+
+
+What: Experience Italy will host a travel seminar on the boot-shaped country. Includes tips and how to avoid the typical tourist experience.
+
+When: 7-8:30 p.m. June 18
+
+Where: Murer House and Learning Center, 1125 Joe Murer Court, Folsom.
+
+Cost: $10 registration fee. Call ahead to register.
+
+Information: (916) 456-0570, www.experienceitaly.com
+
+
+
+
+QUINCY
+
+
+What: The recreation area has opened. It's usually snowed-in until the middle of June, according to the U.S. Forest Service. This area is perfect for camping and hiking; starting June 11, reservations can be made for campsites.
+
+Where: Grass Valley Reservoir Recreation Area, near La Porte.
+
+Cost: Camping fees begin at $22 per night.
+
+Information: Call the Feather River Ranger District office (530) 534-6500 or visit the Plumas National Forest website at www.fs.usda.gov/plumas.
+
+
+
+
+FOLSOM
+
+
+What: Scott Jercich of Vertical Horizons Travel in Folsom will host a travel talk on Spain. The seminar will cover the popular cities of Barcelona, Madrid and Seville.
+
+When: June 22 (call for time).
+
+Where: Call for location.
+
+Cost: Free
+
+Information: Call (916) 983-8651 to register. Also visit www.verticalhorizonstravel.com.
+
+
+
+
+WALNUT CREEK
+
+
+What: The Walnut Creek Model Railroad Society is showcasing one of the world's most mountainous model railroad layouts – the Diablo Valley Lines.
+
+When: 8-10 p.m. June 28, July 26 and Aug. 30
+
+Where: Larkey Park, 2751 Buena Vista Ave., Walnut Creek
+
+Cost: $2-$3
+
+Information: (925) 937-1888, www.wcmrs.org
+
+– Richard Chang
+
+
+
+
+
+Tim Swanson, Features Editor
+
+(916) 321-1606, tswanson@sacbee.com
+
+• To submit events or news about travel and recreation activities, travel talks as well as organized day trips with costs up to $100, please send information at least three weeks in advance to Traveler, The Sacramento Bee, P.O. Box 15779, Sacramento, CA 95852, fax (916) 556-5625 or email: travel@sacbee.com. Priority will be given to events free to the public.
+
+© Copyright The Sacramento Bee. All rights reserved.
+
+Order Reprint
+Escapes: Murphys Shakespeare Festival offers "Much Ado About Nothing"
+
+exec error: Error: Command failed: Traceback (most recent call last):
+  File "./executed.py", line 103, in <module>
+    main()
+  File "./executed.py", line 46, in main
+    print newArticle["url"]
+KeyError: 'url'
+
+[90mPOST /addArticle [32m200 [90m2227ms[0m
+[90mGET /metrics_view [33m404 [90m8ms[0m
+[90mGET /metrics_dashboard [32m200 [90m24ms - 3.58kb[0m
+[90mGET /javascripts/highcharts.js [32m200 [90m293ms - 131.1kb[0m
+[90mGET /metrics_dashboard?api_key=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m238ms - 53.81kb[0m
+[90mGET /javascripts/highcharts.js [36m304 [90m3ms[0m
+[90mGET /getTopKeywords?article=26691&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m24ms[0m
+[90mGET /getAuthorKeywords?author=+By+Jingjing+Tan+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m9ms[0m
+[90mGET /getTopKeywords?article=26215&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m11ms[0m
+[90mGET /getAuthorKeywords?author=+By+Mayukh+Sen+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m11ms[0m
+[90mGET /metrics_dashboard?api_key=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m165ms - 53.81kb[0m
+[90mGET /javascripts/highcharts.js [36m304 [90m1ms[0m
+[90mGET /getTopKeywords?article=26691&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Jingjing+Tan+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m7ms[0m
+[90mGET /getTopKeywords?article=26691&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m6ms[0m
+[90mGET /getAuthorKeywords?author=+By+Jingjing+Tan+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m7ms[0m
+[90mGET /getTopKeywords?article=26691&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m4ms[0m
+[90mGET /getAuthorKeywords?author=+By+Jingjing+Tan+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m8ms[0m
+[90mGET /getTopKeywords?article=26691&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Jingjing+Tan+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m6ms[0m
+[90mGET /getTopKeywords?article=26691&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Jingjing+Tan+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /metrics_dashboard?api_key=1e2956a7d55d2317858cf4db7d564f676a34b249 [36m304 [90m175ms[0m
+[90mGET /javascripts/highcharts.js [36m304 [90m1ms[0m
+[90mGET /metrics_dashboard [32m200 [90m10ms - 3.58kb[0m
+[90mGET /javascripts/highcharts.js [36m304 [90m2ms[0m
+[90mGET /metrics_dashboard [36m304 [90m7ms[0m
+[90mGET /javascripts/highcharts.js [36m304 [90m1ms[0m
+[90mGET /metrics_dashboard?api_key=1e2956a7d55d2317858cf4db7d564f676a34b249 [36m304 [90m185ms[0m
+[90mGET /javascripts/highcharts.js [36m304 [90m2ms[0m
+[90mGET /getTopKeywords?article=26691&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m7ms[0m
+[90mGET /getAuthorKeywords?author=+By+Jingjing+Tan+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m7ms[0m
+[90mGET /getTopKeywords?article=26215&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Mayukh+Sen+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m8ms[0m
+[90mGET /getTopKeywords?article=26477&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Xandra+Clark+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m15ms[0m
+[90mGET /getTopKeywords?article=26477&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m9ms[0m
+[90mGET /getAuthorKeywords?author=+By+Xandra+Clark+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m17ms[0m
+[90mGET /metrics_dashboard?api_key=1e2956a7d55d2317858cf4db7d564f676a34b249 [36m304 [90m147ms[0m
+[90mGET /javascripts/highcharts.js [36m304 [90m1ms[0m
+[90mGET /metrics_dashboard?api_key=1e2956a7d55d2317858cf4db7d564f676a34b249 [36m304 [90m158ms[0m
+[90mGET /javascripts/highcharts.js [36m304 [90m1ms[0m
+[90mGET /getTopKeywords?article=26691&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Jingjing+Tan+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m7ms[0m
+[90mGET /getTopKeywords?article=19705&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m11ms[0m
+[90mGET /getAuthorKeywords?author=+By+Erchi+(Archer)+Zhang+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m57ms[0m
+[90mGET /getTopKeywords?article=26691&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m9ms[0m
+[90mGET /getAuthorKeywords?author=+By+Jingjing+Tan+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m7ms[0m
+[90mGET /getTopKeywords?article=26477&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Xandra+Clark+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m16ms[0m
+[90mGET /getTopKeywords?article=22570&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Alexei+Koseff+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m78ms[0m
+[90mGET /getTopKeywords?article=24013&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Xandra+Clark+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m31ms[0m
+[90mGET /getTopKeywords?article=24532&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m12ms[0m
+[90mGET /getAuthorKeywords?author=+By+Xandra+Clark+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m49ms[0m
+[90mGET /getTopKeywords?article=24917&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Xandra+Clark+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m61ms[0m
+[90mGET /getTopKeywords?article=20917&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m10ms[0m
+[90mGET /getAuthorKeywords?author=+By+Xandra+Clark+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m68ms[0m
+[90mGET /getTopKeywords?article=26215&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Mayukh+Sen+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m7ms[0m
+[90mGET /getTopKeywords?article=26215&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m6ms[0m
+[90mGET /getAuthorKeywords?author=+By+Mayukh+Sen+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m8ms[0m
+[90mGET /getTopKeywords?article=26215&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Mayukh+Sen+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m6ms[0m
+[90mGET /metrics_dashboard?api_key=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m175ms - 53.81kb[0m
+[90mGET /javascripts/highcharts.js [32m200 [90m227ms - 131.1kb[0m
+[90mGET /getTopKeywords?article=26691&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Jingjing+Tan+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m7ms[0m
+[90mGET /javascripts/meteowrite.js [32m200 [90m2ms - 545[0m
+[90mGET /getTopKeywords?article=8679&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Kelsey+Williams+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m8ms[0m
+[90mGET /getTopKeywords?article=26477&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Xandra+Clark+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m22ms[0m
+[90mGET /getTopKeywords?article=26215&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m11ms[0m
+[90mGET /getAuthorKeywords?author=+By+Mayukh+Sen+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m7ms[0m
+[90mGET /getTopKeywords?article=22401&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getAuthorKeywords?author=+By+Chelsea+Janes+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m10ms[0m
+[90mGET /getTopKeywords?article=22570&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m4ms[0m
+[90mGET /getAuthorKeywords?author=+By+Alexei+Koseff+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m21ms[0m
+[90mGET /getTopKeywords?article=22401&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m6ms[0m
+[90mGET /getAuthorKeywords?author=+By+Chelsea+Janes+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m11ms[0m
+[90mGET /getTopKeywords?article=22570&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m4ms[0m
+[90mGET /getAuthorKeywords?author=+By+Alexei+Koseff+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m19ms[0m
+[90mGET /getTopKeywords?article=22570&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m4ms[0m
+[90mGET /getAuthorKeywords?author=+By+Alexei+Koseff+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m64ms[0m
+[90mGET /getTopKeywords?article=22570&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m4ms[0m
+[90mGET /getAuthorKeywords?author=+By+Alexei+Koseff+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m20ms[0m
+[90mGET /getTopKeywords?article=22570&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m6ms[0m
+[90mGET /getAuthorKeywords?author=+By+Alexei+Koseff+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m65ms[0m
+[90mGET /getTopKeywords?article=22570&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m5ms[0m
+[90mGET /getTopKeywords?article=22570&numResponses=5&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m4ms[0m
+[90mGET /getAuthorKeywords?author=+By+Alexei+Koseff+&apikey=1e2956a7d55d2317858cf4db7d564f676a34b249 [32m200 [90m22ms[0m
 
 /home/ubuntu/meteowrite/node_modules/mongoose/lib/utils.js:409
         throw err;
