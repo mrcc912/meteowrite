@@ -80,11 +80,8 @@ function getKeywords(id, num, api_key, biline)
 		  data[1].push(parseFloat(res[word].rel));
 	      }
 	      createBarChart("article_keywords", data, 'article_keywords', 'Article Keywords');
-<<<<<<< HEAD
 	      readerInterests(id, 5, api_key, biline); 
-=======
 	      authorKeywords(id, biline, api_key);
->>>>>>> 3b47d4e44374a189cf9582a08f58ad7fce27ab3d
 	  });    
 }
 

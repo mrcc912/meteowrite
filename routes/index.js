@@ -189,7 +189,6 @@ exports.getTopKeywords = function(req, res)
 	res.header("Access-Control-Allow-Origin", "*");
 	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	res.end(JSON.stringify(data));
-
     });
 }
 
@@ -356,8 +355,14 @@ exports.processArticle = function(req, res) {
 			     console.log('exec stdoout: ' + stdout)
 			     if(error != null) {
 				 console.log('exec error: ' + error);
+				 var result = {status: "failure", added: false}
+				 res.end(JSON.stringify(result));
 			     }
-			     res.end("Upload Complete");
+			     else
+			     {
+				 var result = {status: "success", added: true}
+				 res.end(JSON.stringify(result));
+			     }
 			 }
 			);
 	}
@@ -365,7 +370,17 @@ exports.processArticle = function(req, res) {
 };
 
 exports.addUser = function(req, res){
-    mongo.addUser(req.query.username, req.query.apikey, req.query.params); 
+    var id = ((req.query.id) ? req.query.id : "");
+    var username = ((req.query.username) ? req.query.username : "");
+    var fullname = ((req.query.fullname) ? req.query.fullname : "");
+    var hometown = ((req.query.hometown) ? req.query.hometown : "");
+    var current_location = ((req.query.current_location) ? req.query.current_location : "");
+    var work = ((req.query.work) ? req.query.work : []);
+    var gender = ((req.query.gender) ? req.query.gender : "");
+    var languages = ((req.query.languages) ? req.query.languages : []);
+    mongo.addUser(id, username, fullname, hometown, current_location, gender, languages, work, function(data){
+        res.end(JSON.stringify(data));
+    });
 };
 
 exports.getArticle = function(req, res) {
