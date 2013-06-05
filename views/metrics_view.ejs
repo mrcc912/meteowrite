@@ -32,7 +32,7 @@ background: blue;
 
 
 <li>
-  <a href="#" data-icon="arrow-r" data-iconpos="right" selected="true" onclick="showGraphsFor(<%= articles[i].id %>,'<%= articles[i].biline %>' ,'<%=articles[i].api_key %>')">
+  <a href="#" data-icon="arrow-r" data-iconpos="right" selected="true" onclick="showGraphsFor('<%= articles[i].id %>','<%= articles[i].biline %>' ,'<%=articles[i].api_key %>')">
     <h3> <%= articles[i].headline %></h3>
     <p> <%= articles[i].biline %></p>
     <p> Readers: <%= articles[i].readers.length %> </p>
@@ -55,11 +55,8 @@ background: blue;
 function showGraphsFor(id, biline, api_key)
 {
 getKeywords(id, 5, api_key, biline);
-<<<<<<< HEAD
-=======
 //readerInterests(id, api_key);
 //authorKeywords(id, biline, api_key);
->>>>>>> 3b47d4e44374a189cf9582a08f58ad7fce27ab3d
 }
 
 function getKeywords(id, num, api_key, biline)
