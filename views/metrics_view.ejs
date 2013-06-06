@@ -1,13 +1,39 @@
 <% layout('layout') -%>
 
 <style>
+
+#header
+{
+height: 150px;
+width: 70%;
+clear: both;
+;
+left: 0px;
+top: 0px;	
+position: absolute;
+
+}
+
+#header img
+{
+	height: 150px;
+}
+
+#header h2
+{
+position: absolute;
+text-align: center;
+top: 0px;	
+left: 40%;
+font-size: 30px;
+}
 #article_list_div
 {
-height: 100%;
+height: 90%;
 width: 50%;
 position: absolute;
-top: 50px;
-left: 5%;
+top: 150px;
+left: 1%;
 border   
 }
 
@@ -18,21 +44,56 @@ overflow: auto;
 
 #sidebar{
 height: 100%;
-width: 24%;
-right: 0px;
+width: 20%;
+right: 10px;
+top: 10px;
 position: absolute;
-background: blue;
 }
+
+#sidebar div
+{
+height: 30%	
+}
+
+.wrap
+{
+    width: 30%;
+    height: 900px;
+    padding: 0;
+    overflow: hidden;
+    left: 50%;
+position: absolute;
+
+}
+
+.frame
+{
+    width: 1280px;
+    height: 786px;
+    border: 0;
+    -ms-zoom: 0.25;
+    -transform: scale(0.25);
+    -moz-transform: scale(0.0);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.25);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.50);
+    -webkit-transform-origin: 0 0;
+}
+
+
 </style>
 
 <script src="/javascripts/highcharts.js"></script>
+<div id="header">
+     <img src="/images/tag_team_logo_4.gif" alt="logo"/>
+     <h2><%= username %>'s Dashboard</h2>
+</div>
 <div id="article_list_div">
 <ul data-role="listview" data-filter="true" class="ui-listview">
 <% for(var i=0; i<articles.length; i++){%>
-
-
 <li>
-  <a href="#" data-icon="arrow-r" data-iconpos="right" selected="true" onclick="showGraphsFor('<%= articles[i].id %>','<%= articles[i].biline %>' ,'<%=articles[i].api_key %>')">
+  <a href="#" data-icon="arrow-r" data-iconpos="right" selected="true" onclick="showGraphsFor('<%= articles[i].id %>','<%= articles[i].biline %>' ,'<%=articles[i].api_key %>', '<%= articles[i].URL %>')">
     <h3> <%= articles[i].headline %></h3>
     <p> <%= articles[i].biline %></p>
     <p> Readers: <%= articles[i].readers.length %> </p>
@@ -42,18 +103,24 @@ background: blue;
 </ul>
 </div>
 
+<!--
+<div class="wrap" id="article_frame_div">
+  <iframe class="frame" id="article_frame"></iframe>
+</div>
+-->
+
 <div id="sidebar">
    <div id="article_keywords"></div><br/>
    <div id="reader_keywords"></div><br/>
    <div id="author_keywords"></div><br/>
-     
 </div>
-
 
 <script>
 
-function showGraphsFor(id, biline, api_key)
+function showGraphsFor(id, biline, api_key, url)
 {
+//$("#article_frame").attr("src", url);
+$("#article_frame").attr("src", "http://www.sacbee.com");
 getKeywords(id, 5, api_key, biline);
 //readerInterests(id, api_key);
 //authorKeywords(id, biline, api_key);
@@ -81,7 +148,6 @@ function getKeywords(id, num, api_key, biline)
 	      }
 	      createBarChart("article_keywords", data, 'article_keywords', 'Article Keywords');
 	      readerInterests(id, 5, api_key, biline); 
-	      authorKeywords(id, biline, api_key);
 	  });    
 }
 
@@ -108,7 +174,7 @@ function readerInterests(id, num, api_key, biline)
 		  data[1].push(parseFloat(res[word].rel));
 	      }
 	      createBarChart("reader_keywords", data, 'user_shared_interests', 'Shared Reader Interests');
-	      authorKeywords(id, biline, 5, api_key);		 
+authorKeywords(id, biline, 5, api_key);		 
 	  });
 }
 
