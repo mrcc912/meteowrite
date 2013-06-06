@@ -88,11 +88,14 @@ def makeOCConnection(text):
   calais = Calais(apiKey, submitter="python-calais demo")
   result = calais.analyze(text)
   retList = []
-  for ent in result.entities:
-    newMap = {}
-    newMap["text"] = ent["name"]
-    newMap["relevance"] = ent["relevance"]
-    retList.append(newMap)
-  return retList
+  if hasattr(result, 'entities'):
+    for ent in result.entities:
+      newMap = {}
+      newMap["text"] = ent["name"]
+      newMap["relevance"] = ent["relevance"]
+      retList.append(newMap)
+      return retList
+  else:
+    return []
 
 main()
